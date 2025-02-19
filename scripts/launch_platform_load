@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+
+# Hardcoding ENV here because qa has been terminated
+
+set_context() {
+    local INTEGRATION_K8S_CONTEXT='arn:aws:eks:us-east-1:411719562396:cluster/platform-perftest'
+    kubectl config use-context $INTEGRATION_K8S_CONTEXT;
+}
+
+SCENARIO_FILENAME=$1
+NAMESPACE='main'
+TS=`date +%Y%m%d%H%M%S`
+
+if [ -z "$SCENARIO_FILENAME" ] 
+then
+        echo 'SCENARIO_FILENAME must be provided'
+        return 1 2> /dev/null || exit 1
+else
+        [ ! -z "$ENV" ] && set_context || echo "Using current context: `kubectl config current-context`"
+        [ -z "$IMAGE_TAG" ] && IMAGE_TAG=latest ; echo "IMAGE_TAG='$IMAGE_TAG'"
+        replaces="s/\$IMAGE_TAG/$IMAGE_TAG/;"
+        replaces+="s~\$SCENARIO_FILENAME~$SCENARIO_FILENAME~;"
+        replaces+="s/\$NAMESPACE/$NAMESPACE/;"
+        replaces+="s/\$TS/$TS/;"
+        replaces+="s/\$RUN_TIME/$RUN_TIME/;"
+        replaces+="s/\$NUM_SLAVES/$NUM_SLAVES/;"
+        replaces+="s/\$HATCH_RATE/$HATCH_RATE/;"
+        replaces+="s/\$NUM_CLIENTS/$NUM_CLIENTS/;"
+        replaces+="s/\$ENV/$ENV/;"
+        replaces+="s~\$WORKLOAD~$WORKLOAD~;"
+        replaces+="s~\$QA_KEY~$QA_KEY~;"
+        replaces+="s~\$QF_CAPTURE_RESULTS~$QF_CAPTURE_RESULTS~;"
+        replaces+="s~\$QF_PROJECT_ID~$QF_PROJECT_ID~;"
+        replaces+="s~\$QF_UNIT_TYPE~$QF_UNIT_TYPE~;"
+        replaces+="s~\$QF_UNIT_GROUP_OPTION~$QF_UNIT_GROUP_OPTION~;"
+        replaces+="s~\$QF_WORK_JOB_ID~$QF_WORK_JOB_ID~;"
+        replaces+="s~\$QF_QA_JOB_ID~$QF_QA_JOB_ID~;"
+        replaces+="s~\$QF_WORKER_TYPE~$QF_WORKER_TYPE~;"
+        replaces+="s~\$QF_MAX_LOOP~$QF_MAX_LOOP~;"
+        replaces+="s~\$QF_DRY_RUN~$QF_DRY_RUN~;"
+        replaces+="s~\$QF_UPLOAD_UNIT_NUM_PER_ROUND~$QF_UPLOAD_UNIT_NUM_PER_ROUND~;"
+        replaces+="s~\$QF_SEGMENTED_GROUP_NUM~$QF_SEGMENTED_GROUP_NUM~;"
+        replaces+="s~\$QF_WORKING_SECONDS_PER_TASK_PAGE~$QF_WORKING_SECONDS_PER_TASK_PAGE~;"
+        replaces+="s~\$QF_QA_WORKING_SECONDS_PER_TASK_PAGE~$QF_QA_WORKING_SECONDS_PER_TASK_PAGE~;"
+        replaces+="s~\$QF_WORKER_FEEDBACK_RESULT_LIST~$QF_WORKER_FEEDBACK_RESULT_LIST~;"
+        replaces+="s~\$QF_QA_REVIEW_RESULT_LIST~$QF_QA_REVIEW_RESULT_LIST~;"
+        replaces+="s~\$QF_WORKER_ABANDON_PERCENTAGE~$QF_WORKER_ABANDON_PERCENTAGE~;"
+        replaces+="s~\$QF_QA_ABANDON_PERCENTAGE~$QF_QA_ABANDON_PERCENTAGE~;"
+        replaces+="s~\$QF_NUM_CLIENTS_PM~$QF_NUM_CLIENTS_PM~;"
+        replaces+="s~\$QF_NUM_CLIENTS_WORKER~$QF_NUM_CLIENTS_WORKER~;"
+        replaces+="s~\$QF_NUM_CLIENTS_QA~$QF_NUM_CLIENTS_QA~;"
+        replaces+="s~\$QF_DATA_TYPE~$QF_DATA_TYPE~;"
+        cat ./adap/perf_platform/k8s/master0.yaml | sed -e "$replaces" | kubectl apply -f -
+fi
+
+

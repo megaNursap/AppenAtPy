@@ -1,0 +1,102 @@
+#!/usr/bin/env bash
+
+SESSION_ID=$1
+
+if [ -z "$SESSION_ID" ]
+then
+    echo 'SESSION_ID must be provided'
+    return 1 2> /dev/null || exit 1
+else
+    PYTHONPATH='.' SESSION_ID=$SESSION_ID python - <<EOF
+from adap.perf_platform.utils.db import DBUtils
+from adap.settings import Config
+import pandas as pd
+
+
+Config.RESULTS_DB_CONN
+
+session_id = Config.SESSION_ID
+
+db = DBUtils(**Config.RESULTS_DB_CONN)
+db.connect()
+
+
+sql_session = f"""
+SELECT
+  session_id,
+  s.started_at,
+  s.finished_at,
+  state::text,
+  COUNT(*) as total_requests,
+  MIN(c.duration) as min_duration,
+  AVG(c.duration) as avg_duration,
+  MAX(c.duration) as max_duration
+FROM sessions s
+LEFT JOIN requests c USING (session_id)
+WHERE
+  s.session_id = {session_id}
+GROUP BY 1
+ORDER BY 1
+"""
+
+session_data = db.fetch_all(sql_session, include_column_names=1)
+df = pd.DataFrame(session_data)
+df.to_csv('session_data.csv', index=0)
+
+sql_requests = f"""
+SELECT
+"type",
+ep_name AS endpoint,
+count(*) as count,
+min(duration) as min_duration,
+avg(duration) as avg_duration,
+max(duration) as max_duration,
+sum(duration) as sum_duration
+FROM requests
+WHERE
+  session_id = {session_id}
+GROUP BY 1,2
+ORDER BY 1,2
+"""
+requests_data = db.fetch_all(sql_requests, include_column_names=1)
+df = pd.DataFrame(requests_data)
+df.to_csv('requests_data.csv', index=0)
+EOF
+
+cat session_data.csv > report.csv && rm session_data.csv
+echo '' >> report.csv
+cat requests_data.csv >> report.csv && rm requests_data.csv
+echo report.csv created
+fi
+
+
+# SELECT
+#   session_id,
+#   min(time) as time_first,
+#   max(time) as time_last,
+#   avg(duration) as avg_duration,
+#   max(duration) as max_duration,
+#   percentile_cont(0.95) within group (order by duration) as "95th_percentile",
+#   stddev_pop(duration) as stddev,
+#   count(*)
+# FROM requests
+# WHERE session_id > 120
+#   AND ep_name = 'assignment_url'
+#   AND type = 'post'
+# GROUP BY 1
+# ORDER BY 1 DESC;
+
+# SELECT
+#   r.session_id,
+#   min(r.time) as time_first,
+#   max(r.time) as time_last,
+#   avg(r.duration) as avg_duration,
+#   max(r.duration) as max_duration,
+#   percentile_cont(0.95) within group (order by r.duration) as "95th_percentile",
+#   stddev_pop(r.duration) as stddev,
+#   COUNT(*) total_count,
+#   COUNT (CASE WHEN r.info -> 'response' ->> 'status_code' = '500' THEN 1 ELSE NULL END) as "500_err_count"
+# FROM requests r
+# WHERE r.session_id >= 130
+# GROUP BY 1
+# ORDER BY 1 DESC;
