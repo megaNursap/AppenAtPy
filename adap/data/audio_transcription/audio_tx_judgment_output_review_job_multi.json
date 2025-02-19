@@ -1,0 +1,50 @@
+{
+  "annotation": {
+    "segments": [
+      {
+        "id": "b5957f3a-7b71-40c4-88fc-dabb73ab698c",
+        "startTime": 0.247,
+        "endTime": 2.713,
+        "labels": [
+          "pets"
+        ],
+        "transcription": "<event_1/> This <event_2/> segments <span_3>have</span_3> transcription [1.292]"
+      },
+      {
+        "id": "c26410fc-0a08-497c-a530-452c04f2b381",
+        "startTime": 5.326,
+        "endTime": 7.894,
+        "labels": [
+          "female",
+          "male",
+          "quite"
+        ],
+        "transcription": ""
+      },
+      {
+        "id": "844a1549-65b7-4d39-be88-5d32e6c8d736",
+        "startTime": 8.78,
+        "endTime": 10.787,
+        "labels": [
+          "pets"
+        ],
+        "transcription": "The third [0.993] segments <event_2/> transcribe <span_3>too</span_3>"
+      },
+      {
+        "id": "9bb118dc-be0b-4713-b5a0-c6eae143ec13",
+        "startTime": 12.087,
+        "endTime": 14.778,
+        "labels": [
+          "birds",
+          "kids",
+          "butterflies",
+          "quite"
+        ],
+        "transcription": ""
+      }
+    ]
+  },
+  "ableToAnnotate": true,
+  "nothingToTranscribe": false,
+  "nothingToAnnotate": false
+}

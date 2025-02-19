@@ -1,0 +1,13 @@
+{
+  "test_account": {
+    "user_name": "integration+smoke_qa@appen.com",
+    "email": "integration+smoke_qa@appen.com",
+    "api_key": "gAAAAABjd9RtcXmGCYNLKFclFYNzJ0iDtyNqJh5DfcdQ39xpaU8dILg4UVA5LeOdh7Ji-KCgYxiF_n5SdG9pNeyyzsFpd2vwrehWkuXRnIJq8U_04uu2ilk=",
+    "password": "gAAAAABjd9RLJgIAr9Xo0Rb_kOKjQ5USxodH9Gbl7D2OXckQbsoUwX70tEvPSif1NSqbOvqStpc3LxKnFCg6a4N_HbRbhhW7lE2f3rxWJXWSbh0h_A_yOtI=",
+    "teams": [
+      {
+        "id": "2112d5da-547d-4f9c-be65-266f3eefa588"
+      }
+    ]
+  }
+}

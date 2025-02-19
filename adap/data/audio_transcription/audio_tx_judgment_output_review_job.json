@@ -1,0 +1,18 @@
+{
+  "annotation": {
+    "segments": [
+      {
+        "id": "dummy-segment-id",
+        "startTime": 0,
+        "endTime": 12.826122,
+        "labels": [
+          "pets"
+        ],
+        "transcription": "<event_1/> Test [6.389] peer <span_2>review</span_2> Job <event_3/>"
+      }
+    ]
+  },
+  "ableToAnnotate": true,
+  "nothingToTranscribe": false,
+  "nothingToAnnotate": false
+}

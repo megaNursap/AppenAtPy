@@ -1,0 +1,63 @@
+[
+  {
+    "description":"",
+    "class_name":"name",
+    "display_color":"#9A2517",
+    "relationship_types":[
+      {
+        "color":"#9A2517",
+        "name":"title",
+        "to_class_name":"designation"
+      },
+      {
+        "color":"#C1561A",
+        "name":"owned by",
+        "to_class_name":"company"
+      }
+    ]
+  },
+  {
+    "description":"",
+    "class_name":"designation",
+    "display_color":"#C1561A",
+    "relationship_types":[
+      {
+        "color":"#BD882C",
+        "name":"owned by",
+        "to_class_name":"name"
+      },
+      {
+        "color":"#819356",
+        "name":"a very long text relationship name is being used for testing",
+        "to_class_name":"company"
+      },
+      {
+        "color":"#4A8676",
+        "name":"testing with another lonnng relationship name",
+        "to_class_name":"designation"
+      }
+    ]
+  },
+  {
+    "description":"",
+    "class_name":"company",
+    "display_color":"#BD882C",
+    "relationship_types":[
+      {
+        "color":"#0E7795",
+        "name":"test",
+        "to_class_name":"name"
+      },
+      {
+        "color":"#401A87",
+        "name":"employee",
+        "to_class_name":"name"
+      },
+      {
+        "color":"#6A1D7A",
+        "name":"khrew9743wh@3%^%#",
+        "to_class_name":"designation"
+      }
+    ]
+  }
+]

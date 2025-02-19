@@ -1,0 +1,4 @@
+base_url,review_url
+https://f8-lidar-files.s3.amazonaws.com/0048,https://s3.amazonaws.com/f8-pc-annotations-sandbox/4be5bca0cbc10a74aea936fadfa8ee2d/work.44685311.69b9743a-3ffe-4ce8-9fe0-c860b0ed7cda.json
+https://appen-lidar-qa.s3.cn-northwest-1.amazonaws.com.cn/sample/1,
+https://appen-lidar-qa.s3.cn-northwest-1.amazonaws.com.cn/waymo-1/11004685739714500220_2300_000_2320_000,

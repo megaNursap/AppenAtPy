@@ -1,0 +1,3 @@
+audio_transcription,annotation,audio_url
+"{""type"":""audio_transcription"",""valueRef"":""jobs/2222008/annotations/3115969c-3f71-41a2-8d07-69bbc8d8f8d9.json""}","{""type"":""audio_annotation"",""valueRef"":""jobs/2222000/annotations/b442c790-dc64-4062-9609-e01ad7cbb29b.json""}",https://annotation-sandbox.s3.amazonaws.com/audio+transcription/sample1_0000.wav
+"{""type"":""audio_transcription"",""valueRef"":""jobs/2222008/annotations/3953e509-e57b-4fb7-8177-9a266b909773.json""}","{""type"":""audio_annotation"",""valueRef"":""jobs/2222000/annotations/3d315ced-b9cd-42ae-837b-9b96ab272e4e.json""}",https://annotation-sandbox.s3.amazonaws.com/audio+transcription/one_hour_audio.mp3

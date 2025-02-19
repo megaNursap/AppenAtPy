@@ -1,0 +1,83 @@
+{
+  "labels": [
+    {
+      "title": "Person",
+      "description": "<h5>testing info icon when description is available</h5>\n",
+      "allowTranscription": true,
+      "color": "#9A2517"
+    },
+    {
+      "title": "Pet",
+      "description": "<p>another description</p>\n",
+      "allowTranscription": true,
+      "color": "#C1561A"
+    },
+    {
+      "title": "Background",
+      "description": "",
+      "allowTranscription": true,
+      "color": "#BD882C"
+    },
+    {
+      "title": "Noise",
+      "description": "",
+      "allowTranscription": true,
+      "color": "#819356"
+    },
+    {
+      "title": "Male voice",
+      "description": "",
+      "allowTranscription": true,
+      "color": "#6A1D7A"
+    },
+    {
+      "title": "Female voice",
+      "description": "",
+      "allowTranscription": true,
+      "color": "#CD584A"
+    },
+    {
+      "title": "Dog",
+      "description": "",
+      "allowTranscription": true,
+      "color": "#4A8676"
+    },
+    {
+      "title": "Cat",
+      "description": "",
+      "allowTranscription": true,
+      "color": "#0E7795"
+    },
+    {
+      "title": "Music",
+      "description": "",
+      "allowTranscription": true,
+      "color": "#401A87"
+    },
+    {
+      "title": "Kids",
+      "description": "",
+      "allowTranscription": true,
+      "color": "#F4894E"
+    }
+  ],
+  "spans": [
+    {
+      "title": "person span",
+      "color": "#A92D26",
+      "description": "<p>Describe here</p>\n"
+    },
+    {
+      "title": "noise span",
+      "color": "#7D1F4E",
+      "description": ""
+    }
+  ],
+  "events": [
+    {
+      "title": "event1",
+      "color": "#431F87",
+      "description": ""
+    }
+  ]
+}

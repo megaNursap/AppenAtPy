@@ -1,0 +1,54 @@
+{
+  "test_account": {
+    "user_name": "sandbox+api@figure-eight.com",
+    "email": "sandbox+api@figure-eight.com",
+    "api_key": "gAAAAABfBMH9AjEp7jI2u1plRiSB8S6GhBrsmeArwTUrGZIzmnmJ4csBKqA3y_hPto-zHhfluRbmDaHQLoTVFZ0la1WsqV6jrUKPnvqR5OssMRNtEYpviXs=",
+    "password": "gAAAAABfBMH9pHvDO32CykCQqrqz2iyapq6Pewyg2f0-qMwHYdmu4bAfPIkbEp1B82mjEaPET37AYUL7n10j3qePjcN0uwoiIJFRbq1EpGwrbJGtbw1BobA=",
+    "teams": [
+        {
+           "id": "5a125f6a-6807-41e0-8a62-1c5706cfa54b"
+        }
+    ],
+    "akon_id": "67c2809c-31ed-4ca8-aeac-d997b39d6bac"
+  },
+  "test_ui_account": {
+    "user_name": "Test UI",
+    "email": "sandbox+test_ui@figure-eight.com",
+    "api_key": "gAAAAABfBMH9F5gvwrvgXcLvTdD3CgGuceBxaK4pDPQgc_gDRTl2Snj3nXkQGdoyNAGPCvVY5AJ9ReVIwfsnaRFgtwGIb7-t3f_ozpBcNSx4yn5FOS_hmE4=",
+    "password": "gAAAAABfBMH9frcEONJf-6em5b6DPnsphTrxdtegATejGajsO12t5vnKPin5CNL7HivpG3FHmtKL3Gdoug98muk-IGIZc8E4Wv0aD_fn9CRiOCnNlKSfbqE=",
+     "teams": [
+        {
+           "id": "5a125f6a-6807-41e0-8a62-1c5706cfa54b",
+           "name": "sandbox+api@figure-eight.com"
+        }
+    ]
+  },
+  "test_contributor_task": {
+    "user_name": "sandbox+contr1@figure-eight.com",
+    "email": "sandbox+contr1@figure-eight.com",
+    "password": "gAAAAABfBMH9FjiB6IZgWo59a15wkm1yB06sdRpftuD7xTOWnGqkMpRkpb_umwvlAreX53KkCwmiGqVgz0hx-jz12HIt7ZbpIKjgJfQH0DA4oR7lcLNlaXw=",
+    "worker_id": "5"
+  },
+  "test_predefined_jobs": {
+    "user_name": "sandbox+job@figure-eight.com",
+    "email": "sandbox+job@figure-eight.com",
+    "api_key": "gAAAAABfBMH9X_ZZUn3E12P7LuhquYADIRFozKbuDSOFxvJOOFpFXzsY1Il3yGT1us4LrXv0f-c4ad-fH0KnBhfMzXDx2xNdKp5xK61ob6mFU0jssksnoxY=",
+    "password": "gAAAAABfBMH9C7DLic00iHpxocxvYuwoy6a4TGihpM5taWTrLQSKuKOV3-beqEAZJuMhtDMEljiUj4TCH6zDHo3TQz8RP8lt9bvP7QIZhPzrsNqCwVBtbJQ="
+  },
+  "test_lidar": {
+    "user_name": "",
+    "email": "",
+    "api_key": "",
+    "password": "",
+    "akon_id": ""
+  },
+  "no_models": {
+    "user_name": "",
+    "email": "",
+    "api_key": "",
+    "password": "",
+    "akon_id": "",
+    "jwt_token": "",
+    "desc": "WF should be enabled, Models should be disabled"
+  }
+}

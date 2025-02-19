@@ -1,0 +1,77 @@
+{
+  "labelGroups": [
+    {
+      "title": "Transcribable",
+      "color": "#9A2517",
+      "labels": [
+        "person",
+        "pets",
+        "noise"
+      ],
+      "allowMultipleSelection": false,
+      "isForTranscribableSegment": false,
+      "allowNoSelection": true
+    },
+    {
+      "title": "Noise general",
+      "color": "#C1561A",
+      "labels": [
+        "female",
+        "male",
+        "kids",
+        "backgroud"
+      ],
+      "allowMultipleSelection": true,
+      "isForTranscribableSegment": false,
+      "allowNoSelection": true
+    },
+    {
+      "title": "Person voice",
+      "color": "#C1561A",
+      "labels": [
+        "loud",
+        "quite",
+        "ringing",
+        "clear",
+        "low"
+      ],
+      "allowMultipleSelection": true,
+      "isForTranscribableSegment": false,
+      "allowNoSelection": true
+    }
+  ],
+  "spans": [
+    {
+      "title": "span1",
+      "description": "",
+      "color": "#2C238C"
+    },
+    {
+      "title": "span2",
+      "description": "",
+      "color": "#192779"
+    },
+     {
+      "title": "span3",
+      "description": "",
+      "color": "#192779"
+    }
+  ],
+  "events": [
+    {
+      "title": "event1",
+      "description": "",
+      "color": "#1D499C"
+    },
+    {
+      "title": "event2",
+      "description": "",
+      "color": "#215896"
+    },
+    {
+      "title": "event3",
+      "description": "",
+      "color": "#215896"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "labelGroups": [
+    {
+      "title": "Transcribable",
+      "color": "#9A2517",
+      "labels": [
+        "person",
+        "pets",
+        "noise"
+      ],
+      "allowMultipleSelection": false,
+      "isForTranscribableSegment": true,
+      "allowNoSelection": true
+    },
+    {
+      "title": "Noise general",
+      "color": "#C1561A",
+      "labels": [
+        "female",
+        "male",
+        "kids",
+        "birds",
+        "cats",
+        "dogs",
+        "fish",
+        "bees",
+        "racoons"
+      ],
+      "allowMultipleSelection": true,
+      "isForTranscribableSegment": false,
+      "allowNoSelection": true
+    },
+    {
+      "title": "Person voice",
+      "color": "#C1561A",
+      "labels": [
+        "loud",
+        "quite",
+        "ringing",
+        "clear",
+        "low"
+      ],
+      "allowMultipleSelection": true,
+      "isForTranscribableSegment": false,
+      "allowNoSelection": true
+    },
+    {
+      "title": "Insects voice",
+      "color": "#C1561A",
+      "labels": [
+        "mosquitoes",
+        "butterflies",
+        "fly",
+        "fruit fly"
+      ],
+      "allowMultipleSelection": false,
+      "isForTranscribableSegment": false,
+      "allowNoSelection": true
+    }
+  ],
+  "spans": [
+    {
+      "title": "span1",
+      "description": "",
+      "color": "#215896"
+    },
+    {
+      "title": "span2",
+      "description": "",
+      "color": "#275F63"
+    },
+    {
+      "title": "span3",
+      "description": "",
+      "color": "#1E4C41"
+    }
+  ],
+  "events": [
+    {
+      "title": "event1",
+      "description": "",
+      "color": "#305C28"
+    },
+    {
+      "title": "event2",
+      "description": "",
+      "color": "#41672A"
+    },
+    {
+      "title": "event3",
+      "description": "",
+      "color": "#81772C"
+    }
+  ]
+}

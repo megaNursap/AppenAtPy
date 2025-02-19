@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    { "id": "customer_id_for_dairy", "name": "dairy" },
+    { "id": "customer_id_for_cheese", "name": "cheese"},
+    { "id": "customer_id_for_protein", "name": "protein"},
+    { "id": "customer_id_for_milk", "name": "milk"},
+    { "id": "customer_id_for_vegetable", "name": "vegetable"},
+    { "id": "customer_id_for_green_dark", "name": "green dark"},
+    { "id": "customer_id_for_tomato", "name": "hamburger"},
+    { "id": "customer_id_for_spinach", "name": "spinach"},
+    { "id": "customer_id_for_fish", "name": "fish"},
+    { "id": "customer_id_for_salmon", "name": "salmon"},
+    { "id": "customer_id_for_meat", "name": "m|eat"},
+    { "id": "customer_id_for_75843722", "name": "75843722"}
+  ],
+  "edges": [
+    { "from": "customer_id_for_dairy", "to": "customer_id_for_cheese" },
+    { "from": "customer_id_for_dairy", "to": "customer_id_for_milk" },
+    { "from": "customer_id_for_protein", "to": "customer_id_for_fish" },
+    { "from": "customer_id_for_protein", "to": "customer_id_for_meat" },
+    { "from": "customer_id_for_vegetable", "to": "customer_id_for_green_dark" },
+    { "from": "customer_id_for_green_dark", "to": "customer_id_for_spinach" },
+    { "from": "customer_id_for_vegetable", "to": "customer_id_for_tomato" },    
+    { "from": "customer_id_for_fish", "to": "customer_id_for_salmon" },
+    { "from": "customer_id_for_fish", "to": "customer_id_for_75843722" }
+  ]
+}

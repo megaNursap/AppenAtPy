@@ -1,0 +1,84 @@
+[
+  {
+    "description": "",
+    "class_name": "Table",
+    "display_color": "#1de9b6",
+    "questions": [
+      {
+        "id": "dd3f1c37-4860-4935-b7b5-04b81f800a6a",
+        "customUserId": "",
+        "type": "Text Box (Single Line)",
+        "data": {
+          "questionText": "How many Rows do we have in this table?",
+          "cleanOutput": "false",
+          "tipsHints": "Put the number of rows in the table in here -Rows span horizontally",
+          "textCase": "None",
+          "trimSpaces": "None",
+          "validations": [],
+          "resultsHeader": "rowCount",
+          "isRequired": "true"
+        }
+      },
+      {
+        "id": "13322d0e-4796-44a0-82f7-3c8bf17b575f",
+        "customUserId": "",
+        "type": "Text Box (Single Line)",
+        "data": {
+          "questionText": "How many Columns do we have in this table?",
+          "cleanOutput": "false",
+          "tipsHints": "Put the number of columns in the table in here -Columns span vertically",
+          "textCase": "None",
+          "trimSpaces": "None",
+          "validations": [],
+          "resultsHeader": "columnCount"
+        }
+      }
+    ],
+    "relationship_types": []
+  },
+  {
+    "description": "",
+    "class_name": "Column",
+    "display_color": "#651FFF",
+    "questions": [
+      {
+        "id": "bd2b5cf8-318a-4410-9e82-b05c7f93dc9c",
+        "customUserId": "",
+        "type": "Text Box (Single Line)",
+        "data": {
+          "questionText": "Please index the column in the table starting at 0",
+          "cleanOutput": "false",
+          "tipsHints": "Index the current column starting at 0 in the table. If there are 5 columns in the table then there will be index 0, 1, 2, 3, and 4",
+          "textCase": "None",
+          "trimSpaces": "None",
+          "validations": [],
+          "isRequired": "true",
+          "resultsHeader": "columnIndex"
+        }
+      }
+    ],
+    "relationship_types": []
+  },
+  {
+    "description": "",
+    "class_name": "Row",
+    "display_color": "#00B0FF",
+    "questions": [
+      {
+        "id": "cf287f61-bcbc-44bd-a14b-d2e1d621b114",
+        "customUserId": "",
+        "type": "Text Box (Single Line)",
+        "data": {
+          "questionText": "Please index the row in the table starting at 0",
+          "cleanOutput": "false",
+          "tipsHints": "Index the current row starting at 0 in the table. If there are 5 rows in the table then there will be row index 0, 1, 2, 3, and 4",
+          "textCase": "None",
+          "trimSpaces": "None",
+          "validations": [],
+          "resultsHeader": "rowIndex"
+        }
+      }
+    ],
+    "relationship_types": []
+  }
+]

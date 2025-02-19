@@ -1,0 +1,1 @@
+[{"description":"","class_name":"cat","questions":[{"id":"4ffaa5e0-e02f-46e4-adda-cec80c5c8685","custuid":"","type":"Checkbox","data":{"questionText":"cat checkbox","defaultsChecked":false,"isRequired":true,"tipsHints":"","resultsHeader":"cat_checkbox"}}],"display_color":"#FF1744"},{"description":"","class_name":"dog","questions":[],"display_color":"#651FFF"}]

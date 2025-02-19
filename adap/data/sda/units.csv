@@ -1,0 +1,11 @@
+_unit_id,_created_at,_updated_at,image_url,annotation_gold,annotation_gold_reason,sample_text_field_gold,sample_text_field_gold_reason
+2206266034,10/22/2020 21:42:59,10/22/2020 21:45:52,s3://f8-signing-service3/sailing-boats-407841_1280.jpg,,,,
+2206266031,10/22/2020 21:42:59,10/22/2020 21:45:52,s3://f8-signing-service3/ocean-sunrise-1344797_1280.jpg,,,,
+2206266026,10/22/2020 21:42:59,10/23/2020 21:53:03,s3://f8-signing-service3/2088291.jpg,,,,
+2206266027,10/22/2020 21:42:59,10/22/2020 21:45:52,s3://f8-signing-service3/8591461201_80d69122f4_b.jpg,,,,
+2206266028,10/22/2020 21:42:59,10/22/2020 21:45:52,s3://f8-signing-service3/Panoramic-Views-Boats-Floating-The-Boats-On-The-Sea-3351876.jpg,,,,
+2206266029,10/22/2020 21:42:59,10/22/2020 21:45:52,s3://f8-signing-service3/boat-1151510_1280.jpg,,,,
+2206266030,10/22/2020 21:42:59,10/22/2020 21:45:52,s3://f8-signing-service3/greece-2665945_1280.jpg,,,,
+2206266032,10/22/2020 21:42:59,10/22/2020 21:45:52,s3://f8-signing-service3/ocean-view-1354668606wyf.jpg,,,,
+2206266033,10/22/2020 21:42:59,10/22/2020 21:45:52,s3://f8-signing-service3/sea-2052650_1280.jpg,,,,
+2206266034,10/22/2020 21:42:59,10/22/2020 21:45:52,s3://f8-signing-service3/sailing-boats-407841_1280.jpg,,,,

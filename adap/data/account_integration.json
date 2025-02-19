@@ -1,0 +1,2115 @@
+{
+  "test_account": {
+    "user_name": "qa+integration_api@figure-eight.com",
+    "email": "qa+integration_api@figure-eight.com",
+    "api_key": "gAAAAABfovstVMsIzTpP6CfbBlAKCxa_1CrZxT1syavqL4ClM07cLRK3VgYTq5HQXZrgqen7MSkX-WQfy3oJVjhMR7xUp2m9SSoJRyTKwmH1GVsdvAFP3vY=",
+    "password": "gAAAAABfovstkYFA95DTh_CY5HiA4Wb4ON8qMpDjGimqsKPmU3D137Tk0EYhXv8EH8vBRpKiX745XB_apdAFr2j54-sxjFR6vJN6hnIVlLzWNlvdn3Muc8Y=",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      }
+    ],
+    "akon_id": "0655dff3-04ab-4d18-a49a-08bb9ff10580",
+    "wf_source_report": "/2020-12-21-22-27-57_2020-05-01-05-36-29_animal_25_rows_wf12973_du3154(2).csv"
+  },
+  "test_contributor_task": {
+    "user_name": "sandbox+task1@figure-eight.com",
+    "email": "sandbox+task1@figure-eight.com",
+    "api_key": "gAAAAABfovstHkdwtxLP8y7JJGTTF-o0qokPEkADpdVqSPX3hvt1ibsN5c2I5JhgKg8gJeht4Eph4aEydxmdtTX4HXQ2mutUiw==",
+    "password": "gAAAAABfqwSoyu6YO01l_bOXSZpfsRy7KFpgrDiSa-atH9QGtPtƒ√XFbeh-Z9VdlQ4GJNZ5NQ3Imqr0D2909tBNPFnYvK0cnOO6twvzgEmltIZXAaFhHUeF50=",
+    "akon_id": "",
+    "worker_id": "45155414"
+  },
+  "test_ui_contributor1": {
+     "user_name": "qa+keycloak+worker1+2@figure-eight.com",
+     "email": "qa+keycloak+worker1+2@figure-eight.com",
+     "password": "gAAAAABgx5vgXHYw_cr8BGTnICc7KhU2tLVpCi3dBP3zAm-5LmYw3ZE91nJmsymYesZtQJFtFzbYHyIr0bepLP2XBk21KI6Btg==",
+     "api_key": "",
+     "akon_id": "",
+     "worker_id": ""
+  },
+  "test_predefined_jobs": {
+    "user_name": "qa+integration_job@figure-eight.com",
+    "email": "qa+integration_job@figure-eight.com",
+    "api_key": "gAAAAABfovstO5WV7gta8CkikknQcIcNGR6qcexxgoBP5riitwya5Huz8h2znat-6JBUwPT9lymfL9fBhf1j60bayLOd2atEJuXmCQVbVGUZ1fFHjtbLWlw=",
+    "password": "gAAAAABfovst7aFQGvoQ4_6s2CTILUVZPn2boUrwaUaBkiIvMxqWQXwz-Af1UmL5ZAnEfayFRCJOPiaK02pDqPVR1YXHX_uhDi11BZ2yEgA3pqNVA_Bh3uI=",
+    "desc": "WF should be disable"
+  },
+  "kafka_user": {
+    "user_name": "LRW76GU3WZZGCSQ2",
+    "password": "gAAAAABhV1qCuVKkBjZqB6zSwaT4y6HgRzNTiKic6MY-qM41IBJIu0Es7zswCBoD_XEFYzo89alN-skYG94e64Tynujkq-l9s_49xRU3i-nvrtR5BkeV3-mFrNOaOsAsvV-NyfIDHutVRwarsd4z-0Ua0G6afw483i5aco0VaBKQkFwSv2_YXts="
+  },
+  "test_ui_account": {
+    "user_name": "qa+ui@figure-eight.com",
+    "email": "qa+ui@figure-eight.com",
+    "api_key": "gAAAAABf_elI_PsVWB2xgdoKEI-4JvPIosbA5cxbLT4waADPudUhXU9nKK-ebIkT8vRTVQ662RRaOrMbyiUGfYSSinvWoLE0Dx6g341yWPKMVyd3A9q-CNY=",
+    "password": "gAAAAABgBz87KV6dJ8oiJpXaCKkt-icqSeW8Ynz5Wufd466XWOKs5b6RzjtScHAk-D5XEWdMwoDzo8V7Itr0048lVz-PV4SNpA==",
+    "akon_id": "24d46e26-556b-4606-ad5b-15a4764ad1d3",
+    "jwt_token": "gAAAAABgDxlrMV6pWbA_6kAajHV1woT584mrUasg4noOFCSafjCYq3GO_oerdjgYe3ybkQQsMQMKOuplqXNWUosJu6907X5r3Nuhir09zINWfYiZMa-NSbAvuMjlGBU7s_4DsfDRrpPq6qe3xsYDm44NbFCowNRgTCs-e4uShF1yfKKdSJH-OzIzaJBQVskNRQVo5sksXwd3-uptSfCUcJ9qGQGr6cwEpF0MqjgMuq-f9A1dHbhzpkl4eqy_Kscve-ErFT5nGy_ZRqdNsY1k-1hnev54yJkTbsoumOFSIj9Ga8pqN5egXI_21WKV7DE0yxS93VxVlpTjtV1vVdOj-yq6eGhBbGeAmco3E7q7s0Q2aUdVY3IjWZL7P0s5M6Z0T9lII1GslIs7NA2RxZzSsqgH1ZWufqR9OU6Ep7s_z5WuFArSvjZGRKCvwqiy-w3x0gJ3DBOEKP2UNBOTy7vwSYB2-zbMwPy3fxAtUK5FBskmzZOfBRGLd7PWUTw8BfaVBr1C7p0cBSqmEKN-smHhinXaHB4wz1cO-sfo4-ndH4Olp4RhAcRhuKeWwtkUx5iKt95vl3-YFLkQVQpFaNQDvabcDpoVUesd0Yr1TO0Vn_9CSY0f__qHKnVdHUnGRpw25hnZT6XxfWzqQF3A6zHy_xlDslSB4nKEC-Homemspy56GTrWvcSJHqqFicjfEWGCflYyiKK7CJxHlo3SdYlZNSuOqlzuhBSgNt8or9Mm5x39VmbhLkENbHw6AqcKkYOdgqdLgyWTS6pGQySjaw1w_WDG8Q_a9n-IxTPpZk-NDCb8iGprZaKlzwmu6dJ8eqmOrAJDuHMy8jyhzlhwmKbwNFAscGN1HOeAAHg4_Xzhqe6f_oE99K7h-loEldfedS8qxd_3ip3WOqYemqCJxX7r9qe1uQrq57HwlgF0BYifrndMWwObKaO7NWeVjljclt-_ZQg7rpCFa2TWgnmBWjzCw0KyZJwgU4Ka3ZyyF34nS2LM6CkgK4CaVnX-a8k9_FKaMOT0SwqAcOn54oIV3QzM26OOt88pOYCAqWOZffxjdKPyPpZ7Vrvx2RrcXUM7JnGqDZ7XarAMGJFrFbh1uTdPiAwd3MR0w8pwgcqJov2LEMvsDK2He6bNz0sPz7HXxeG_T5F-8erRGGniijmUekAAvVugaemNI3u7TOemZetKakiARTqMsfDl-lEwnmPHiOnFDV3FHUDYY7uhQ9__vXM5L0wm69Wc9UqoMU7RpaUVEE0OwpsQSvtH6818mGKCc5hvVHTDCiOOpg5TuqRSQg7yVT3JE_M55pVtjVcqmx1DglgM8D4G7x_Rk8VMnB_C5GCkorM9Fsyge46DXfrREyP4njIGAqAdI8JOwOMN8FJRSsiHgAI7JIiYS5-yyaGHGe_2hzePB73_jaec_hlIN5_P0_5I-1D-mr5HVLZ4lHTMyW1GMwrlifRRKX-cBmPRWlo9-jZeVDsHAjzFHkaZf5B5x4ZuJuEb8OTq_Q==",
+    "x_storage_refs_token": "gAAAAABiGWxoEUtAxQf41i6G6W-SZs9IpqCLk981OzFPiCKZQ2JKlDLlJ-QPscj4Jdt3CSsC7ZqeS0ECvoReOvo6-VCRO7cRS-vKkR96xNkiF-QM7cW4LqKrU4ReCJJgoVX9fQdsQsO2fSbBSHEay0GkWVbTRlb_pmoeUK1OkiUctaLWpI8918yxEMINhDPaWBWq3JdmYymMxIlIAQ2GPZo5MfiRkQxxq9ip87WVvRP82cU42w4pT_mHt-mQ3vNNBLwx-GdemldIhO1luRwlGTRMdl2g--rHQ31SmG4iMRdq_DrEMqNNr6V4RNZzuJy7RPj5aebFDoWMESb97TQcrUY41B8bf6qnRQdSOMoVsnse8tFJwQ5r2D6hW049Qpb83k5XQJIhKstwsGxlODH-IHXuc8DEkYPbHdHgqBr1fDFeBQc556VBz-Zxj1z5iODVvH2iiPe6jiW_5leinW6kAaeFp_ZW-zNvbxlGJwV81TKgX9Cx7CfvA_gWQ3crg-x25WMFna7eQ20gppj-TKQbYwKr-1nud3oMhfE1JvfbNb_7PBhZ_9HHiAyYvbW4BP-Gs_p1y8Py8RE2UcuabPkP2J_z93I3mDPUBFNnONh4nV4Dg323bis2IqdpKFAR4dc3YZoGOj7WWySm",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc",
+        "name": "qa+integration_api@figure-eight.com"
+      }
+    ]
+  },
+  "test_ui_reset_password": {
+    "user_name": "reset psw",
+    "email": "sandbox+test_reset_psw@figure-eight.com",
+    "api_key": "gAAAAABkMFTh8NWDfAhOPrg1CcyBiAsysqXL8yNEnqnmYLA5gsFkA5rVOLbvhckoDUlDz4KmsKxB26nYWyjw1NKBa18X8Z_An_LXJlG1YkO8x1eiUKH2tVc=",
+    "password": "gAAAAABfovstfUERM48ai4NJqeAqeTb0sn477kLSn9ItNkQPH3_lteobLLDnKKfCw4gfdlo1OepLNIHQN40A8kgMu0SU4xoFEBGrKxjcSdQ_pPXnpcfQdbA=",
+    "teams": [
+      {
+        "id": "d88fa913-b726-4528-9a79-70704bc340df",
+        "name": "sandbox+test_reset_psw@figure-eight.com"
+      }
+    ]
+  },
+  "internal_app_role": {
+    "user_name": "INT internal app",
+    "email": "qa+internalapp_int@figure-eight.com",
+    "org_id": "0f62b1b9-3e81-4670-aca8-5f2695ec355c",
+    "api_key": "gAAAAABfovstTEIiztxLcRdVWR1YRDkMzhJhIqZ7cR-VLUH0GVga0TYgUwKOrwvxiXuH1u_uoX8y7q-sAX0w5oW7-tdY4__HFfbLZ3CZRxRFTbQHx7oMp0Y=",
+    "akon_id": "047a5ddf-35ab-4c50-86f9-12f0a6a973cf",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      },
+      {
+        "id": "61df0eb8-9a7f-4d15-ab12-07913779062f"
+      }
+    ],
+    "password": "gAAAAABfovst-QVf6sek-WW3mhNYBoa771GUyKi7w1gQZh191Q_hkOSGSvt6cP4SBPIa7mAHmlp76eUUmgWQQ7R622NeTdkplAHsv-32f92naVhgCMgwFcI=",
+    "jwt_token": "gAAAAABfovstVuEfAZjMv55FO-9TBD5rSJPh2Ib33Uh_lb-rXoz9iHEujpSWzKNmYOmnqukHUYSH8Sb7cZDbu41GSxtG7DjwHH9bMi-yOHnMy0MJaE9ePPPLlm0RSWDewISn7nsTojrRbLAcstgDdxNVocMIncfA7uPKq1n0uGuTs3Z92pse_isZMXVHllTt22oSDZnVHDdQA8By8KKnkdLkhXYrw4kQJKB2VYbg14OiSo1tfprSlcT19kxoXet4o4lOP-7hbKQla_qsvYrPJj7Sx90Q6r81R8C5GEovNwmUz0DzA5FED3s_CFjzZLU4k3rR-hmfRdzcfPrswL7S4hQexe2tqE-Rt3lrfI7C0LIN6Xyagvv_c0HbipNLR1k7t9DlmPRx3ScPhHXGYFFSg4yN2mOWIYlDW2CELQOjInTYH3DGi4M7yKQ-4-KsFSWv1q92b5MiUE7GheNHlQKf85aX5txEbQz2ZwRKtqi2B25jyjtzsm_oqGZ1NgQBCsgz77PWS1pd6toF3WNxRSKhW0RG_7IPNTHrdWBN-wdKOWqQumnrzJTFsQ4=",
+    "desc": "user has internal_app"
+  },
+  "cf_internal_role": {
+    "user_name": "INT cfinternal",
+    "email": "qa+cfinternal_int@figure-eight.com",
+    "api_key": "gAAAAABfovstYVQYMdrOuVIXBxyxHh2yFTqwRheVdhkJaYzrpUP7zpsSaT0g16oSUsb2pRYFKHYgGkoEV5UGuCI_JM0QD1pXDj7R38-fnzzm_brKaN81-uQ=",
+    "password": "gAAAAABfovstdFkyhT7cAkctFL23bsdhMLx9tgH25sJuxpKiL1OW39ka4-IJd1DOLF8s51iaAZtUnAI6SC8YaUktJW9Tx5pHWWDQCKp99A4PQdRmyr6yu5Q=",
+    "org_id": "0f62b1b9-3e81-4670-aca8-5f2695ec355c",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      },
+      {
+        "id": "61df0eb8-9a7f-4d15-ab12-07913779062f"
+      }
+    ],
+    "akon_id": "16092641-e93c-4521-9238-43eeab35cb1a",
+    "jwt_token": "gAAAAABfovstF7d1d1JKF6nqg55sTlK8kuYnaEByl1X_6IjYtP5rPUbKOtEi-2v4zQLGS8121FLnD6uBJNTCQmYaw6MCBGjGWrJYRsLNTGBaZ88VcmFGkbMPLeEKog4ZSU5t-zx5ICSxgfMIHrNm_5pt4hlgtLhGBMdu5iv1ZR1YPz1IdZp5kYsPb59gpLezwRqxZ4GUeDxH6W_JnNk4tAJF7ZnJKXg1dBgUPHfMGhZiRyNECMhoQ0bnq4UAUEqtY9S7JdX_HbNDY8rD5XxOfeyVstvCvwZ22mIbITEpWkKjHrfKHOGNSz-o_-jPb7-wEWcNXixCVGz-9oDPMzzW1J_vFkGj43NnGVjvtbxI60H0tgG5WmgyxpdrrK0xbPmEzO5bw73P82CyVhxyrcLuqHP8kLZ0F2Ap_tpd-821bzI4VvInV8ascfTC1-na6QLHGHZQakKpQttmEPtmhVI6uwN3iC7bmrc7yBEgYia_QE4Ndf-O5_FfeNlLHKYD26azDjAumz7QAbBdw08smYeXdeZ5WWWwOVYY5u5A_Zs7wWVid8NPmjs9bEw=",
+    "desc": "user has cf_internal role"
+  },
+  "org_admin": {
+    "user_name": "INT org_admin",
+    "email": "qa+orgadmin_int@figure-eight.com",
+    "api_key": "gAAAAABf-JfLb8CEzrcpHSv-2vCVNUbGcHcM-HUBrpb_aJzffrMl1QDIbZ7Rr0KaPNSQpuzR6CC818P2w6ZM5xRbK5ihULjba3OFZHXnBPmpWFD7ZQiQ4Wg=",
+    "password": "gAAAAABfovsthUSH3GqMdTfwK0ZTp7ckSZAxa0f6KpAVa4lelYqov3TaC0eJzmVveY_yE8iMU7gr6ZwHk9yzq7VEvqlT-_R7RAwuvQlRYZDfAYWiciulqGg=",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      },
+      {
+        "id": "61df0eb8-9a7f-4d15-ab12-07913779062f"
+      }
+    ],
+    "akon_id": "a9bc1954-8cb6-4c8c-be71-51ddc007b3ed",
+    "org_id": "0f62b1b9-3e81-4670-aca8-5f2695ec355c",
+    "jwt_token": "gAAAAABfovstM9Qa9r6mpZOe51xszhmAga9UQWDCQ6I5wk0Va5KU_ityDvO49h4k-iSA4vXIGbOhWGrUZB9RQDMn60KzxNWp_PGhGSD7HDdU0TAtNo8PBaITx0p9lgLNJdG5k2qT_GjYkYnlhtYjVFkHyZvnAXtJDTM7mVvx5XGtzFMjLWti6VhN8QErxYYtMCEvUGmf16vvM_LilPGx8UOQZBE1phnXXMw4umI9CYfUI8ibBgNW3d9BvfQQ9jcB5BFURtkTJE1qO10pfec1kWVT-k0Qdn3YeDTHozN9S6UyZqONCs3OgvfOwc0yEDUjE9fi4n0hvMVIAYo4hEsjvdAFSP6KSKd64i0ZrfeVB4S8tiCSgkDLTYY3u8LSE7RacuLj9xkzoXh08dGHniEDEsZvFztV-VSNd_1xKayC_o8NagwxvG0T0vR_eSebIMoeah0e064mY8dQfQYrwepwbRtbC_s9Yho9zq47bi_TMGrUDHv7TVssmuAXG7iPA-ObeFB_S95Glgu1jZ0zpAsfCtsUKsAGCHe_1w=="
+  },
+  "team_admin": {
+    "user_name": "INT team_admin",
+    "email": "qa+teamadmin_int@figure-eight.com",
+    "api_key": "gAAAAABfovst5OBWcglYukkDN2-TGFbs-IskuNxE0-kknVGUu7uG9JyT3vi8-TJG_s1tZCYBBi6bTnWknW6JrIXorSwIb9kBzDS4k4uTg3SiFZqTOL48AFc=",
+    "password": "gAAAAABfovstm2aLcADYFvXUqzQi3ZTe1a6APPJtYBXRY6vPnXjG9zGjq0eXgFhuDE4d3DZtRm_ZnoeWmZte398Vb0EQG2QZeqP85h7BQGWhr3KRJ9oP0GY=",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      },
+      {
+        "id": "61df0eb8-9a7f-4d15-ab12-07913779062f"
+      }
+    ],
+    "akon_id": "72025f84-e6f7-4ebb-a130-113aa19ba5bc",
+    "jwt_token": "gAAAAABfovsteFn-6ZKfi1suC6tC8Rmnyvbnn3kRzvirZI2BgTrgoatEoQgXaMyPVH5gWdFi2xLCECraytWsTwNRJToFDTS564hlWcF4Kez9Lh3C2CmDEPZXdQ08d_eq0P_zTAG3JRDMTf3jK74MeYnqTscJednx-ECpaeLLc-UstjPRk6nvzh5k7Or_2B7-l6xImXL7aaliKnsqWUcjNN80Gr9TgFHJZDTnjjZb2u0Qov8GVatZnMjMMyekN38BWAsKltxjZDvbPoaejx5QzFBhlb4fs5MQWOyHCbc-3VJt2Mbltdr_jgLvNnDzdGAC6P4Ren7vjtrylQu1memP0S6w3SXA-XAqHdIf6H0w0I1ao8fzlsZI5G6BuqGAXh6nm8eCMbqLmnc5DvCSsQ_wF_GBU14CrmVOjFjgYrzeCKyE8slhISm5vOKue59w0RABT9Iwp0vAV5FvA-E2ID53ILDS9FsA7DPI-LuttMnFB1gm9jDf3lm-PXsbNPFeMi4oTlKH8EC663FgeOsZwOrwqwCN2leW-Njt0sy6mfn8X1YN0kSOGWSF7wY="
+  },
+  "standard_user": {
+    "user_name": "INT standard_user",
+    "email": "qa+standarduser_int@figure-eight.com",
+    "api_key": "gAAAAABfovstoI7X4HEJ1JPq3SVTa-9sjVsUNQUiflm7QJbMNuNhMSZrA6sH1VB0iFq4srnFPPbRaLycogWy2B_KUFyPiGAWY3jLdjC_AwSsHYDm7S__GXA=",
+    "password": "gAAAAABfovstn6zn-VZA4D3VCs2GK8NSiKKSHw973rA9eSPtnMG5EzIGJfwVwLZjQ0u0o_Rp2HkNDx6X3otwkIsJEuXUg9WGIYHG6AEqt2ROU50KCysMHJc=",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      },
+      {
+        "id": "61df0eb8-9a7f-4d15-ab12-07913779062f"
+      }
+    ],
+    "akon_id": "93ad41bb-142b-4517-9169-9112a092573f",
+    "jwt_token": "gAAAAABfovstUyTrddDkcKjfpm4LAT94yLqV2D6VPMVscjL6u3KQKQJp4Z0egmO3_SuVp6fBGwrNd3a_uBI6fq3nHfpMr7C6yF9pwOIDmSv-0vXUD0gtoxx0MxELAs90AiYUfqKswLmp_zZXs5EWACZ2Q4P9vmIGOvFjL6XIDXz_OO4CWiNZF3_IUcXXDbDjAKEN1ZRDFnpjoj1d_72IGoHenlyJ7T-axpBkMqCjfTRlXa3yr2HttpMJ4gIUEi522kP-3ULJaxnz1pHDvaTvktrd_XRYL0dTRd0NO9FatAHHRTsSeRZNPhIesZcsTlEiGg6eQtzPE4JoEtcxaJvrhICRn616oQlHyRRy3pcTzofSvm-kx6SnMCmLKYIkERS1QsDRsK66B5moe78UQWD8tUtO_bJ6O_1OkXugZBiK_Jo9CdRo3CCAMILFXBGnCLC8OVV3lu6bt4w1b9R5qj_NiOpj7kRQ0FNx9QngmGERjtQQEIiATGopvzaBi-kofWKARJzvujbfu0IWbF-xgaieVAtxfthEwGOShVEYCofoTjXfTd6i-uxzYQI="
+  },
+  "multi_team_user": {
+    "user_name": "INT 22",
+    "email": "qa+22_int@figure-eight.com",
+    "password": "gAAAAABiTLIttQJz0eXOmqOwHQKA5T6VLUksyOi20M2ZEUyoJKBWZbv6n3gfIKUpCNAsiywWJtckIJvst6uzJdlNTQUIvB1994o-Dob3tOaAjefn349_vNE=",
+    "api_key": "gAAAAABfovstwqKZLKrhMCX8jjhB8_sYMOAhY9SAjepQSYmQ_lRU74m4ONoAWd_UUxXKFDETGkRbTcXS1qXRiqV93VjImVzN-fRveJOqOzN97DLBNCU27bk=",
+    "teams": [
+      {
+        "id": "60801225-af3c-45b2-90f5-1cdba085338e"
+      },
+      {
+        "id": "61df0eb8-9a7f-4d15-ab12-07913779062f"
+      },
+      {
+        "id": "7e53c074-6eb6-4956-abb4-02fc551e3532"
+      }
+    ],
+    "akon_id": "99ccdb44-076c-4509-afe2-08fe22909a44",
+    "jwt_token": "gAAAAABfovst4PQeV0-nCtV1tskabS-SRdAZityT5HCB_Lmg0zrCPjqLaXMXoOXfO2msCQzAbT13SLGGc39BuTP9qEYlmZPAHh-Gt8IcUI6oeFAEvMQ7-I6mVU6U5ts7acd3pPUobmUR9JY54MYDNriRtrrQ3tfx3X3z0CJ427Bc5VC5oB1ocLoLamUDL1I7Jn6umerv8CDGkHKOliIhdZn2g7Cu6JHqmpopFHHqy0DAk3mPO08wi4tkzt8lEVsH1drH129Mu91FK9wTXb6cZuuyax_kkaymcaKobqcOB8hrfywt6toff1EjzsP6W56JANjJhTFVj3A3qFHviYLLJnv8pRcOS4iLCkXJwqJhrbXU62fUEySUG9pe0ogUTFQsefUGc9NCxLxAkBgDlwI7jWl45QPKOYfjeFjwu_Sj_xQqHD-yHMCDGPSFF82RloEN9dFTPofG6IzLNfn50xib7NO3haMtLnJVt2tBPKPXN5UCR4eHDT7GQKNnL4J0PT2GGyVoU63Dc9sx1h1CqgWCRinL6uObyPcCTA=="
+  },
+  "no_logged_user": {
+    "user_name": "no_logged_user",
+    "api_key": "gAAAAABfovstk2DTk7vvI6igl8sZcz6DsKwToDxe2PXMGvadZA92P4BiHrFSxt6Fsi0PAJg2TYFt_W8D6nW3NuRjpDfayj6Eag==",
+    "akon_id": "no_logged_user"
+  },
+  "template_job": {
+    "job_id": 1309545,
+    "template_id": 210
+  },
+  "perf_platform": {
+    "email": "qa+performance1+user1@figure-eight.com",
+    "password": "gAAAAABfovstnxxp8qL99gE5vlgeu1kYHUK3-9X4mnxFE_y7zd1TXAFlU1V_Mbl5HX3h8V3pa29IY5Mm0okRjvhFAjGO5ww7_vrV6wHln79aTXF3Qyn73B8=",
+    "api_key": "gAAAAABfovstZ_s58H-Vndnhf0grlmxGQ69gacOsnCOsqWeug9qCA0e-mMYVMQgYqC6BiALA_FwKQOkA37daO40WO58hn7h0kajtN4OAtU7W_svYUGaxvM0=",
+    "jwt_token": "gAAAAABfovstQrdEUK1e5IkLrlu6330D3-eTWoo799sM8lDZc5Q3jZ0WPKOBNTXH0HHVXaT6TwitHV9Q5juoUEfbl5KwOlskOSlnRykfuVwcUcoesSMVxhpOBqg6QooRgJEnP-JZDW0JvLElcYnVdYGZmLd5hWQa0d-Hf9Ry2BOzNS1FLh1KpV51FBTgEv0_2FcxpWuownksk2bWVm4db3HijOV-AUuTRzdf576e7SiH-f4Fuo_KLq3vVby_OKeYAVyrPe9BXdsoRwMGdyXz94z7gv2Le_zOcPtlR9hZjthNRwE6U0ouyHtNHo-6JVTqkOSoHnWs2r6g5u9ndFcE2iYmP8afHQeVsYZbl4vntWVqtXKjJ6rSIv0yw6k2B42AMD_2WmMiG8q9BgHD72oix46gEH1pd_fUzqqhQl1S2RenC9OVhEI2l0fV_bnzeavIM6e2BwHC3o-0TT_ATKgV3sh_2H19VxxDfK_d07NnNRJ0zHKXg1FM4tw3S9xTQyK0u4e2la83SYdcpPG1lcQzmYM_OiFWZfu_MS_ds9z8TghpxGc9VtrEngjYe1-SNMmxOKzOyUtGkJkrIl7qKeS0PRJtCWR4xU1-CdwccETT72a5wibcMSwGxzcB1x8R6MDTxg8ZoS_xdDplw6eDgAN2S3WBvMaSQpo2TA7oPeTs7y-m6-tvoyHfBw67HOMaJD4tN-xYr2D7bK_h_cRZWnF3TJnl9tjLsZ-hll0us8q_jwnMUJyi0o36RytjWCYF_I01abVl7yNtTHuN",
+    "template_job_id": 0,
+    "worker_password": "gAAAAABfovst4toxTibkFJsj-rX7nkw-v32jb9NcwJvhewUums-vL2Xy2zjdFhtirBiQXmQ1-fVvX7UgwYWun6HpJf9Zqs8X-9W_Me3l51Sf0Ct_dU8iW2I=",
+    "teams": [
+      {"id": "3cbb1002-a006-4ddd-a1e4-e1aa357bd8eb"}
+    ]
+  },
+  "perf_platform2": {
+    "email": "qa+performance1+user2@figure-eight.com",
+    "password": "gAAAAABfovstLuQCe9cZwt8K_-XUh6urA7ijjpZm-7VD7ismghdFCkL_S-OCeL18l1LVu2iXGxtyTCVj2QBq2nTLlfw2t_i3f_gDzpekE5mX7ArYX6CxHuE=",
+    "api_key": "gAAAAABfovstjTiVDg98MiOCOSeJdPP9YVeo6yLKgHE7xlJt5qUIZJDsQogjsOV0MROF54cSKGLvkuoTMdL2ajsvggqeUtRNxzTbmRcKeeOg6z3_pvOzKFw=",
+    "jwt_token": "gAAAAABfovstDBaXiPdAdpeL5fgyUUNfrWxhCpzd5eLluAQRyUITeV5YDirHcmSfZeWrU0Wk41PYjkt8e5QeMNmG-CTgFirHYQWP_knkLGVimm6jdQ_MCVSTg8-dFTWrfwrau-QzNYuF_8qOjT71aBWP0AhVhiZNGIymf0xOBNqXUxqgp27aZlmuGSI1fHYE0GpagII5GeSbZteZj_5ewMC2QHhALuIKVbRgxApU0hmBininEn-2iKKmcLR5CbU1PvMON7N7x1ectuUV1rtUxNBUL1KLRqlAvyOAxioplsbOgSQ9IQF_jbSthPo1DnvCCnJokQtEEsRvae2m-jhOp6faZYQglYOgA5UpZEu_2fSUTsP8dRk6KI8XZ7P6b5W53DC5c3NSrd9_rY1jA-GmH-TWkPEnYWyxxvH2ul7IvLMS8ighdJxOlmjrHlHCgbhmGCqu0WVJaQlyOczFbf9he4GahN_DkBr5c1ONft2LDXgw12hlpf1UaA9ZYt0Z8qzvff8xnlNi3dnfSaTOoKbX8bzAa-0Nu2N-7L1S4XXMbqiDd7yBA5UXDGqIMqXA_gA89w9cQ7pOTKhV3akxXnqAsq3fSNgU-pwg9ybs5Ek7zZdoXaQqEd8fgQ0QWdyrghLl1OcI8xasRqB0mTmbuX8bcgk0rC03kDWXa9-NWuqoJTxxzqY3x6mL6Y8rlocNAfiIE6Mk68CtznPK6f-Aj7XInVrjCLk_achd4dLiLZcYvdFm8Zljh5fD-8GxqcZOXWQ6Qh8u9PT-whf70Io6cCrak-B8i-oKsNi-h9JTKf6rKx1Xko6IFkcWeYV_6uIUlCS7fb-6FZ0rKKx5",
+    "template_job_id": 0,
+    "worker_password": "gAAAAABfovsthiW0Xqv9DLUtoB_LAS9ujl6gUVuvcnXYEad6pOJHA8FMCLVWNGvtuH4PLpEtYf7WNj4NO-RAHIe47bf1Xl0-u35aEnz83dInBw5N-Dqii6c="
+  },
+  "test_lidar": {
+    "user_name": "qa+lidar@appen.com",
+    "email": "qa+lidar@appen.com",
+    "api_key": "gAAAAABf3Pe8FeiibtzknkvYPrX2K0ybnrEpCJoCY4a890hijfFCmatX5JqarajmwW5MMpx_jjszvDUlo30en20G5A6EffZ81FfH-WM4ahNywXg1nUKALHk=",
+    "password": "gAAAAABf3PfYLDtZYw_jxPzjoZ8G4XfdahbaU2UKUGwqLoEorNXcyPodbf_d6GP3DVFnpzTvuo1q8Hn6Xozw0XLIQOeo1PsOe1yGd2EY9RJDL-TROKxKD5o=",
+    "teams": [
+      {
+        "id": "12757a95-13ea-423e-b841-3a3eee963277"
+      }
+    ],
+    "akon_id": ""
+  },
+  "no_models": {
+    "user_name": "qa+no_models@appen.com",
+    "email": "qa+no_models@appen.com",
+    "api_key": "gAAAAABf4SXAAbGPWegLR-ZWzO8qDSC9WZcKxDAYiNwDCNkrH_URu4sck5TO271E5F0Xum0YA0U4HUNUTWD_sTJ46kv-4szY8Xs9NAMwDZayCZSzbMQIqM8=",
+    "password": "gAAAAABf4SXaMMddenix2TDRbGzT-tIE08cUZyKmIXmvssVdhu6JrMbdawgng0AicZfFFY9j6CCykFfcfKfoSZaDlza0klog_UcZ9oanJD0QPmkMD1Gy0Q8=",
+    "akon_id": "",
+    "jwt_token": "gAAAAABfovstMmveR-U_vUDVpanlDxb6rLUmnIvIGv4-hNLPEtBipaNLjsBfpiOVQLR8CjO9NdgWfs52GCjDfcCQFZ-3h_JHWA==",
+    "desc": "WF should be enabled, Models should be disabled"
+  },
+  "view_job_ui": {
+   "user_name": "sandbox+test_ui1@figure-eight.com",
+    "email": "sandbox+test_ui1@figure-eight.com",
+    "api_key": "gAAAAABfovst0ITvoCUY2FT1KSN-WixUSKgjwsKfIbom48e2zQicc-cDa2fJaJkywVsgMeDGU1rCHCOu7SjuBplIpJz4uumlGqR8AglvXOtLVrXSqgy5UEY=",
+    "password": "gAAAAABfovstfUERM48ai4NJqeAqeTb0sn477kLSn9ItNkQPH3_lteobLLDnKKfCw4gfdlo1OepLNIHQN40A8kgMu0SU4xoFEBGrKxjcSdQ_pPXnpcfQdbA=",
+    "teams": [
+      {
+        "id": "7b15bbbc-05c2-434e-8427-dbba6c956941",
+        "name": "sandbox+test_ui1@figure-eight.com"
+      }
+    ]
+  },
+  "fair_pay_account": {
+    "user_name": "FairPay User",
+    "email": "fairpay_int@appen.com",
+    "api_key": "gAAAAABf0U3P0jML51fGSDptRNM1zG80tLw3YczIaXQ03ReD4R7cTl83eeLNJKvw2OAHoyaMjJOe3GH3xvanf2H9IzNZN1-6KGUNteBxxB_1a7Y7L-j04vQ=",
+    "password": "gAAAAABf0U13Z1f_WrjHx0RA3Eh-2rl8zVqou8Zmotz2iTRIKf_T5yVvgfzb3ymxB54QW1OHit4_fah51RcfcR1Y5TkjAstpgw==",
+    "teams": [
+      {
+        "id": "170c6412-5ca8-4971-96e3-bc996cec847c"
+      }
+    ],
+    "akon_id": "",
+    "jwt_token": "",
+    "desc": "This user has fair pay enabled"
+  },
+  "fair_pay2_account": {
+    "user_name": "FairPay2 User",
+    "email": "fairpay2_int@appen.com",
+    "api_key": "gAAAAABjRcGpwea7zw1-HEqQx4ATebMWo8lTiABrQjzEjZQ1TJzMdngOGCMxiiVzGw56ihMnQU_FHJffG5thIfAufBNUFOWcdlwp0xTB573kZYB6MfzYDNA=",
+    "password": "gAAAAABjRcG-Gj650uqRUj_49TAHxQmL0YbpOlSRuUCgoS4kEX0G8WnZu8MGcwWLCQezxbm_aaLenhYT2JmPwmRBMSqKaZdvFg==",
+    "teams": [
+      {
+        "id": "83675a99-f629-48bd-8326-3150d70a1b1d"
+      }
+    ],
+    "akon_id": "",
+    "jwt_token": "",
+    "desc": "This user has fair pay 2 enabled"
+  },
+   "test_edit_team": {
+    "user_name": "sandbox+edit_team@appen.com",
+    "email": "sandbox+edit_team@appen.com",
+    "api_key": "gAAAAABf2S3s4qnH7DjORoWOye5UWHcwMEgl-PcB_4DxbHtNIMoYcd9Rmyav1EbJ5OoWz5Xy0FAj6l3dxemjQ6o_jiU5OD8Xf_WG5BWhD-QMdSGtf7UqI9Y=",
+    "password": "gAAAAABf2S4JojHmm1NaCBCH4U-pe7aR5CTX7psOqnVWPutJGPzFqjLW_jLKnReyaC4RnpPodTEFfDrxePX_eTUyZsHaK8eTwZas0R759gWAAWx7gt2GfzE=",
+    "teams": [
+      {
+        "name": "sandbox+edit_team@appen.com",
+        "id": "a08d1d89-d6ce-492b-85e3-8134df8c7977"
+      }
+    ],
+    "desc": "this user is for testing edit team purpose"
+  },
+  "test_tqg": {
+    "user_name": "tq-generator@figure-eight.com",
+    "email": "tq-generator@figure-eight.com",
+    "api_key": "gAAAAABf85u4U53Npr9_AMCIB750zEMNnIjspR1wcKBQVpTzloaCK5aUo6Kh-7gbuALqfSVbpuzGROdgIMTLRibwI3wogkSRIj0YiaAEqQHUcnGvihATagI=",
+    "password": "gAAAAABfPZz2bDDhxniUdIIbC5_4Tg42SpUFXrtz8Dgmba43HUp9totF4X6222moAMXGGxEu8yF8OOBaRAbiQvWbqwq5_YA9Yw==",
+    "teams": [],
+    "akon_id": ""
+  },
+  "test_nda": {
+    "user_name": "qa+nda@appen.com",
+    "email": "qa+nda@appen.com",
+    "api_key": "gAAAAABf82Nqmiy4iO_dipqVWi-u_mbec24u6JZBavib4XuY1vsns-ZeAH2JGnIb1KC04oqWcEozBXV6wd547mtsCwAWhxm5QJ7-KjINrbXurIsCR90PEJQ=",
+    "password": "gAAAAABf82Jc0cNzzkltaM-6jRFuVZuYNbACZx0-t2zYqqhqx6pV_hLMayRRy-0QHvbw8_n5_bZLb-Z6VYomi6ehAm-FTG62JyoDwfwQe8lDvmf0s9ZRyC4=",
+    "teams": [
+      {
+        "id": "50ac495a-dacf-4519-bc38-0ffa3af54d82"
+      }
+    ],
+    "akon_id": ""
+  },
+  "test_sda": {
+    "user_name": "qa+integration_sda@appen.com",
+    "email": "qa+integration_sda@appen.com",
+    "api_key": "gAAAAABgGcURSOJUvqTQUJ_y_09UqOAhUCYsc45Z15akTQl36DcolUOL1QS0naMD3Bnkq5YyD-NdF0HVmi2icIRgUbUGhKldCKiUA35rDNUZP6JE2OVEQfU=",
+    "password": "gAAAAABfovstkYFA95DTh_CY5HiA4Wb4ON8qMpDjGimqsKPmU3D137Tk0EYhXv8EH8vBRpKiX745XB_apdAFr2j54-sxjFR6vJN6hnIVlLzWNlvdn3Muc8Y=",
+    "teams": [
+      {
+        "id": "45f42748-482b-4265-8a8c-73efa872b32b"
+      }
+    ],
+    "akon_id": ""
+  },
+   "adap_integration_users_for_performance": {
+     "user_name": "qa+keycloak+worker1+1@figure-eight.com",
+     "email": "qa+keycloak+worker1+1@figure-eight.com",
+     "password": "gAAAAABgx5vgXHYw_cr8BGTnICc7KhU2tLVpCi3dBP3zAm-5LmYw3ZE91nJmsymYesZtQJFtFzbYHyIr0bepLP2XBk21KI6Btg=="
+  },
+   "test_ac_adap": {
+      "user_name": "ac_adap_user_new@appen.com",
+      "email": "ac_adap_user_new@appen.com",
+      "api_key": "gAAAAABhAfMsImnuQqil7C1AqYk1YXCEFm7fADqtQ2pBFhn1zj994WmQWlRLEL3xJCZyg0fICptG6H929DA_1Ioc2MRnWUiAitAEUFtaVT_ZwSYufUUgOwA=",
+      "password": "gAAAAABfPZz2bDDhxniUdIIbC5_4Tg42SpUFXrtz8Dgmba43HUp9totF4X6222moAMXGGxEu8yF8OOBaRAbiQvWbqwq5_YA9Yw==",
+      "teams": [],
+      "akon_id": ""
+    },
+   "fairpay_flag": {
+      "user_name": "fairpay_flag@figure-eight.com",
+      "email": "fairpay_flag@figure-eight.com",
+      "password": "gAAAAABfovst-QVf6sek-WW3mhNYBoa771GUyKi7w1gQZh191Q_hkOSGSvt6cP4SBPIa7mAHmlp76eUUmgWQQ7R622NeTdkplAHsv-32f92naVhgCMgwFcI=",
+      "api_key": "gAAAAABhwOLNuzwLHAnECtrkRBgGg20RRy6oy_VKEJSWrwEocnC3iUjxbOBA0zQ3VHMd1CZOgs43H-L3C0EaXelK0Dj1Mx58b0tzEldqctQnCBFTwBMsxSY=",
+      "teams": [
+        {
+          "id": "cd4ec4b3-c46c-445f-b5e5-40a13322320e"
+        }
+      ],
+      "desc": "using for testing scenario - turn on/off "
+  },
+  "qf_user":{
+      "user_name": "qa+integration_quality_flow@figure-eight.com",
+      "email": "qa+integration_quality_flow@figure-eight.com",
+      "password": "gAAAAABfovst-QVf6sek-WW3mhNYBoa771GUyKi7w1gQZh191Q_hkOSGSvt6cP4SBPIa7mAHmlp76eUUmgWQQ7R622NeTdkplAHsv-32f92naVhgCMgwFcI=",
+      "api_key": "gAAAAABi_sOa0lE54YcIxjfqGWYJe5uToLXNTSKLiHxBxh2g6CBBCVNu_MzpFjRH1OZzPfGpLovwNlWR-nRUPnYa5sKfnN1kf5vUqiN3hE8Z9FERFIwHx0g=",
+      "default_project":  {
+                        "id": "c87f67ec-8618-4644-8ab8-8f97d8073c94",
+                        "name": "test 0818 01",
+                        "displayId": 712,
+                        "owner": "None",
+                        "ownerId": "None",
+                        "ownerEmail": "None",
+                        "description": "test 0818 01",
+                        "tag": "None",
+                        "status": "ACTIVE",
+                        "unitSegmentType": "UNIT_ONLY",
+                        "teamId": "f8fb3aaf-f3f1-437a-9bb8-170c136e9084",
+                        "createdAt": "2022-08-18T15:05:14.836179Z",
+                        "createdBy": "36404ea2-d71c-4157-b957-24d4a192933e",
+                        "version": 0,
+                        "work_jobs" : ["0d78ddb2-4bd0-4d93-b87f-4d12d7759615", "2e91637f-dd95-4d94-8c07-15b0d10cbfb0", "8d861097-799e-43e6-bc2e-27f2352e8316", "0f360977-d751-4400-9a82-442d411854c6", "69caf2e5-58ad-4351-877f-e376141f55d8"],
+                        "qa_jobs" : ["346f44c2-9d7b-407a-8596-c94c0fb74d2c"],
+                        "units":["0bfda73a-09d1-4282-81d2-b154242e7468", "de4a85e2-36d6-4227-81a6-cd52b6b8fc38"],
+                        "dashboard": {
+                          "projectId": "6bbdfa50-d71e-4ab7-8237-3b750942a22d",
+                          "projectDisplayId": 3153,
+                          "projectName": "Metrics API automation test data (DON'T USE THIS!)",
+                          "progress": [
+                            {
+                              "jobType": "WORK",
+                              "flowId":"0a68ce0f-8629-4733-842e-5ba16494507c",
+                              "cycleNum":0,
+                              "jobId":"0a68ce0f-8629-4733-842e-5ba16494507c",
+                              "notStarted":2,
+                              "underReview":1,
+                              "submitted":25,
+                              "auditing":0,
+                              "total":28,
+                              "complete":89
+                            },
+                            {
+                              "jobType": "WORK",
+                              "flowId":"9d01d0f0-a819-4f18-ae8a-60396ec11e14",
+                              "cycleNum":0,
+                              "jobId":"9d01d0f0-a819-4f18-ae8a-60396ec11e14",
+                              "notStarted":5,
+                              "underReview":9,
+                              "submitted":7,
+                              "auditing":0,
+                              "total":21,
+                              "complete":33
+                            },
+                            {
+                              "jobType": "QA",
+                              "flowId":"9d01d0f0-a819-4f18-ae8a-60396ec11e14",
+                              "cycleNum":1,
+                              "jobId":"bba0e19a-7e09-4c61-9eac-b74d9b8b7706",
+                              "notStarted":0,
+                              "underReview":0,
+                              "submitted":7,
+                              "auditing":0,
+                              "total":7,
+                              "complete":100
+                            },
+                            {
+                              "jobType": "QA",
+                              "flowId":"0a68ce0f-8629-4733-842e-5ba16494507c",
+                              "cycleNum":1,
+                              "jobId":"c4ea5b64-d70f-4954-bff7-3b52079138fc",
+                              "notStarted":2,
+                              "underReview":0,
+                              "submitted":23,
+                              "auditing":0,
+                              "total":25,
+                              "complete":92
+                            },
+                            {
+                              "jobType": "WORK",
+                              "flowId":"424af443-85db-4b93-aa29-de14f6f24aa3",
+                              "cycleNum":0,
+                              "jobId":"424af443-85db-4b93-aa29-de14f6f24aa3",
+                              "notStarted":3,
+                              "underReview":2,
+                              "submitted":13,
+                              "auditing":3,
+                              "total":21,
+                              "complete":61
+                            },
+                            {
+                              "jobType": "QA",
+                              "flowId":"424af443-85db-4b93-aa29-de14f6f24aa3",
+                              "cycleNum":1,
+                              "jobId":"d7a5c64e-9ad5-4692-bd3f-be28bf599aed",
+                              "notStarted":3,
+                              "underReview":0,
+                              "submitted":10,
+                              "auditing":3,
+                              "total":16,
+                              "complete":62
+                            },
+                            {
+                              "jobType": "WORK",
+                              "flowId":"265a3974-becf-4d0d-b3d6-865f7723939e",
+                              "cycleNum":0,
+                              "jobId":"265a3974-becf-4d0d-b3d6-865f7723939e",
+                              "notStarted":2,
+                              "underReview":1,
+                              "submitted":17,
+                              "auditing":0,
+                              "total":20,
+                              "complete":85
+                            },
+                            {
+                              "jobType": "QA",
+                              "flowId":"265a3974-becf-4d0d-b3d6-865f7723939e",
+                              "cycleNum":1,
+                              "jobId":"a39c1cd2-db30-4ddd-a6e9-27a080e7ba3b",
+                              "notStarted":1,
+                              "underReview":0,
+                              "submitted":16,
+                              "auditing":0,
+                              "total":17,
+                              "complete":94
+                            }
+                          ],
+                          "throughput": {
+                            "projectId":"6bbdfa50-d71e-4ab7-8237-3b750942a22d",
+                            "jobId":"",
+                            "timeSlot":"HOURS",
+                            "startTime":"2022-11-01T08:00:00Z",
+                            "endTime":"2022-12-01T04:00:00Z",
+                            "jobType":"WORK",
+                            "efficiency": 24.809,
+                            "judgments": 78,
+                            "numOfContributors": 5,
+                            "timeSlot": "HOURS",
+                            "workRate": 144.981,
+                            "workingHours": 0.538,
+                            "items": {
+                              "sliceIndex": 51,
+                              "slice": "2022-11-03T11:00:00Z",
+                              "avgItems": 5.5,
+                              "efficiency": 20.254,
+                              "maxItems": 8,
+                              "medianItems": 5,
+                              "totalItems": 11
+                            }
+                          },
+                          "overallProjectQuality": {
+                            "approved":32,
+                            "modified":45,
+                            "rejected":15,
+                            "totalSubmittedUnits":190,
+                            "accuracyRate":34.783,
+                            "totalQAedUnits":92
+                          },
+                          "leadingJobStatistics": {
+                            "startTime":"2022-11-01T08:00:00Z",
+                            "endTime":"2022-12-01T04:00:00Z",
+                            "jobList": [
+                              {
+                                "jobId":"424af443-85db-4b93-aa29-de14f6f24aa3",
+                                "templateType":"TRANSCRIPTION",
+                                "approved":2,
+                                "modified":13,
+                                "rejected":0,
+                                "totalSubmittedUnits":18,
+                                "accuracyRate":13.333,
+                                "totalQAedUnits":15,
+                                "ter":100.0,
+                                "wer":70.83,
+                                "ler":0.0,
+                                "tser": 0.0,
+                                "jobTagSummaryList": []
+                              },
+                              {
+                                "jobId":"0a68ce0f-8629-4733-842e-5ba16494507c",
+                                "templateType":"TRANSCRIPTION",
+                                "approved":10,
+                                "modified":5,
+                                "rejected":9,
+                                "totalSubmittedUnits":26,
+                                "accuracyRate":41.667,
+                                "totalQAedUnits":24,
+                                "ter":25.0,
+                                "wer":18.18,
+                                "ler":0.0,
+                                "tser": 0.0,
+                                "jobTagSummaryList": []
+                              },
+                              {
+                                "jobId":"9d01d0f0-a819-4f18-ae8a-60396ec11e14",
+                                "templateType":"TRANSCRIPTION",
+                                "approved":7,
+                                "modified":9,
+                                "rejected":0,
+                                "totalSubmittedUnits":16,
+                                "accuracyRate":43.75,
+                                "totalQAedUnits":16,
+                                "ter":100.0,
+                                "wer":11.9,
+                                "ler":0.0,
+                                "tser": 0.0,
+                                "jobTagSummaryList": []
+                              },
+                              {
+                                "jobId":"265a3974-becf-4d0d-b3d6-865f7723939e",
+                                "templateType":"TRANSCRIPTION",
+                                "approved":7,
+                                "modified":4,
+                                "rejected":6,
+                                "totalSubmittedUnits":18,
+                                "accuracyRate":41.176,
+                                "totalQAedUnits":17,
+                                "ter":23.81,
+                                "wer":23.53,
+                                "ler":0.0,
+                                "tser": 0.0,
+                                "jobTagSummaryList": [
+                                  {
+                                    "tagValue": "<span_a>",
+                                    "frequency": 2,
+                                    "percentage": 40
+                                  },
+                                  {
+                                    "tagValue": "<sad/>",
+                                    "frequency": 2,
+                                    "percentage": 40
+                                  },
+                                  {
+                                    "tagValue": "<laugh/>",
+                                    "frequency": 1,
+                                    "percentage": 20
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "breakdown": {
+                            "jobId": "265a3974-becf-4d0d-b3d6-865f7723939e",
+                            "startTime": "2022-11-01T08:00:00Z",
+                            "endTime": "2022-12-01T04:00:00Z",
+                            "wordErrorList": [
+                              {
+                                "changeType": "CHANGE",
+                                "original": "audio_file_no_12",
+                                "modification": "audio_file_no_12-mod",
+                                "frequency": 1,
+                                "wordDetailList": [
+                                  {
+                                    "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "contributorEmail": "unknown@appen-worker.com",
+                                    "qaContributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "qaContributorEmail": "unknown@appen-worker.com",
+                                    "unitId": "a49c8ec9-4487-492b-b866-e6e40f4e30d3",
+                                    "displayId": "3_12"
+                                  }
+                                ]
+                              },
+                              {
+                                "changeType": "CHANGE",
+                                "original": "audio_file_no_6",
+                                "modification": "audio_file_no_6-mod",
+                                "frequency": 1,
+                                "wordDetailList": [
+                                  {
+                                    "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "contributorEmail": "unknown@appen-worker.com",
+                                    "qaContributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "qaContributorEmail": "unknown@appen-worker.com",
+                                    "unitId": "13c19db4-07da-4178-b73a-43462239d6cc",
+                                    "displayId": "3_6"
+                                  }
+                                ]
+                              },
+                              {
+                                "changeType": "CHANGE",
+                                "original": "audio_file_no_14",
+                                "modification": "audio_file_no_14-mod",
+                                "frequency": 1,
+                                "wordDetailList": [
+                                  {
+                                    "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "contributorEmail": "unknown@appen-worker.com",
+                                    "qaContributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "qaContributorEmail": "unknown@appen-worker.com",
+                                    "unitId": "4a07cb6f-96db-4753-8ecd-7f289487018e",
+                                    "displayId": "3_14"
+                                  }
+                                ]
+                              },
+                              {
+                                "changeType": "CHANGE",
+                                "original": "audio_file_no_4",
+                                "modification": "audio_mod_file_no_4",
+                                "frequency": 1,
+                                "wordDetailList": [
+                                  {
+                                    "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "contributorEmail": "unknown@appen-worker.com",
+                                    "qaContributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "qaContributorEmail": "unknown@appen-worker.com",
+                                    "unitId": "a8b5dd78-525f-477b-90dd-94994f4718e7",
+                                    "displayId": "3_4"
+                                  }
+                                ]
+                              }
+                            ],
+                            "tagErrorList": [
+                              {
+                                "tagValue": "<span_a>",
+                                "changeType": "INSERT",
+                                "frequency": 2,
+                                "tagDetailList": [
+                                  {
+                                    "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "contributorEmail": "unknown@appen-worker.com",
+                                    "qaContributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "qaContributorEmail": "unknown@appen-worker.com",
+                                    "original": "-",
+                                    "modification": "<span_a>mod</span_a>",
+                                    "unitId": "a49c8ec9-4487-492b-b866-e6e40f4e30d3",
+                                    "displayId": "3_12"
+                                  },
+                                  {
+                                    "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "contributorEmail": "unknown@appen-worker.com",
+                                    "qaContributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "qaContributorEmail": "unknown@appen-worker.com",
+                                    "original": "-",
+                                    "modification": "<span_a>audio</span_a>",
+                                    "unitId": "270d365b-4b68-46ef-b026-2b2d5066306e",
+                                    "displayId": "3_9"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagValue": "<sad/>",
+                                "changeType": "INSERT",
+                                "frequency": 2,
+                                "tagDetailList": [
+                                  {
+                                    "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "contributorEmail": "unknown@appen-worker.com",
+                                    "qaContributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "qaContributorEmail": "unknown@appen-worker.com",
+                                    "original": "-",
+                                    "modification": "<sad/>",
+                                    "unitId": "4a07cb6f-96db-4753-8ecd-7f289487018e",
+                                    "displayId": "3_14"
+                                  },
+                                  {
+                                    "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "contributorEmail": "unknown@appen-worker.com",
+                                    "qaContributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "qaContributorEmail": "unknown@appen-worker.com",
+                                    "original": "-",
+                                    "modification": "<sad/>",
+                                    "unitId": "3e16c079-a592-4272-9881-cb21af6b5760",
+                                    "displayId": "3_3"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagValue": "<laugh/>",
+                                "changeType": "INSERT",
+                                "frequency": 1,
+                                "tagDetailList": [
+                                  {
+                                    "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "contributorEmail": "unknown@appen-worker.com",
+                                    "qaContributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                    "qaContributorEmail": "unknown@appen-worker.com",
+                                    "original": "-",
+                                    "modification": "<laugh/>",
+                                    "unitId": "741d8ee4-f2a3-4900-a712-b8c914d0e8b1",
+                                    "displayId": "3_5"
+                                  }
+                                ]
+                              }
+                            ],
+                            "labelErrorRate": {
+                              "jobId": "878168b3-591d-4438-9092-15837981717f",
+                              "startTime": "2022-12-11T08:00:00Z",
+                              "endTime": "2022-12-12T07:00:00Z",
+                              "labelErrorList": [
+                                {
+                                  "changeType": "DELETE",
+                                  "original": "Speaker A",
+                                  "modification": "-",
+                                  "frequency": 2,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                      "contributorEmail": "unknown@appen-worker.com",
+                                      "qaContributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "qaContributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "unitId": "e3abef92-3536-4018-b979-5df90b6eee64",
+                                      "displayId": "4_3"
+                                    },
+                                    {
+                                      "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                      "contributorEmail": "unknown@appen-worker.com",
+                                      "qaContributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "qaContributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "unitId": "2b4f9e43-8454-44a2-9550-83aa69d8ad1c",
+                                      "displayId": "4_4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "changeType": "CHANGE",
+                                  "original": "Speaker B",
+                                  "modification": "Speaker A",
+                                  "frequency": 2,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                      "contributorEmail": "unknown@appen-worker.com",
+                                      "qaContributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "qaContributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "unitId": "5cf08b22-1585-497c-a78d-d74a5c6c70d6",
+                                      "displayId": "4_10"
+                                    },
+                                    {
+                                      "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                      "contributorEmail": "unknown@appen-worker.com",
+                                      "qaContributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "qaContributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "unitId": "97c08140-87b9-437d-b442-4235ec2ac7b3",
+                                      "displayId": "4_5"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "changeType": "DELETE",
+                                  "original": "Dictator B",
+                                  "modification": "-",
+                                  "frequency": 1,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                      "contributorEmail": "unknown@appen-worker.com",
+                                      "qaContributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "qaContributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "unitId": "2b4f9e43-8454-44a2-9550-83aa69d8ad1c",
+                                      "displayId": "4_4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "changeType": "CHANGE",
+                                  "original": "Speaker A Dictator A",
+                                  "modification": "Speaker B Dictator B",
+                                  "frequency": 1,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                      "contributorEmail": "unknown@appen-worker.com",
+                                      "qaContributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "qaContributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "unitId": "2de68c10-076d-4bda-a2cf-7be41b4c8818",
+                                      "displayId": "4_1"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "changeType": "DELETE",
+                                  "original": "Dictator A",
+                                  "modification": "-",
+                                  "frequency": 1,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                      "contributorEmail": "unknown@appen-worker.com",
+                                      "qaContributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "qaContributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "unitId": "b8d0c3fe-a3c3-49e5-a520-1b24eb05f95d",
+                                      "displayId": "4_2"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "changeType": "INSERT",
+                                  "original": "-",
+                                  "modification": "Dictator B",
+                                  "frequency": 1,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                      "contributorEmail": "unknown@appen-worker.com",
+                                      "qaContributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "qaContributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "unitId": "97c08140-87b9-437d-b442-4235ec2ac7b3",
+                                      "displayId": "4_5"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "changeType": "INSERT",
+                                  "original": "-",
+                                  "modification": "Dictator A",
+                                  "frequency": 1,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "36404ea2-d71c-4157-b957-24d4a192933e",
+                                      "contributorEmail": "unknown@appen-worker.com",
+                                      "qaContributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "qaContributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "unitId": "e3abef92-3536-4018-b979-5df90b6eee64",
+                                      "displayId": "4_3"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "ReviewJobStatistics": {
+                            "startTime":"2022-11-01T08:00:00Z",
+                            "endTime":"2023-01-04T04:00:00Z",
+                            "jobList": [
+                              {
+                                "jobId":"bba0e19a-7e09-4c61-9eac-b74d9b8b7706",
+                                "templateType":"TRANSCRIPTION",
+                                "approved":7,
+                                "modified":9,
+                                "rejected":0,
+                                "totalSubmittedUnits":16,
+                                "accuracyRate":43.75,
+                                "totalQAedUnits":16,
+                                "ter":100.0,
+                                "wer":11.9,
+                                "ler":0.0,
+                                "tser": 0.0,
+                                "jobTagSummaryList": []
+                              },
+                              {
+                                "jobId":"d7a5c64e-9ad5-4692-bd3f-be28bf599aed",
+                                "templateType":"TRANSCRIPTION",
+                                "approved":2,
+                                "modified":13,
+                                "rejected":0,
+                                "totalSubmittedUnits":15,
+                                "accuracyRate":13.333,
+                                "totalQAedUnits":15,
+                                "ter":100.0,
+                                "wer":70.83,
+                                "ler":0.0,
+                                "tser": 0.0,
+                                "jobTagSummaryList": []
+                              },
+                              {
+                                "jobId":"a39c1cd2-db30-4ddd-a6e9-27a080e7ba3b",
+                                "templateType":"TRANSCRIPTION",
+                                "approved":7,
+                                "modified":4,
+                                "rejected":6,
+                                "totalSubmittedUnits":17,
+                                "accuracyRate":41.176,
+                                "totalQAedUnits":17,
+                                "ter":9.52,
+                                "wer":23.53,
+                                "ler":0.0,
+                                "tser": 0.0,
+                                "jobTagSummaryList": []
+                              },
+                              {
+                                "jobId":"c4ea5b64-d70f-4954-bff7-3b52079138fc",
+                                "templateType":"TRANSCRIPTION",
+                                "approved":10,
+                                "modified":5,
+                                "rejected":9,
+                                "totalSubmittedUnits":24,
+                                "accuracyRate":41.667,
+                                "totalQAedUnits":24,
+                                "ter":0.0,
+                                "wer":7.58,
+                                "ler":0.0,
+                                "tser": 0.0,
+                                "jobTagSummaryList": []
+                              },
+                              {
+                                "jobId":"c5cc44a1-1d90-48d6-9740-0ccbe3e5b6d8",
+                                "templateType":"TRANSCRIPTION",
+                                "approved":4,
+                                "modified":6,
+                                "rejected":0,
+                                "totalSubmittedUnits":10,
+                                "accuracyRate":40,
+                                "totalQAedUnits":10,
+                                "ter":0.0,
+                                "wer":0.0,
+                                "ler":38.46,
+                                "tser": 0.0,
+                                "jobTagSummaryList": []
+                              },
+                              {
+                                "jobId":"41ad09c3-5c9e-48e4-ada6-4bec8141e70f",
+                                "templateType":"TRANSCRIPTION",
+                                "approved":2,
+                                "modified":8,
+                                "rejected":0,
+                                "totalSubmittedUnits":10,
+                                "accuracyRate":20,
+                                "totalQAedUnits":10,
+                                "ter":71.43,
+                                "wer":26.09,
+                                "ler":52.0,
+                                "tser": 0.0,
+                                "jobTagSummaryList": [
+                                  {
+                                    "tagValue": "<span_a>",
+                                    "frequency": 4,
+                                    "percentage": 40
+                                  },
+                                  {
+                                    "tagValue": "<laugh/>",
+                                    "frequency": 2,
+                                    "percentage": 20
+                                  },
+                                  {
+                                    "tagValue": "<span_b>",
+                                    "frequency": 2,
+                                    "percentage": 20
+                                  },
+                                  {
+                                    "tagValue": "<sad/>",
+                                    "frequency": 1,
+                                    "percentage": 10
+                                  },
+                                  {
+                                    "tagValue": "<span_c>",
+                                    "frequency": 1,
+                                    "percentage": 10
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "ReviewBreakdown": {
+                            "jobId": "41ad09c3-5c9e-48e4-ada6-4bec8141e70f",
+                            "startTime": "2023-01-01T08:00:00Z",
+                            "endTime": "2023-01-04T04:00:00Z",
+                            "wordErrorList": [
+                              {
+                                "changeType": "INSERT",
+                                "original": "-",
+                                "modification": "mod",
+                                "frequency": 3,
+                                "wordDetailList": [
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "unitId": "391faab3-fd01-4e39-8a19-c2f7042727bd",
+                                    "displayId": "5_5"
+                                  },
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "unitId": "d8b92ed9-996f-4e88-83d3-b56b9da8753c",
+                                    "displayId": "5_7"
+                                  },
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "unitId": "b2858d20-6191-43a9-aea1-6d6994910e9c",
+                                    "displayId": "5_9"
+                                  }
+                                ]
+                              },
+                              {
+                                "changeType": "CHANGE",
+                                "original": "audio_file_no_4",
+                                "modification": "audio__no_4 mod",
+                                "frequency": 1,
+                                "wordDetailList": [
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "unitId": "aa312e38-a7d9-4d3e-8219-6c4ff2966ea7",
+                                    "displayId": "5_4"
+                                  }
+                                ]
+                              },
+                              {
+                                "changeType": "CHANGE",
+                                "original": "file",
+                                "modification": "files",
+                                "frequency": 1,
+                                "wordDetailList": [
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "unitId": "a9173ffc-631d-4ac5-b861-d5fe0c87761e",
+                                    "displayId": "5_8"
+                                  }
+                                ]
+                              }
+                            ],
+                            "tagErrorList": [
+                              {
+                                "tagValue": "<span_a>",
+                                "changeType": "INSERT",
+                                "frequency": 2,
+                                "tagDetailList": [
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "original": "-",
+                                    "modification": "<span_a>audio</span_a>",
+                                    "unitId": "391faab3-fd01-4e39-8a19-c2f7042727bd",
+                                    "displayId": "5_5"
+                                  },
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "original": "-",
+                                    "modification": "<span_a>10</span_a>",
+                                    "unitId": "a223d3c1-5df7-473f-b3e0-10f91f3cc89b",
+                                    "displayId": "5_10"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagValue": "<span_b>",
+                                "changeType": "DELETE",
+                                "frequency": 1,
+                                "tagDetailList": [
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "original": "<span_b>audio</span_b>",
+                                    "modification": "-",
+                                    "unitId": "ae7203d1-d3e6-4d13-8cf5-81d834014f47",
+                                    "displayId": "5_1"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagValue": "<span_b>",
+                                "changeType": "CHANGE",
+                                "frequency": 1,
+                                "tagDetailList": [
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "original": "<span_b>7</span_b>",
+                                    "modification": "<span_c>7</span_c>",
+                                    "unitId": "d8b92ed9-996f-4e88-83d3-b56b9da8753c",
+                                    "displayId": "5_7"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagValue": "<laugh/>",
+                                "changeType": "INSERT",
+                                "frequency": 1,
+                                "tagDetailList": [
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "original": "-",
+                                    "modification": "<laugh/>",
+                                    "unitId": "a69c5d2f-3f2c-4c18-a146-4c68b5f4937c",
+                                    "displayId": "5_6"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagValue": "<laugh/>",
+                                "changeType": "DELETE",
+                                "frequency": 1,
+                                "tagDetailList": [
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "original": "<laugh/>",
+                                    "modification": "-",
+                                    "unitId": "a223d3c1-5df7-473f-b3e0-10f91f3cc89b",
+                                    "displayId": "5_10"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagValue": "<span_c>",
+                                "changeType": "INSERT",
+                                "frequency": 1,
+                                "tagDetailList": [
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "original": "-",
+                                    "modification": "<span_c>no_5</span_c>",
+                                    "unitId": "391faab3-fd01-4e39-8a19-c2f7042727bd",
+                                    "displayId": "5_5"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagValue": "<span_a>",
+                                "changeType": "CHANGE",
+                                "frequency": 1,
+                                "tagDetailList": [
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "original": "<span_a>audio</span_a>",
+                                    "modification": "<span_b>audio</span_b>",
+                                    "unitId": "b2858d20-6191-43a9-aea1-6d6994910e9c",
+                                    "displayId": "5_9"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagValue": "<span_a>",
+                                "changeType": "DELETE",
+                                "frequency": 1,
+                                "tagDetailList": [
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "original": "<span_a>audio</span_a>",
+                                    "modification": "-",
+                                    "unitId": "a9173ffc-631d-4ac5-b861-d5fe0c87761e",
+                                    "displayId": "5_8"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagValue": "<sad/>",
+                                "changeType": "INSERT",
+                                "frequency": 1,
+                                "tagDetailList": [
+                                  {
+                                    "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                    "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                    "qaContributorId": null,
+                                    "qaContributorEmail": null,
+                                    "original": "-",
+                                    "modification": "<sad/>",
+                                    "unitId": "ae7203d1-d3e6-4d13-8cf5-81d834014f47",
+                                    "displayId": "5_1"
+                                  }
+                                ]
+                              }
+                            ],
+                            "labelErrorList": [
+                                {
+                                  "changeType": "DELETE",
+                                  "original": "Dictator A",
+                                  "modification": "-",
+                                  "frequency": 3,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "qaContributorId": null,
+                                      "qaContributorEmail": null,
+                                      "unitId": "391faab3-fd01-4e39-8a19-c2f7042727bd",
+                                      "displayId": "5_5"
+                                    },
+                                    {
+                                      "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "qaContributorId": null,
+                                      "qaContributorEmail": null,
+                                      "unitId": "d8b92ed9-996f-4e88-83d3-b56b9da8753c",
+                                      "displayId": "5_7"
+                                    },
+                                    {
+                                      "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "qaContributorId": null,
+                                      "qaContributorEmail": null,
+                                      "unitId": "a223d3c1-5df7-473f-b3e0-10f91f3cc89b",
+                                      "displayId": "5_10"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "changeType": "INSERT",
+                                  "original": "-",
+                                  "modification": "Speaker B",
+                                  "frequency": 2,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "qaContributorId": null,
+                                      "qaContributorEmail": null,
+                                      "unitId": "d8b92ed9-996f-4e88-83d3-b56b9da8753c",
+                                      "displayId": "5_7"
+                                    },
+                                    {
+                                      "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "qaContributorId": null,
+                                      "qaContributorEmail": null,
+                                      "unitId": "b2858d20-6191-43a9-aea1-6d6994910e9c",
+                                      "displayId": "5_9"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "changeType": "INSERT",
+                                  "original": "-",
+                                  "modification": "Speaker A",
+                                  "frequency": 2,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "qaContributorId": null,
+                                      "qaContributorEmail": null,
+                                      "unitId": "391faab3-fd01-4e39-8a19-c2f7042727bd",
+                                      "displayId": "5_5"
+                                    },
+                                    {
+                                      "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "qaContributorId": null,
+                                      "qaContributorEmail": null,
+                                      "unitId": "d8b92ed9-996f-4e88-83d3-b56b9da8753c",
+                                      "displayId": "5_7"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "changeType": "DELETE",
+                                  "original": "Speaker A",
+                                  "modification": "-",
+                                  "frequency": 2,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "qaContributorId": null,
+                                      "qaContributorEmail": null,
+                                      "unitId": "d8b92ed9-996f-4e88-83d3-b56b9da8753c",
+                                      "displayId": "5_7"
+                                    },
+                                    {
+                                      "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "qaContributorId": null,
+                                      "qaContributorEmail": null,
+                                      "unitId": "a223d3c1-5df7-473f-b3e0-10f91f3cc89b",
+                                      "displayId": "5_10"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "changeType": "CHANGE",
+                                  "original": "Dictator B",
+                                  "modification": "Dictator A",
+                                  "frequency": 1,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "qaContributorId": null,
+                                      "qaContributorEmail": null,
+                                      "unitId": "a9173ffc-631d-4ac5-b861-d5fe0c87761e",
+                                      "displayId": "5_8"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "changeType": "INSERT",
+                                  "original": "-",
+                                  "modification": "Dictator A",
+                                  "frequency": 1,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "qaContributorId": null,
+                                      "qaContributorEmail": null,
+                                      "unitId": "d8b92ed9-996f-4e88-83d3-b56b9da8753c",
+                                      "displayId": "5_7"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "changeType": "CHANGE",
+                                  "original": "Speaker B",
+                                  "modification": "Speaker A",
+                                  "frequency": 1,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "qaContributorId": null,
+                                      "qaContributorEmail": null,
+                                      "unitId": "aa312e38-a7d9-4d3e-8219-6c4ff2966ea7",
+                                      "displayId": "5_4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "changeType": "DELETE",
+                                  "original": "Speaker B",
+                                  "modification": "-",
+                                  "frequency": 1,
+                                  "labelDetailList": [
+                                    {
+                                      "contributorId": "7223a092-194f-424d-9375-285ec8c28de7",
+                                      "contributorEmail": "integration+ezqa4@figure-eight.com",
+                                      "qaContributorId": null,
+                                      "qaContributorEmail": null,
+                                      "unitId": "d8b92ed9-996f-4e88-83d3-b56b9da8753c",
+                                      "displayId": "5_7"
+                                    }
+                                  ]
+                                }
+                              ]
+                          },
+                          "performance": {
+                            "startTime":"2022-11-01T08:00:00Z",
+                            "endTime":"2022-12-01T04:00:00Z",
+                            "contributorList": [
+                              {
+                                "contributorId":"7223a092-194f-424d-9375-285ec8c28de7",
+                                "email":"integration+ezqa4@figure-eight.com",
+                                "submittedRows":16,
+                                "workRate":137.931,
+                                "efficiency":26.063,
+                                "accuracyRate":null,
+                                "ter":0.0,
+                                "wer":0.0,
+                                "ler": 0.0,
+                                "tser": 0.0
+                              },
+                              {
+                                "contributorId":"4143c4db-e997-44a2-8b51-883627176c8b",
+                                "email":"integration+ez4@figure-eight.com",
+                                "submittedRows":2,
+                                "workRate":31.25,
+                                "efficiency":115.557,
+                                "accuracyRate":0.0,
+                                "ter":100.0,
+                                "wer":0.0,
+                                "ler": 0.0,
+                                "tser": 0.0
+                              },
+                              {
+                                "contributorId":"f37eaac4-ef98-4b62-8247-c7a27faff1e1",
+                                "email":"integration+ez@figure-eight.com",
+                                "submittedRows":16,
+                                "workRate":271.186,
+                                "efficiency":13.274,
+                                "accuracyRate":50.0,
+                                "ter":100.0,
+                                "wer":13.16,
+                                "ler": 0.0,
+                                "tser": 0.0
+                              },
+                              {
+                                "contributorId":"e3d7d0b4-ea87-4a23-8a0f-f97365e1a3ad",
+                                "email":"integration+ez3@figure-eight.com",
+                                "submittedRows":6,
+                                "workRate":352.941,
+                                "efficiency":10.279,
+                                "accuracyRate":33.333,
+                                "ter":100.0,
+                                "wer":50.0,
+                                "ler": 0.0,
+                                "tser": 0.0
+                              }
+                            ]
+                          },
+                          "QaCheckerBehavior": {
+                            "startTime":"2022-11-01T08:00:00Z",
+                            "endTime":"2022-12-01T04:00:00Z",
+                            "contributorList": [
+                              {
+                                "contributorId":"7223a092-194f-424d-9375-285ec8c28de7",
+                                "email":"integration+ezqa4@figure-eight.com",
+                                "qaedUnits":16,
+                                "acceptedUnits":7,
+                                "acceptedRate":43.75,
+                                "modifiedUnits":9,
+                                "modifiedRate":56.25,
+                                "rejectedUnits":0,
+                                "rejectedRate":0.0
+                              },
+                              {
+                                "contributorId":"9ef1ff27-0f0b-4768-9e17-f9b001e46552",
+                                "email":"integration+ez6@figure-eight.com",
+                                "qaedUnits":3,
+                                "acceptedUnits":1,
+                                "acceptedRate":33.333,
+                                "modifiedUnits":2,
+                                "modifiedRate":66.667,
+                                "rejectedUnits":0,
+                                "rejectedRate":0.0
+                              },
+                              {
+                                "contributorId":"4aba9f5e-8a7f-4354-8677-597bca79f396",
+                                "email":"integration+ez7@figure-eight.com",
+                                "qaedUnits":12,
+                                "acceptedUnits":1,
+                                "acceptedRate":8.333,
+                                "modifiedUnits":11,
+                                "modifiedRate":91.667,
+                                "rejectedUnits":0,
+                                "rejectedRate":0.0
+                              },
+                              {
+                                "contributorId":"36404ea2-d71c-4157-b957-24d4a192933e",
+                                "email":"unknown@appen-worker.com",
+                                "qaedUnits":41,
+                                "acceptedUnits":17,
+                                "acceptedRate":41.463,
+                                "modifiedUnits":9,
+                                "modifiedRate":21.951,
+                                "rejectedUnits":15,
+                                "rejectedRate":36.585
+                              }
+                            ]
+                          },
+                          "feedback": {
+                            "summary": {
+                              "disputedUnits": 3,
+                              "pendingUnits": 12,
+                              "resolvedUnits": 10,
+                              "totalFeedbackUnits": 25
+                            },
+                            "units": {
+                              "units_filter": {
+                                "totalElements": 1,
+                                "secondaryColumnFields": null,
+                                "lastRow": 0,
+                                "items": {
+                                  "rowId": 0,
+                                  "unitId": "3dfec543-948b-4e6c-8b6a-b6d68d23ca33",
+                                  "unitDisplayId": "2_13",
+                                  "jobAlias": "W44545",
+                                  "jobStatus": "QA | MODIFIED",
+                                  "lastAnnotatorExternalId": "1298220",
+                                  "feedbackStatus": "RESOLVED",
+                                  "jobTitle": "Metrics API automation test data (DON'T USE THIS!) work job C1 FL"
+                                }
+                              },
+                              "units_query": {
+                                "totalElements": 11,
+                                "secondaryColumnFields": null,
+                                "lastRow": 0,
+                                "items": {
+                                  "rowId": 9,
+                                  "unitId": "1309c8e3-106f-4036-b3cb-7d0f060dc141",
+                                  "unitDisplayId": "1_47",
+                                  "jobAlias": "W36746",
+                                  "jobStatus": "JUDGEABLE",
+                                  "lastAnnotatorExternalId": "1298218",
+                                  "feedbackStatus": "NEW",
+                                  "jobTitle": "Metrics API automation test data (DON'T USE THIS!) work job B1"
+                                }
+                              },
+                              "units_invalid": {
+                                  "totalElements": 0,
+                                  "secondaryColumnFields": null,
+                                  "lastRow": 0,
+                                  "lastAnnotatorExternalId": "1297493",
+                                  "items": []
+                              }
+                            }
+                          }
+                        },
+                        "jobs": {
+                          "filter": {
+                            "filterModel_1": {
+                              "unitDisplayId": {
+                                "filter": "1_1.",
+                                "filterType": "text",
+                                "type": "regex"
+                              }
+                            },
+                            "queryString_1": "1_10"
+                          }
+                        }
+                      },
+      "default_segmented_project": {
+                        "id": "2283a48e-5b80-4669-9957-76ed4a810caa",
+                        "name": "automation test segmented project",
+                        "displayId": 5309,
+                        "owner": "None",
+                        "ownerId": "None",
+                        "ownerEmail": "None",
+                        "description": "automation test segmented project description",
+                        "tag": "None",
+                        "status": "ACTIVE",
+                        "unitSegmentType": "SEGMENTED",
+                        "teamId": "f8fb3aaf-f3f1-437a-9bb8-170c136e9084",
+                        "createdAt": "2023-01-10T12:38:20.711993",
+                        "createdBy": "36404ea2-d71c-4157-b957-24d4a192933e",
+                        "version": 0,
+                        "work_jobs" : ["cf098de7-deca-4f18-976e-9f9e9f55ca2d", "9ded64f1-511d-4039-bc38-4fdd18988546"],
+                        "work_job_alias" : ["W64977", "W66518"],
+                        "curatedCrowd": {
+                          "ac_project_info": {
+                            "AC_Project_ID": "15303",
+                            "AC_Project_Name": "Quality_Flow_006",
+                            "Number_of_Users_by_ALL": 9
+                          },
+                          "contributors": [
+                            {
+                              "contributorId": "f37eaac4-ef98-4b62-8247-c7a27faff1e1",
+                              "country": "CHN",
+                              "emailAddress": "integration+ez@figure-eight.com",
+                              "externalId": "1297493"
+                            },
+                            {
+                              "contributorId": "0af3770d-4c13-415f-b617-4c3dcbce4aa1",
+                              "country": "AUS",
+                              "emailAddress": "integration+ez2@figure-eight.com",
+                              "externalId": "1298117"
+                            },
+                            {
+                              "contributorId": "e3d7d0b4-ea87-4a23-8a0f-f97365e1a3ad",
+                              "country": "AUS",
+                              "emailAddress": "integration+ez3@figure-eight.com",
+                              "externalId": "1298120"
+                            },
+                            {
+                              "contributorId": "4143c4db-e997-44a2-8b51-883627176c8b",
+                              "country": "AUS",
+                              "emailAddress": "integration+ez4@figure-eight.com",
+                              "externalId": "1298218"
+                            }
+                          ]
+                        }
+      },
+      "curated_crowd_subject_api_test":{
+        "ac_project_info_1": {
+          "AC_Project_ID": "17192",
+          "AC_Project_Name": "Quality_Flow_010",
+          "Number_of_Users_by_ALL": 6,
+          "Number_of_Users_by_Locale": {
+            "locales": {
+              "cmn_*": "cmn_*"
+            },
+            "number_of_users": 2
+          },
+          "Number_of_Users_by_Locale_Modified": {
+            "locales": {
+              "cmn_*": "cmn_*",
+              "eng_*": "eng_*"
+            },
+            "number_of_users": 6
+          },
+          "Number_of_Users_by_Group": {
+            "groups": {
+              "ALL USERS": "ALL USERS"
+            },
+            "number_of_users": 6
+          },
+          "pay_rates_info": [
+            "Annotation",
+            "DEFAULT"
+          ],
+          "Contributors_by_job_type": {
+            "jobType_Work": [
+              "b8d8b222-0783-4434-8267-0bde78bd37df",
+              "bdbf2a3d-42c7-4bcb-9fe8-508331adc511",
+              "341cb20d-b4ec-4872-a9c8-0a3269d4b12b",
+              "58f4bd35-7446-4ada-8283-5c9138ae6edc"
+            ],
+            "jobType_QA": [
+              "c1480393-1922-4b84-adc5-5ef89e3d0e3d",
+              "ee753f6f-8776-4834-9920-69add6b78a7c",
+              "66c9f0e8-672b-476c-8ecf-c37a304ab12e"
+            ]
+          }
+        },
+        "ac_project_info_2": {
+          "AC_Project_ID": "17193",
+          "AC_Project_Name": "Quality_Flow_011",
+          "Number_of_Users_by_ALL": 1,
+          "pay_rates_info": [
+            "Annotation",
+            "DEFAULT"
+          ]
+        },
+        "ac_project_info_3": {
+          "AC_Project_ID": "15384",
+          "AC_Project_Name": "Quality_Flow_009",
+          "Number_of_Users_by_ALL": 7,
+          "Number_of_Users_by_filter": 5,
+          "Number_of_Users_by_query_email": 1,
+          "Number_of_Users_by_query_id": 1,
+          "Number_of_Users_by_query_substring": 0,
+          "pay_rates_info": [
+            "DEFAULT"
+          ],
+          "contributors": [
+            {
+              "contributorId": "f37eaac4-ef98-4b62-8247-c7a27faff1e1",
+              "country": "CHN",
+              "emailAddress": "integration+ez@figure-eight.com",
+              "externalId": "1297493"
+            },
+            {
+              "contributorId": "0af3770d-4c13-415f-b617-4c3dcbce4aa1",
+              "country": "AUS",
+              "emailAddress": "integration+ez2@figure-eight.com",
+              "externalId": "1298117"
+            },
+            {
+              "contributorId": "e3d7d0b4-ea87-4a23-8a0f-f97365e1a3ad",
+              "country": "AUS",
+              "emailAddress": "integration+ez3@figure-eight.com",
+              "externalId": "1298120"
+            },
+            {
+              "contributorId": "4143c4db-e997-44a2-8b51-883627176c8b",
+              "country": "AUS",
+              "emailAddress": "integration+ez4@figure-eight.com",
+              "externalId": "1298218"
+            },
+            {
+              "contributorId": "58949063-b57a-4744-871d-d15d7c9f7bf3",
+              "country": "USA",
+              "emailAddress": "integration+ezqa1@figure-eight.com",
+              "externalId": "1298225"
+            },
+            {
+              "contributorId": "583f9fe7-a302-40d2-99a2-ce8dfefabed3",
+              "country": "AUS",
+              "emailAddress": "integration+ezqa2@figure-eight.com",
+              "externalId": "1298226"
+            },
+            {
+              "contributorId": "a98f32d0-d30c-43dd-bc75-5a4998a03615",
+              "country": "AUS",
+              "emailAddress": "integration+ezqa3@figure-eight.com",
+              "externalId": "1298227"
+            }
+          ],
+          "filterModel_1": {
+            "filterModel": {
+              "country": {
+                "values": ["AUS"],
+                "filterType": "TEXT",
+                "criteria": "equals"
+              },
+              "language": {
+                "values": ["eng"],
+                "filterType": "TEXT",
+                "criteria": "equals"
+              },
+              "dialect": {
+                "values": ["eng_.*"],
+                "filterType": "TEXT",
+                "criteria": "regex"
+              }
+            },
+            "filterResult": [
+              {
+                "contributorId": "0af3770d-4c13-415f-b617-4c3dcbce4aa1",
+                "country": "AUS",
+                "emailAddress": "integration+ez2@figure-eight.com",
+                "externalId": "1298117"
+              },
+              {
+                "contributorId": "e3d7d0b4-ea87-4a23-8a0f-f97365e1a3ad",
+                "country": "AUS",
+                "emailAddress": "integration+ez3@figure-eight.com",
+                "externalId": "1298120"
+              },
+              {
+                "contributorId": "4143c4db-e997-44a2-8b51-883627176c8b",
+                "country": "AUS",
+                "emailAddress": "integration+ez4@figure-eight.com",
+                "externalId": "1298218"
+              },
+              {
+                "contributorId": "583f9fe7-a302-40d2-99a2-ce8dfefabed3",
+                "country": "AUS",
+                "emailAddress": "integration+ezqa2@figure-eight.com",
+                "externalId": "1298226"
+              },
+              {
+                "contributorId": "a98f32d0-d30c-43dd-bc75-5a4998a03615",
+                "country": "AUS",
+                "emailAddress": "integration+ezqa3@figure-eight.com",
+                "externalId": "1298227"
+              }
+            ]
+          }
+        },
+        "qf_project_1": {
+          "projectId": "c579cd49-3ebd-411c-986d-ff3f33dd6368",
+          "projectDisplayId": 32833,
+          "projectName": "Curated Crowd API automation test data (DON'T USE THIS!)",
+          "sync_setting_1": {
+            "settingId": "5d433ed8-b20b-48f0-a99b-4acf0e3165ed",
+            "ref_ac_project_info": "ac_project_info_1"
+          },
+          "sync_setting_2": {
+            "settingId": "1df2772a-e59e-4dc9-9994-36aca65072b0",
+            "ref_ac_project_info": "ac_project_info_2"
+          },
+          "sync_setting_3": {
+            "settingId": "65bfb212-cc24-43fb-84b1-d39ebbb06507",
+            "ref_ac_project_info": "ac_project_info_3",
+            "contributorGroups": {
+              "api_auto_crowd_group": "ecc1d00f-be95-4aec-8ac8-90b9d0964d33"
+            }
+          },
+          "flow_1": [
+            {
+              "job_id": "002c6309-af51-45ae-a528-6566376ca700",
+              "ref_sync_setting": "sync_setting_1"
+            },
+            {
+              "job_id": "c7b21041-3146-4679-83c2-006d06463a13",
+              "ref_sync_setting": "sync_setting_2"
+            }
+          ],
+          "flow_2": [
+            {
+              "job_id": "e3a407ee-52e7-4b39-a9a1-8c71a009af1d",
+              "ref_sync_setting": "sync_setting_3"
+            }
+          ],
+          "flow_3": [
+            {
+              "job_id": "49b18d06-1e8c-4d05-b0da-812fe64714ec",
+              "ref_sync_setting": "sync_setting_1"
+            },
+            {
+              "job_id": "982029c7-fc7c-42e8-9eb2-be878bcd8bb0",
+              "ref_sync_setting": "sync_setting_2"
+            }
+          ]
+        }
+      },
+      "teams": [
+        {
+          "id": "f8fb3aaf-f3f1-437a-9bb8-170c136e9084"
+        }
+      ],
+      "desc": "using for quality flow automation tests"
+  },
+  "qf_user_ui":{
+      "user_name": "qa+integration_quality_flow_ui@figure-eight.com",
+      "email": "qa+integration_quality_flow_ui@figure-eight.com",
+      "password": "gAAAAABfovst-QVf6sek-WW3mhNYBoa771GUyKi7w1gQZh191Q_hkOSGSvt6cP4SBPIa7mAHmlp76eUUmgWQQ7R622NeTdkplAHsv-32f92naVhgCMgwFcI=",
+      "api_key": "gAAAAABjN2vPbrGnTmfiM_HKLNxMKoyR28uTTfkzz7DtVJ_6-7WTKDTNYX6KEkTNiLn5ChB6ug34YsZ8sGCurtPlPNQVcxOJknwORZkWqy18slty7LI8rUo=",
+      "download_report_project": {
+              "id":"cf96b4a8-8926-476f-8194-9b2ca71408ef",
+              "name": "Smoke E2E test 2023_01_19 18770"
+              },
+      "teams": [
+        {
+          "id": "5b0b9027-e6cd-45aa-b03f-f5b6e7b8541c"
+        }
+      ]
+  },
+  "qf_user_api":{
+      "user_name": "qa+integration_quality_flow_api@figure-eight.com",
+      "email": "qa+integration_quality_flow_api@figure-eight.com",
+      "password": "gAAAAABj7blmJ8w3iqeuwVzrfxUhbkoRmaKEB03SPpO2Oyg3USUJLyUwiRetlC2E0zK2drh_Pdjjj1dzbLDAEokvzdisljJWCQ==",
+      "api_key": "gAAAAABj7bmJjfOpvj4K1nXfxLrYs3Q4tWmmaQi_Vud6Kvzce09I9eYjo2SgUszXYf590WphFiCeCqzvy0d08n-dwsfbK-1XAonh5vkHIfmHKZyuYBEH77Q=",
+      "teams": [
+        {
+          "id": "ecfbf26d-836a-4820-a03f-a86c1e48d164"
+        }
+      ]
+  },
+  "qf_stability": {
+    "user_name": "integration+edwardz6@figure-eight.com",
+    "email": "integration+edwardz6@figure-eight.com",
+    "password": "gAAAAABjj-i9aDUrCYm08fU6_RuE3EewSAkW1YjNS-btknTdRJajGaII2o0Pm5Hq4pOyD8PWHNBMHRUDjq7Dfl0ZhuZYP-oSTQ==",
+    "api_key": "gAAAAABjkLujvF-H5NLl3K35svrrfNNtJ9WBYOWoOedBrmUlrCoWu1oTkRxg9sCB8faJrlftcLM6wP8jlEFibqPEUDCgOsI1GUeQ7WfyoPI5YA8gFRhfebI=",
+    "contributor": {
+      "workers": [
+        {
+            "contributor_id": "83987ade-1e0e-44d1-86c7-dc9cff6e663b",
+            "email": "integration+stability_worker1@figure-eight.com",
+            "ac_external_id": "1298952"
+        },
+        {
+            "contributor_id": "85e1c12e-076b-42d4-b2bd-41ae708d1a81",
+            "email": "integration+stability_worker2@figure-eight.com",
+            "ac_external_id": "1298953"
+        },
+        {
+            "contributor_id": "62fb0340-e18b-4fe6-bdc1-65e7f41461a8",
+            "email": "integration+stability_worker3@figure-eight.com",
+            "ac_external_id": "1298954"
+        },
+        {
+            "contributor_id": "ac737b8c-1541-43a4-a7fd-ab78700f0b25",
+            "email": "integration+stability_worker4@figure-eight.com",
+            "ac_external_id": "1298955"
+        },
+        {
+            "contributor_id": "d5133057-83f0-473a-a82e-d0e5d4d88845",
+            "email": "integration+stability_worker5@figure-eight.com",
+            "ac_external_id": "1298956"
+        },
+        {
+            "contributor_id": "6522bb84-bb3a-43dc-9713-c37699edb32e",
+            "email": "integration+stability_worker6@figure-eight.com",
+            "ac_external_id": "1298957"
+        },
+        {
+            "contributor_id": "5dc6d18b-41be-4a65-8ccd-6c67fa20fcdf",
+            "email": "integration+stability_worker7@figure-eight.com",
+            "ac_external_id": "1298958"
+        },
+        {
+            "contributor_id": "1e853415-7f4b-4d25-848e-56d54186c2e9",
+            "email": "integration+stability_worker8@figure-eight.com",
+            "ac_external_id": "1298959"
+        },
+        {
+            "contributor_id": "7ca603a5-889e-4192-b8d7-eec71e7d7624",
+            "email": "integration+stability_worker9@figure-eight.com",
+            "ac_external_id": "1298960"
+        },
+        {
+            "contributor_id": "6f933bdb-1dbc-4c1c-87a3-fea75c5584f1",
+            "email": "integration+stability_worker10@figure-eight.com",
+            "ac_external_id": "1298961"
+        },
+        {
+            "contributor_id": "1b8bb1b7-4d8e-4965-9ed5-b95220cce3c0",
+            "email": "integration+stability_worker11@figure-eight.com",
+            "ac_external_id": "1302117"
+        },
+        {
+            "contributor_id": "b9e241b8-9bba-4a2a-a48a-f1167d273b92",
+            "email": "integration+stability_worker12@figure-eight.com",
+            "ac_external_id": "1302118"
+        },
+        {
+            "contributor_id": "84950a82-8630-486f-82bf-9469470e601e",
+            "email": "integration+stability_worker13@figure-eight.com",
+            "ac_external_id": "1302119"
+        },
+        {
+            "contributor_id": "fc84d4a1-fd55-4a1d-b4bd-bb0e0843e86d",
+            "email": "integration+stability_worker14@figure-eight.com",
+            "ac_external_id": "1302120"
+        },
+        {
+            "contributor_id": "cbd5ced2-4539-40bc-b61e-d8d3f45522db",
+            "email": "integration+stability_worker15@figure-eight.com",
+            "ac_external_id": "1302121"
+        },
+        {
+            "contributor_id": "ec697b45-4431-4e85-8b02-83a794684037",
+            "email": "integration+stability_worker16@figure-eight.com",
+            "ac_external_id": "1302122"
+        },
+        {
+            "contributor_id": "4486d196-ca95-48da-b3b4-4f06dc9bbb6a",
+            "email": "integration+stability_worker17@figure-eight.com",
+            "ac_external_id": "1302123"
+        },
+        {
+            "contributor_id": "75d9298d-b863-4df6-ad80-f4bf6f4b04e8",
+            "email": "integration+stability_worker18@figure-eight.com",
+            "ac_external_id": "1302124"
+        },
+        {
+            "contributor_id": "db1be506-5773-406c-94af-b51dc80d203b",
+            "email": "integration+stability_worker19@figure-eight.com",
+            "ac_external_id": "1302125"
+        },
+        {
+            "contributor_id": "3139f482-e94e-4f11-849f-bb3d07dd8c62",
+            "email": "integration+stability_worker20@figure-eight.com",
+            "ac_external_id": "1302126"
+        },
+        {
+            "contributor_id": "42c94990-cbfe-41c5-9b5a-01449cbe50da",
+            "email": "integration+stability_worker21@figure-eight.com",
+            "ac_external_id": "1302693"
+        },
+        {
+            "contributor_id": "e78dd66a-ef9e-4b3c-9945-df28a01c479d",
+            "email": "integration+stability_worker22@figure-eight.com",
+            "ac_external_id": "1302694"
+        },
+        {
+            "contributor_id": "e78017a2-a048-4c1d-b569-c6128180b9f3",
+            "email": "integration+stability_worker23@figure-eight.com",
+            "ac_external_id": "1302695"
+        },
+        {
+            "contributor_id": "ff1b0428-8e0a-4adc-b555-42c23d7f16de",
+            "email": "integration+stability_worker24@figure-eight.com",
+            "ac_external_id": "1302696"
+        },
+        {
+            "contributor_id": "e98ae293-286f-46f0-a0a0-a8b437e94e25",
+            "email": "integration+stability_worker25@figure-eight.com",
+            "ac_external_id": "1302697"
+        },
+        {
+            "contributor_id": "893824f3-c6e6-4072-8aab-4b94c40a12c2",
+            "email": "integration+stability_worker26@figure-eight.com",
+            "ac_external_id": "1302698"
+        },
+        {
+            "contributor_id": "38e20fbd-be34-44d8-b269-f14009c4f34c",
+            "email": "integration+stability_worker27@figure-eight.com",
+            "ac_external_id": "1302699"
+        },
+        {
+            "contributor_id": "d7eea88e-ba8b-441b-8a62-3abbbe5c0ed4",
+            "email": "integration+stability_worker28@figure-eight.com",
+            "ac_external_id": "1302700"
+        },
+        {
+            "contributor_id": "77b59d17-0384-4989-8aea-83b5d327dfa2",
+            "email": "integration+stability_worker29@figure-eight.com",
+            "ac_external_id": "1302701"
+        },
+        {
+            "contributor_id": "4bb59661-a935-4c95-80e6-9a9d25859d3e",
+            "email": "integration+stability_worker30@figure-eight.com",
+            "ac_external_id": "1302702"
+        }
+      ],
+      "qa_workers": [
+        {
+            "contributor_id": "94f426fd-9c50-4598-8e2d-9449ba0f2b6d",
+            "email": "integration+stability_qa1@figure-eight.com",
+            "ac_external_id": "1298962"
+        },
+        {
+            "contributor_id": "995e62f1-044f-4e81-95a5-347004103b35",
+            "email": "integration+stability_qa2@figure-eight.com",
+            "ac_external_id": "1298963"
+        },
+        {
+            "contributor_id": "5b6f8900-923f-4d4c-969b-3c956f4a0023",
+            "email": "integration+stability_qa3@figure-eight.com",
+            "ac_external_id": "1298964"
+        },
+        {
+            "contributor_id": "c2b0c389-0c25-4f3f-b67d-c282c0e6dec2",
+            "email": "integration+stability_qa4@figure-eight.com",
+            "ac_external_id": "1298965"
+        },
+        {
+            "contributor_id": "7160a721-b619-4d77-bffb-ff8294f76f38",
+            "email": "integration+stability_qa5@figure-eight.com",
+            "ac_external_id": "1298986"
+        },
+        {
+            "contributor_id": "49ee3eec-4ccb-4d42-9760-6aa3f5b1a4bb",
+            "email": "integration+stability_qa6@figure-eight.com",
+            "ac_external_id": "1302127"
+        },
+        {
+            "contributor_id": "cc15b972-6190-4b89-8264-b1ee565f66a4",
+            "email": "integration+stability_qa7@figure-eight.com",
+            "ac_external_id": "1302128"
+        },
+        {
+            "contributor_id": "9376df89-eca4-4270-84a9-86a5485f565a",
+            "email": "integration+stability_qa8@figure-eight.com",
+            "ac_external_id": "1302129"
+        },
+        {
+            "contributor_id": "d0a643a1-6e9d-4083-8e5d-1d90f0cae242",
+            "email": "integration+stability_qa9@figure-eight.com",
+            "ac_external_id": "1302130"
+        },
+        {
+            "contributor_id": "e2db5c89-041a-4b16-b3df-bf5e542de339",
+            "email": "integration+stability_qa10@figure-eight.com",
+            "ac_external_id": "1302131"
+        }
+      ]
+    },
+    "teams": [
+        {
+          "id": "acdac212-8e03-49a9-99cb-dd157ccabe29"
+        }
+      ],
+    "desc": "using for stability testing scenario"
+  },
+  "qf_perf": {
+    "user_name": "integration+edwardz7@figure-eight.com",
+    "email": "integration+edwardz7@figure-eight.com",
+    "password": "gAAAAABjj-i9aDUrCYm08fU6_RuE3EewSAkW1YjNS-btknTdRJajGaII2o0Pm5Hq4pOyD8PWHNBMHRUDjq7Dfl0ZhuZYP-oSTQ==",
+    "api_key": "gAAAAABjkL4HrM8K4C6QahdRGozTeyl3XEXVMWSCq3qb6TT2kexGCf6T95cXtn_DGo5um55hRI_AG-5ehzwW3_HhASoUk-XXIq40aaxkFkyVQsiISCxkju8=",
+    "teams": [
+        {
+          "id": "9323a797-7a83-4191-ae31-07a66c659d86"
+        }
+      ]
+  },
+  "user_no_qf": {
+    "user_name": "qa+integration_no_qf@figure-eight.com",
+    "email": "qa+integration_no_qf@figure-eight.com",
+    "password": "gAAAAABj7a-7sV-10ak3RWXdD7hiTuPci7dmZThimXZLMrzyM6IVkok0ODMooRJ4Ga2mo39myKali93ZWjcYD-e0aR5v54S-Tg==",
+    "api_key": "gAAAAABj7a_gjiXikvwNaj6rHxuBqLPEE6ftA_UZjzUf1Kp64Y_d1Wg1-59hTUHE54-V09F_xDcrcIBQxb6AAzeFd2zyJa0Fi_aJjIpRYhlrCDY7KxEswMo=",
+    "teams": [
+        {
+          "id": "5f1b3f88-a8b6-4975-a6b9-9141c1da7fa7"
+        }
+      ]
+  },
+  "qf_user_dc": {
+    "user_name": "integration+edwardz7@figure-eight.com",
+    "email": "integration+edwardz7@figure-eight.com",
+    "password": "gAAAAABjj-i9aDUrCYm08fU6_RuE3EewSAkW1YjNS-btknTdRJajGaII2o0Pm5Hq4pOyD8PWHNBMHRUDjq7Dfl0ZhuZYP-oSTQ==",
+    "api_key": "gAAAAABjkL4HrM8K4C6QahdRGozTeyl3XEXVMWSCq3qb6TT2kexGCf6T95cXtn_DGo5um55hRI_AG-5ehzwW3_HhASoUk-XXIq40aaxkFkyVQsiISCxkju8=",
+    "teams": [
+        {
+          "id": "9323a797-7a83-4191-ae31-07a66c659d86"
+        }
+      ],
+    "dc_project": [
+      {
+          "id": "b76c15a9-e412-45d8-8d2e-da31d532525e",
+          "dc_jobs": ["0bdd7b59-f07b-4321-a10d-323124ff9f5a"]
+      }
+    ]
+  },
+  "cost_balance_api":{
+      "teams": [
+        {
+          "id": "8f528b87-66c1-4a66-a5df-46b5a818ac15"
+        },
+        {
+          "id":"f241fe84-689b-4ac8-b507-d20f746dc771"
+        }
+      ]
+  },
+  "contributor_unification_account1": {
+      "user_name": "integration+cu251@figure-eight.com",
+      "email": "integration+cu251@figure-eight.com",
+      "password": "gAAAAABj7jedF2H4tL9h7UOIuLG_N7JlDZ4SDS1IpQyCxPFfWGRujbSFlWfcnAOvYx1pUSUtNkaBJyh8AXWGahRzOr5qr-rGj0anF8ICzsaLq_OS-g0Yfk8=",
+      "id": "",
+      "full_name": ""
+  },
+  "contributor_unification_account2": {
+      "user_name": "integration+cu302@figure-eight.com",
+      "email": "integration+cu302@figure-eight.com",
+      "password": "gAAAAABj7jedF2H4tL9h7UOIuLG_N7JlDZ4SDS1IpQyCxPFfWGRujbSFlWfcnAOvYx1pUSUtNkaBJyh8AXWGahRzOr5qr-rGj0anF8ICzsaLq_OS-g0Yfk8=",
+      "id": "",
+      "full_name": ""
+  },
+  "selenium_param": {
+      "bypass": "gAAAAABkZ-C8bWtQGzMOzYsvOZF23TP6xLvaRZybsZZJriEkXWopP_1rGwjXoIzopluZLxLoXFk0hsTjZxCIO3wih-kE5v2E0IgK63PTpZyJYx4FwXznUdI="
+  }
+}

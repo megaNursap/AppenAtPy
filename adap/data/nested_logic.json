@@ -1,0 +1,4 @@
+[
+  {"image_url":"http://image1.jpg","params":{"label":"cat","source":"ibm"}},
+  {"image_url":"http://image2.jpg","params":["dog","ibm"]}
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "annotation": {
+      "segments": [
+        {
+          "id": "dummy-segment-id",
+          "startTime": 0,
+          "endTime": 18.318435,
+          "labels": [
+            "Pets"
+          ],
+          "transcription": "test <span_3>single</span_3> <event_1/> segment with [9.159] transcription"
+        }
+      ]
+    },
+    "ableToAnnotate": true,
+    "nothingToTranscribe": false
+  },
+  {
+    "annotation": {
+      "segments": [
+        {
+          "id": "dummy-segment-id",
+          "startTime": 0,
+          "endTime": 257.201633,
+          "labels": [
+            "male",
+            "loud",
+            "quite"
+          ],
+          "transcription": ""
+        }
+      ]
+    },
+    "ableToAnnotate": true,
+    "nothingToTranscribe": false,
+    "nothingToAnnotate": false
+  }
+]

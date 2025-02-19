@@ -1,0 +1,18 @@
+_unit_id,_unit_state,_trusted_judgments,_last_judgment_at,first_name,first_name:confidence,first_name:confidence_summary,last_name,last_name:confidence,last_name:confidence_summary,group1,first_name_gold,image_url,last_name_gold
+7804,in progress,1,,f1 3,1,"""f1 3"": 1.0
+",l1 3,1,"""l1 3"": 1.0
+","[{""first_name"":""f1 3"",""last_name"":""l1 3"",""confidence"":1.0}]",,https://s3.amazonaws.com/pichost/segmentor/us101/IMG_9615.JPG,
+7805,in progress,1,,f2 5,1,"""f1 5"": 1.0
+""f2 5"": 1.0
+",l2 5,1,"""l1 5"": 1.0
+""l2 5"": 1.0
+","[{""first_name"":""f1 5"",""last_name"":""l1 5"",""confidence"":1.0},{""first_name"":""f2 5"",""last_name"":""l2 5"",""confidence"":1.0}]",,https://s3.amazonaws.com/pichost/segmentor/us101/IMG_9616.JPG,
+7806,in progress,1,,f1,1,"""f1"": 1.0
+",l1,1,"""l1"": 1.0
+","[{""first_name"":""f1"",""last_name"":""l1"",""confidence"":1.0}]",,https://s3.amazonaws.com/pichost/segmentor/us101/IMG_9617.JPG,
+7807,in progress,1,,f1 2,1,"""f1 2"": 1.0
+",f1 2,1,"""f1 2"": 1.0
+","[{""first_name"":""f1 2"",""last_name"":""f1 2"",""confidence"":1.0}]",,https://s3.amazonaws.com/pichost/segmentor/us101/IMG_9618.JPG,
+7808,in progress,1,,f4,1,"""f4"": 1.0
+",l4,1,"""l4"": 1.0
+","[{""first_name"":""f4"",""last_name"":""l4"",""confidence"":1.0}]",,https://s3.amazonaws.com/pichost/segmentor/us101/IMG_9619.JPG,

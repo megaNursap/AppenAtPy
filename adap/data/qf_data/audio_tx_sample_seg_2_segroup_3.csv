@@ -1,0 +1,7 @@
+unit_group,audio_name,audio_annotation,audio_url
+1, audio_file_segroup_no_1_seg_1, https://appen-pe-chn.s3.ap-southeast-1.amazonaws.com/kepler/Audio%2BTools__USA_USA_001_unit.json, https://yaoxu.s3-us-west-2.amazonaws.com/Audio+Tools/F1068M1068_USA_USA_001.wav
+1, audio_file_segroup_no_1_seg_2, https://appen-pe-chn.s3.ap-southeast-1.amazonaws.com/kepler/Audio%2BTools__USA_USA_001_unit.json, https://yaoxu.s3-us-west-2.amazonaws.com/Audio+Tools/F1068M1068_USA_USA_001.wav
+2, audio_file_segroup_no_2_seg_1, https://appen-pe-chn.s3.ap-southeast-1.amazonaws.com/kepler/Audio%2BTools__USA_USA_001_unit.json, https://yaoxu.s3-us-west-2.amazonaws.com/Audio+Tools/F1068M1068_USA_USA_001.wav
+2, audio_file_segroup_no_2_seg_2, https://appen-pe-chn.s3.ap-southeast-1.amazonaws.com/kepler/Audio%2BTools__USA_USA_001_unit.json, https://yaoxu.s3-us-west-2.amazonaws.com/Audio+Tools/F1068M1068_USA_USA_001.wav
+3, audio_file_segroup_no_3_seg_1, https://appen-pe-chn.s3.ap-southeast-1.amazonaws.com/kepler/Audio%2BTools__USA_USA_001_unit.json, https://yaoxu.s3-us-west-2.amazonaws.com/Audio+Tools/F1068M1068_USA_USA_001.wav
+3, audio_file_segroup_no_3_seg_2, https://appen-pe-chn.s3.ap-southeast-1.amazonaws.com/kepler/Audio%2BTools__USA_USA_001_unit.json, https://yaoxu.s3-us-west-2.amazonaws.com/Audio+Tools/F1068M1068_USA_USA_001.wav

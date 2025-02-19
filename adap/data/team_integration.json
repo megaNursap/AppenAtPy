@@ -1,0 +1,82 @@
+[
+  {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc",
+        "name": "qa+integration_api@figure-eight.com"
+  },
+  {
+        "id": "10c79da5-e91b-4790-87b0-495adf4cc2a8",
+        "name": "automated_tests.20190504064117@crowdflower-qa.com"
+  },
+  {
+        "id": "8783671e-30c1-4dbb-b10a-279b74acdc9a",
+        "name": "automated_tests.20190504110102@crowdflower-qa.com"
+  },
+  {
+        "id": "7bb91725-4694-42ca-b84c-2c97e58c9a79",
+        "name": "automated_tests.20190504110716@crowdflower-qa.com"
+  },
+  {
+        "id": "ddb940a1-a334-4a86-95c7-741bb15eee83",
+        "name": "automated_tests.20190504122350@crowdflower-qa.com"
+  },
+  {
+        "id": "1085ab3e-4d8c-46c0-8a05-55abddb5a70b",
+        "name": "automated_tests.20190504122840@crowdflower-qa.com"
+  },
+  {
+        "id": "389a7074-5055-477c-a2f6-71237b0337a1",
+        "name": "automated_tests.20190504123356@crowdflower-qa.com"
+  },
+  {
+        "id": "8f528b87-66c1-4a66-a5df-46b5a818ac15",
+        "name": "automated_tests.20190804101719@crowdflower-qa.com"
+  },
+  {
+        "id": "1e169b13-7819-4cbe-856d-ed030b679cc6",
+        "name": "automated_tests.20192203121350@crowdflower-qa.com"
+  },
+  {
+        "id": "5460ccaf-c6b4-40c2-8ce1-0a4a7fe22317",
+        "name": "automated_tests.20192205104542@crowdflower-qa.com"
+  },
+  {
+        "id": "38397896-d613-4518-b407-c146861e11a1",
+        "name": "automated_tests.20192205105555@crowdflower-qa.com"
+  },
+  {
+        "id": "e4d5757a-b54d-4e83-bb8d-15a5b5ec520c",
+        "name": "dblaine+qa2@appen.com"
+  },
+  {
+        "id": "2a9fcb20-5926-46a2-858e-f29a7fa7d073",
+        "name": "dblaine+qa3@appen.com"
+  },
+  {
+        "id": "6025b778-cadf-400c-a843-f3112b7fdf43",
+        "name": "dblaine+qa4@appen.com"
+  },
+  {
+        "id": "6ece7357-80e8-425b-bd3b-24703ba2fa5a",
+        "name": "dblaine+qa5@appen.com"
+  },
+  {
+        "id": "5e5241b5-04d7-40ec-9120-7e5eca577b34",
+        "name": "dblaine+qa@appen.com"
+  },
+  {
+        "id": "3cbb1002-a006-4ddd-a1e4-e1aa357bd8eb",
+        "name": "qa+performance1+user1@figure-eight.com"
+  },
+  {
+        "id": "546ef284-f2c9-445d-883d-4c7db836798f",
+        "name": "qa+performance1+user2@figure-eight.com"
+  },
+  {
+        "id": "5135b1f0-ce57-432a-9c2b-7b691dc1b585",
+        "name": "qa+performance2+user0@figure-eight.com"
+  },
+  {
+        "id": "138f2f80-e5f7-44ca-9d6b-b0b5435bef04",
+        "name": "qa+performance2+user10@figure-eight.com"
+  }
+]

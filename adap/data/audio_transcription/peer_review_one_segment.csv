@@ -1,0 +1,3 @@
+audio_transcription,audio_url
+"{""type"":""audio_transcription"",""valueRef"":""jobs/2196047/annotations/13d65a56-6d07-472e-b8d5-f840b8ae1f79.json""}",https://annotation-sandbox.s3.amazonaws.com/audio+transcription/sample-15s.mp3
+"{""type"":""audio_transcription"",""valueRef"":""jobs/2196047/annotations/3ee45107-b5c9-4b03-919a-86a5de392620.json""}",https://annotation-sandbox.s3.amazonaws.com/audio+transcription/sample-12s.mp3

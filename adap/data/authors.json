@@ -1,0 +1,27 @@
+[
+  {
+    "author": "Homer",
+    "major_works": "The Iliad|The Odyssey",
+    "countries_active": "Greece"
+  },
+  {
+    "author": "Dickens",
+    "major_works": "David Copperfield|Bleak House",
+    "countries_active": "England"
+  },
+  {
+    "author": "Nabokov",
+    "major_works": "Camera Obscura|Lolita",
+    "countries_active": "Russia|United States"
+  },
+  {
+    "author": "Rabelais",
+    "major_works": "Gargantua and Pantagruel",
+    "countries_active": "France"
+  },
+  {
+    "author": "Cervantes",
+    "major_works": "Don Quixote",
+    "countries_active": "Spain"
+  }
+]

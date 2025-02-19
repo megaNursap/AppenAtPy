@@ -1,0 +1,19 @@
+category_1,category_2,category_3,description,id
+DAIRY,Milk,"Cow, Sheeps",,dairy_sheep_milk
+DAIRY,Milk,Goat,"Milk, cow's, fluid, whole",dairy_goat_milk
+DAIRY,Milk,Cow,"Milk, cow's, fluid, whole, low-sodium",dairy_cow_milk
+DAIRY,Cheese,Hard,,cheese_hard
+DAIRY,Cheese,,,cheese_medium
+DAIRY,Cheese,,,cheese_soft
+DAIRY,Cheese,"Soft, medium-soft","Cheese, Blue ",cheese_medium_soft
+PROTEIN FOODS,Fish and > seafood,Trout,,protein_fish
+PROTEIN FOODS,Fish and seafood,"Salmon, Cod","Pike, baked or broiled",protein_fat_fish
+PROTEIN FOODS,Fish and seafood,Carp,"Porgy, raw",protein_river_fish
+PROTEIN FOODS,Meat,"Beef, pork","Lamb chop, NS as to cut, cooked, lean and fat eaten",protein_red_meat
+PROTEIN FOODS,Meat,,"Lamb, shoulder, cooked, lean and fat eaten",protein_white_meat
+VEGETABLE ,Red and orange vegetables,,"Squash, winter type, mashed, fat and sugar added in cooking",vegetable_red
+VEGETABLE ,Red and orange vegetables,Carrot,,vegetable_orange
+VEGETABLE ,Red and orange vegetables,Cabbage,"Sweetpotato, baked, peel eaten, NS as to fat added in cooking",vegetable_orange
+VEGETABLE ,Red and orange vegetables,"Squish, Sweet potato",,vegetable_orange
+VEGETABLE ,Dark green vegetables,Spinach,"Kale, cooked, from fresh, NS as to fat added in cooking",vegetable_green
+VEGETABLE ,Dark green vegetables,Beet,"Mustard greens, cooked, from fresh, fat added in cooking",vegetable_purple

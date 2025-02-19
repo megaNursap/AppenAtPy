@@ -1,0 +1,36 @@
+{
+  "topLevel": [
+    "1_charity",
+    "3_phone",
+    "2_food"
+  ],
+  "taxonomyItems": {
+    "smallCharity": {
+      "name": "Charity small"
+    },
+    "1_charity": {
+      "children": [
+        "smallCharity"
+      ],
+      "name": "Charity",
+      "description": "This section responsible for send money",
+      "category_id": "Some message here"
+    },
+    "3_phone": {
+      "name": "Phone"
+    },
+    "2_food": {
+      "children": [
+        "3_green_food"
+      ],
+      "name": "Food",
+      "description": "",
+      "category_id": "food_id"
+    },
+    "3_green_food": {
+      "name": "Salad",
+      "description": "Tomato, onions, feta, | seeds, greens",
+      "category_id": "green_id"
+    }
+  }
+}

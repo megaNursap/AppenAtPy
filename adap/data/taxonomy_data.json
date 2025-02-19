@@ -1,0 +1,316 @@
+{
+  "topLevel": [
+    "1_1",
+    "8_1",
+    "13_1",
+    "19_1",
+    "30_1"
+  ],
+  "taxonomyItems": {
+    "1_1": {
+      "name": "DAIRY",
+      "children": [
+        "1_2",
+        "4_2"
+      ]
+    },
+    "1_2": {
+      "name": "Milk",
+      "children": [
+        "1_3",
+        "2_3",
+        "3_3"
+      ]
+    },
+    "1_3": {
+      "name": "Cow, Sheeps",
+      "id": "cow_id"
+    },
+    "2_3": {
+      "name": "Goat",
+      "description": "Milk, cow's, fluid, whole",
+      "id": "milk_id"
+    },
+    "3_3": {
+      "name": "Cow",
+      "description": "Milk, cow's, fluid, whole, low-sodium",
+      "id": "hard_id"
+    },
+    "4_2": {
+      "name": "Cheese",
+      "children": [
+        "4_3",
+        "5_3",
+        "6_3",
+        "7_3"
+      ]
+    },
+    "4_3": {
+      "name": "Hard",
+      "id": "cheese_id"
+    },
+    "5_3": {
+      "name": "Medium",
+      "id": "goat_cheese_id"
+    },
+    "6_3": {
+      "name": "Hard, Soft",
+      "id": "Cheese, Camembert some other think"
+    },
+    "7_3": {
+      "name": "Soft, medium-soft",
+      "description": "Cheese, Blue",
+      "id": "soft_id"
+    },
+    "8_1": {
+      "name": "PROTEIN FOODS",
+      "children": [
+        "8_2",
+        "11_2"
+      ]
+    },
+    "8_2": {
+      "name": "Fish and seafood",
+      "children": [
+        "8_3",
+        "9_3",
+        "10_3"
+      ]
+    },
+    "8_3": {
+      "name": "Trout",
+      "id": "Pike, floured or breaded, fried"
+    },
+    "9_3": {
+      "name": "Salmon, Cod",
+      "description": "Pike, baked or broiled",
+      "id": "salmon_id"
+    },
+    "10_3": {
+      "name": "Carp",
+      "description": "Porgy, raw",
+      "id": "carp_id"
+    },
+    "11_2": {
+      "name": "Meat",
+      "children": [
+        "11_3",
+        "12_3"
+      ]
+    },
+    "11_3": {
+      "name": "Beef, pork",
+      "description": "Lamb chop, NS as to cut, cooked, lean and fat eaten",
+      "id": "beef_id"
+    },
+    "12_3": {
+      "name": "Chicken, Rabbit",
+      "description": "Lamb, shoulder, cooked, lean and fat eaten",
+      "id": "chicken_id"
+    },
+    "13_1": {
+      "name": "VEGETABLE",
+      "children": [
+        "13_2",
+        "17_2"
+      ]
+    },
+    "13_2": {
+      "name": "Red and orange vegetables",
+      "children": [
+        "13_3",
+        "14_3",
+        "15_3",
+        "16_3"
+      ]
+    },
+    "13_3": {
+      "name": "Tomato",
+      "description": "Squash, winter type, mashed, fat and sugar added in cooking",
+      "id": "Collards, cooked, from canned, fat not added in cooking"
+    },
+    "14_3": {
+      "name": "Carrot",
+      "id": "carrot_id"
+    },
+    "15_3": {
+      "name": "Cabbage",
+      "description": "Sweetpotato, baked, peel eaten, NS as to fat added in cooking",
+      "id": "squish_id"
+    },
+    "16_3": {
+      "name": "Squish, Sweet potato",
+      "id": "Cress, cooked, from canned, NS as to fat added in cooking"
+    },
+    "17_2": {
+      "name": "Dark green vegetables",
+      "children": [
+        "17_3",
+        "18_3"
+      ]
+    },
+    "17_3": {
+      "name": "Spinach",
+      "description": "Kale, cooked, from fresh, NS as to fat added in cooking",
+      "id": "spinach_id"
+    },
+    "18_3": {
+      "name": "Beet",
+      "description": "Mustard greens, cooked, from fresh, fat added in cooking",
+      "id": "beet_id"
+    },
+    "19_1": {
+      "name": "DRINK",
+      "children": [
+        "19_2",
+        "23_2",
+        "26_2",
+        "29_2"
+      ]
+    },
+    "19_2": {
+      "name": "Soft Drinks & Carbonates",
+      "children": [
+        "19_3",
+        "20_3",
+        "21_3",
+        "22_3"
+      ]
+    },
+    "19_3": {
+      "name": "Colas & Fruit Flavors",
+      "description": "Carbonated soft drinks take many forms, from the big colas to the fruity refreshers and to the burgeoning malt beverage forms"
+    },
+    "20_3": {
+      "name": "Malt Beverages"
+    },
+    "21_3": {
+      "name": "Coca-cola"
+    },
+    "22_3": {
+      "name": "Sokovynka"
+    },
+    "23_2": {
+      "name": "Juice & Juice Beverages",
+      "children": [
+        "23_3",
+        "24_3",
+        "25_3"
+      ]
+    },
+    "23_3": {
+      "name": "Smoothies"
+    },
+    "24_3": {
+      "name": "Vegetable juices",
+      "description": "Juice and juice drinks are currently undergoing a renaissance with new nutritional benefits and an explosive category of high quality fresh juices"
+    },
+    "25_3": {
+      "name": "Fresh & Shelf Stable juice"
+    },
+    "26_2": {
+      "name": "Coffee & Tea",
+      "children": [
+        "26_3",
+        "27_3",
+        "28_3"
+      ]
+    },
+    "26_3": {
+      "name": "Coffee",
+      "description": "Coffee and Tea will continue to be an important source of innovation in the industry due to the deep cultural routines"
+    },
+    "27_3": {
+      "name": "Tea"
+    },
+    "28_3": {
+      "name": "Cacao"
+    },
+    "29_2": {
+      "name": "Natural Beverages",
+      "children": [
+        "29_3"
+      ]
+    },
+    "29_3": {
+      "name": "Kombucha",
+      "description": "This category will likely be the source of the next very big new idea as soon as someone finds the secret sauce that can attribute the greatest connectedness to the users."
+    },
+    "30_1": {
+      "name": "FAT",
+      "children": [
+        "30_2",
+        "33_2",
+        "36_2",
+        "38_2"
+      ]
+    },
+    "30_2": {
+      "name": "Saturated",
+      "children": [
+        "30_3",
+        "31_3",
+        "32_3"
+      ]
+    },
+    "30_3": {
+      "name": "Red meat"
+    },
+    "31_3": {
+      "name": "Butter"
+    },
+    "32_3": {
+      "name": "Whole-milk dairy products"
+    },
+    "33_2": {
+      "name": "Unsaturated",
+      "children": [
+        "33_3",
+        "34_3",
+        "35_3"
+      ]
+    },
+    "33_3": {
+      "name": "Avocados",
+      "description": "Unsaturated fats come mainly from vegetables, nuts, and fish"
+    },
+    "34_3": {
+      "name": "Olive, canola, and peanut oils"
+    },
+    "35_3": {
+      "name": "Almonds, hazelnuts, pecans, and other nuts"
+    },
+    "36_2": {
+      "name": "Polyunsaturated",
+      "children": [
+        "36_3",
+        "37_3"
+      ]
+    },
+    "36_3": {
+      "name": "Flaxseed, corn, soybean, and sunflower oil"
+    },
+    "37_3": {
+      "name": "Salmon, tuna, and other fatty fish",
+      "description": "Studies show that eating fish high in omega-3 fatty acids lowers your risk of cardiovascular disease. Yet taking omega-3 supplements may not have the same benefit."
+    },
+    "38_2": {
+      "name": "Trans",
+      "children": [
+        "38_3",
+        "39_3",
+        "40_3"
+      ]
+    },
+    "38_3": {
+      "name": "Frozen pizza"
+    },
+    "39_3": {
+      "name": "Cakes, pies, biscuits, cookies, crackers, doughnuts, and other baked goods",
+      "description": "Trans fat might taste good, but it's not good for you. This unhealthy type of fat raises your LDL cholesterol level, making you more likely to have heart disease, stroke, and type 2 diabetes."
+    },
+    "40_3": {
+      "name": "French fries and other fried foods"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+POST_ANNOTATION="/annotations"
+GET_ANNOTATION="/annotations/%s?job_id=%s&expiration_time=%s"
+PUT_SECURELINK="/secure_links/expiring_url"
+GET_SECURELINK="/secure_links?token=%s"
+GRADE_RESULT="/grade"
+ACCURACY_DETAILS="/accuracy_details"
+AGGREGATED_REPORT="/aggregations/agg"
+
+URL = "https://text-annotation.internal.{}.cf3.us"
+FED = "https://app.{}.secure.cf3.us/text-annotation"
+FED_CUSTOMIZE = "https://{}/api-proxy/text-annotation"

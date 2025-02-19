@@ -1,0 +1,770 @@
+{
+  "job_with_judgments": {
+    "majspace24tls.eng01.devspace": 1525,
+    "qa": 1385405,
+    "sandbox": 1929463,
+    "live": 2008769,
+    "integration": 1359209,
+    "fed": 487,
+    "hipaa": 321,
+    "staging": 1419875
+  },
+  "job_for_copying": {
+    "majspace24tls.eng01.devspace": 1526,
+    "qa": 1738598,
+    "sandbox": 1580596,
+    "live": 2008769,
+    "integration": 2100203,
+    "fed": "",
+    "hipaa": "",
+    "staging": 1419874
+  },
+  "fair_pay_job_for_copying": {
+    "integration": 2009970,
+    "sandbox": 2082767,
+    "staging": 1517689
+  },
+  "workflow_with_judgments": {
+    "majspace24tls.eng01.devspace": "",
+    "qa": 7414,
+    "sandbox": 41888,
+    "fed": "",
+    "live": 8333,
+    "integration": 284607,
+    "hipaa": "",
+    "staging": 13124
+  },
+  "pretrained_model": {
+    "majspace24tls.eng01.devspace": "",
+    "qa": 87,
+    "sandbox": 174,
+    "fed": "",
+    "live": "",
+    "integration": 82,
+    "hipaa": "",
+    "staging": 13
+  },
+  "text_annotation": {
+    "majspace24tls.eng01.devspace": {
+      "text_relationship": "",
+      "text_annotation": "",
+      "tq_flat": "",
+      "tq_nest": ""
+    },
+    "qa": {
+      "text_relationship": "",
+      "text_annotation": "",
+      "tq_flat": "",
+      "tq_nest": ""
+    },
+    "sandbox": {
+      "text_relationship": "1591335",
+      "text_annotation": "1588471",
+      "tq_flat": "1591982",
+      "tq_nest": "1591983"
+    },
+    "fed": {
+      "text_relationship": "",
+      "text_annotation": "",
+      "tq_flat": "",
+      "tq_nest": ""
+    },
+    "live": {
+      "text_relationship": "",
+      "text_annotation": "",
+      "tq_flat": "",
+      "tq_nest": ""
+    },
+    "integration": {
+      "text_relationship": "1580614",
+      "text_annotation": "",
+      "tq_flat": "1580339",
+      "tq_nest": "1580341"
+    },
+    "hipaa": {
+      "text_relationship": "",
+      "text_annotation": "",
+      "tq_flat": "",
+      "tq_nest": ""
+    },
+    "staging": {
+      "text_relationship": "1424096",
+      "text_annotation": "",
+      "tq_flat": "1424063",
+      "tq_nest": "1424065"
+    }
+  },
+  "long_span": {
+    "majspace24tls.eng01.devspace": "",
+    "qa": "",
+    "sandbox": 1591840,
+    "fed": "",
+    "live": "",
+    "integration": 1580611,
+    "hipaa": "",
+    "staging": 1424098
+  },
+  "text_ontology": {
+    "majspace24tls.eng01.devspace": "",
+    "qa": "",
+    "sandbox": 1588414,
+    "fed": "",
+    "live": "",
+    "integration": "",
+    "hipaa": "",
+    "staging": ""
+  },
+  "textannotation_api": {
+    "majspace24tls.eng01.devspace": {
+      "id": "",
+      "annotation_1": "",
+      "annotation_2": "",
+      "annotation_report1": "",
+      "annotation_report2": "",
+      "incorrect_contributor_annotation": "",
+      "gold_response_annotation": "",
+      "nested_span_golden_response": "",
+      "nested_span_perfect_response": "",
+      "nested_span_passing_response": "",
+      "nested_span_failing_response": "",
+      "unit_id": "",
+      "unit_id_edit": "",
+      "contributor_proxy_annotation_id": "",
+      "job_id_ss": "",
+      "annotation_1_ss": "",
+      "annotation_2_ss": "",
+      "bucket_id": ""
+    },
+    "qa": {
+      "id": 1010101,
+      "annotation_1": "abc11000c3",
+      "annotation_2": "abc11000",
+      "annotation_report1": "abc11000c1",
+      "annotation_report2": "abc11000c2",
+      "incorrect_contributor_annotation": "abc11000wronganswer",
+      "gold_response_annotation": "abc11000goldresponse",
+      "nested_span_golden_response": "abc11000nestedGoldResponse",
+      "nested_span_perfect_response": "abc11000nestedPerfectResponse",
+      "nested_span_passing_response": "abc11000nestedPassingResponse",
+      "nested_span_failing_response": "abc11000nestedFailingResponse",
+      "unit_id": "",
+      "contributor_proxy_annotation_id": "",
+      "job_id_ss": "",
+      "annotation_1_ss": "",
+      "annotation_2_ss": "",
+      "bucket_id": ""
+    },
+    "sandbox": {
+      "id": 1594757,
+      "annotation_1": "8ff96812853d0879bbd10249819055fc8116e9e77364a2a6",
+      "annotation_2": "8ff96812853d0879ccca819ccd67c66e1643f2deddf55f6f",
+      "annotation_report1": "8ff96812853d0879f82f9315f0be932e6587b7f172845900",
+      "annotation_report2": "8ff96812853d0879dfedaed667c70b2be34a09d8803bf045",
+      "incorrect_contributor_annotation": "8ff96812853d0879710f1926227c6e4d846cbdb5802f6ff5",
+      "gold_response_annotation": "8ff96812853d0879ccca819ccd67c66e1643f2deddf55f6f",
+      "nested_span_golden_response": "503cd5b5fad9d5fc1d8936194d1ae303241b617f577f19f0",
+      "nested_span_perfect_response": "503cd5b5fad9d5fc0376522bc5df8d9bf743efc7f5bff19f",
+      "nested_span_passing_response": "503cd5b5fad9d5fc142b424511ed9d2f48d0e584106f2000",
+      "nested_span_failing_response": "503cd5b5fad9d5fc142b424511ed9d2fc610746bf2ac9edd",
+      "unit_id": "0001254050186009031004078092238157037038208079200114109031250064211138187090142145196161080173066",
+      "unit_id_edit": 2200199432,
+      "contributor_proxy_annotation_id": "8ff96812853d0879bbd10249819055fc8116e9e77364a2a6",
+      "job_id_ss": 1593801,
+      "annotation_1_ss": "78f922500e3f6c850f8b0bfcff9557b22cb3f1366e890fb3",
+      "annotation_2_ss": "47904a439b80f196dd80f08521f406a038128da7222625cc96aef13a67fde288",
+      "bucket_id": "f8-annotation-super-saver-sandbox"
+    },
+    "fed": {
+      "id": "",
+      "annotation_1": "",
+      "annotation_2": "",
+      "annotation_report1": "",
+      "annotation_report2": "",
+      "incorrect_contributor_annotation": "",
+      "gold_response_annotation": "",
+      "nested_span_golden_response": "",
+      "nested_span_perfect_response": "",
+      "nested_span_passing_response": "",
+      "nested_span_failing_response": "",
+      "unit_id": "",
+      "contributor_proxy_annotation_id": "",
+      "job_id_ss": "",
+      "annotation_1_ss": "",
+      "annotation_2_ss": "",
+      "bucket_id": ""
+    },
+    "live": {
+      "id": "",
+      "annotation_1": "",
+      "annotation_2": "",
+      "annotation_report1": "",
+      "annotation_report2": "",
+      "incorrect_contributor_annotation": "",
+      "gold_response_annotation": "",
+      "nested_span_golden_response": "",
+      "nested_span_perfect_response": "",
+      "nested_span_passing_response": "",
+      "nested_span_failing_response": "",
+      "unit_id": "",
+      "contributor_proxy_annotation_id": "",
+      "job_id_ss": "",
+      "annotation_1_ss": "",
+      "annotation_2_ss": "",
+      "bucket_id": ""
+    },
+    "integration": {
+      "id": 1581464,
+      "annotation_1": "fa1daf14bec7d0cc53bd0ab07c9973d64c640ffc46d2fba3",
+      "annotation_2": "fa1daf14bec7d0ccc2df8b75356ca45c3c7a422fd66b8ca5",
+      "annotation_report1": "fa1daf14bec7d0cc53bd0ab07c9973d64c640ffc46d2fba3",
+      "annotation_report2": "fa1daf14bec7d0cc075ae5aef7b28e4321ca60e74b2b6743",
+      "incorrect_contributor_annotation": "fa1daf14bec7d0cc268f973aca67e15267728567a105f8db",
+      "gold_response_annotation": "fa1daf14bec7d0ccc2df8b75356ca45c3c7a422fd66b8ca5",
+      "nested_span_golden_response": "fa1daf14bec7d0ccc580db6ae5d253ae64c8b96bf0ec431d",
+      "nested_span_perfect_response": "fa1daf14bec7d0cca33563e1dc592a7c9bd1644328c93fb1",
+      "nested_span_passing_response": "fa1daf14bec7d0ccddbc543f1fe82c632a8aa04bfcfbbd00",
+      "nested_span_failing_response": "fa1daf14bec7d0cc268f973aca67e15267728567a105f8db",
+      "unit_id": "0044105239012077231007128200251029031085039097161152120004232160248027022224060173240066219215053",
+      "unit_id_edit": 2198375615,
+      "contributor_proxy_annotation_id": "fa1daf14bec7d0cc075ae5aef7b28e4321ca60e74b2b6743",
+      "job_id_ss": 1586379,
+      "annotation_1_ss": "573ec75efd7d1a88ef79d544f692353b31b56c3c3ec9c95d",
+      "annotation_2_ss": "573ec75efd7d1a880f687d9a6f785ea40a6ddad44a86c4e9b9f38c380528faa0",
+      "bucket_id": "f8-annotation-super-saver-integration"
+    },
+    "hipaa": {
+      "id": "",
+      "annotation_1": "",
+      "annotation_2": "",
+      "annotation_report1": "",
+      "annotation_report2": "",
+      "incorrect_contributor_annotation": "",
+      "gold_response_annotation": "",
+      "nested_span_golden_response": "",
+      "nested_span_perfect_response": "",
+      "nested_span_passing_response": "",
+      "nested_span_failing_response": "",
+      "unit_id": "",
+      "contributor_proxy_annotation_id": "",
+      "job_id_ss": "",
+      "annotation_1_ss": "",
+      "annotation_2_ss": "",
+      "bucket_id": ""
+    },
+    "staging": {
+      "id": 1541316,
+      "annotation_1": "2f7ce481-ad32-4b70-a6c2-d4c9399fe503",
+      "annotation_2": "a276a3a7-57e7-4e0a-b08e-48790759ab16",
+      "annotation_report1": "6e593a07-7ea1-4f46-acdd-fbd2eec0b3d1",
+      "annotation_report2": "2f7ce481-ad32-4b70-a6c2-d4c9399fe503",
+      "incorrect_contributor_annotation": "836d386b-2bca-4447-85de-5c2d0a34f253",
+      "gold_response_annotation": "a276a3a7-57e7-4e0a-b08e-48790759ab16",
+      "nested_span_golden_response": "c5bea5dc-ec76-4594-9b0f-dff4a6ba417d",
+      "nested_span_perfect_response": "79c80f10-37ba-4cf5-a9a7-6853badd33c6",
+      "nested_span_passing_response": "23e1267b-59ae-4c65-92a6-2ae12b3ae520",
+      "nested_span_failing_response": "836d386b-2bca-4447-85de-5c2d0a34f253",
+      "unit_id": "0079035191036033133071114133190126137041071045177116229067062099109083093209127191111157150110123",
+      "unit_id_edit": 2265936699,
+      "contributor_proxy_annotation_id": "6e593a07-7ea1-4f46-acdd-fbd2eec0b3d1",
+      "job_id_ss": "",
+      "annotation_1_ss": "",
+      "annotation_2_ss": "",
+      "bucket_id": ""
+    }
+  },
+  "taxonomy_api": {
+    "sandbox": {
+      "teamId": "78920fe0-f0ac-40d8-b863-9989467502c2",
+      "job_id": "1920325",
+      "job_id_delete": "",
+      "job_id_taxonomies": "",
+      "tq_job_multy_select": ""
+    },
+    "integration": {
+      "teamId": "78920fe0-f0ac-40d8-b863-9989467502c2",
+      "job_id": "1846542",
+      "job_id_delete": 2070698,
+      "job_id_taxonomies": "1938742",
+      "tq_job_multy_select": 1991145,
+      "tq_job": 1992366
+    },
+    "staging": {
+      "teamId": "9d6f1775-f4aa-433c-882a-232c8a121e93",
+      "job_id": 1458317,
+      "job_id_delete": "",
+      "job_id_taxonomies": 1458313,
+      "tq_job_multy_select": 1458000,
+      "tq_job": 1458001
+    }
+  },
+  "pointcloud_api": {
+    "majspace24tls.eng01.devspace": {
+      "base_url": "",
+      "invalid_url": "",
+      "file_name": "",
+      "result_url": ""
+    },
+    "sandbox": {
+      "base_url": "https://ml-demo-data.s3.amazonaws.com/kuochin_waymo/10685275399987837806_340_000_360_000",
+      "invalid_url": "https://ml-demo-data.s3.amazonaws.com/xxx/10685275399987837806_340_000_360_000",
+      "file_name": "test.resvdfwfwe.json",
+      "result_url": "https://ml-demo-data.s3.amazonaws.com/new-lidar-data/kitti/highConfidencePrediction.json"
+    },
+    "qa": {
+      "base_url": "",
+      "invalid_url": "",
+      "file_name": "",
+      "result_url": ""
+    },
+    "integration": {
+      "base_url": "https://ml-demo-data.s3.amazonaws.com/kuochin_waymo/10685275399987837806_340_000_360_000",
+      "invalid_url": "https://ml-demo-data.s3.amazonaws.com/xxx/10685275399987837806_340_000_360_000",
+      "file_name": "test.resvdfwfwe.json",
+      "result_url": "https://ml-demo-data.s3.amazonaws.com/new-lidar-data/kitti/highConfidencePrediction.json"
+    },
+    "fed": {
+      "base_url": "",
+      "invalid_url": "",
+      "file_name": "",
+      "result_url": ""
+    },
+    "live": {
+      "base_url": "",
+      "invalid_url": "",
+      "file_name": "",
+      "result_url": ""
+    },
+    "hipaa": {
+      "base_url": "",
+      "invalid_url": "",
+      "file_name": "",
+      "result_url": ""
+    },
+    "staging": {
+      "base_url": "https://ml-demo-data.s3.amazonaws.com/kuochin_waymo/10685275399987837806_340_000_360_000",
+      "invalid_url": "https://ml-demo-data.s3.amazonaws.com/xxx/10685275399987837806_340_000_360_000",
+      "file_name": "test.resvdfwfwe.json",
+      "result_url": "https://ml-demo-data.s3.amazonaws.com/new-lidar-data/kitti/highConfidencePrediction.json"
+    }
+  },
+  "lidar_ui": {
+    "majspace24tls.eng01.devspace": {
+      "normal_job1": "",
+      "normal_job2": "",
+      "26_frame_job": "",
+      "auto_adjust_job": "",
+      "four_cuboids_job": ""
+    },
+    "qa": {
+      "normal_job1": "",
+      "normal_job2": "",
+      "26_frame_job": "",
+      "auto_adjust_job": "",
+      "four_cuboids_job": ""
+    },
+    "sandbox": {
+      "normal_job1": "1551939",
+      "normal_job2": "1551940",
+      "26_frame_job": "1551941",
+      "auto_adjust_job": "1551942",
+      "four_cuboids_job": "1551943"
+    },
+    "fed": {
+      "normal_job1": "",
+      "normal_job2": "",
+      "26_frame_job": "",
+      "auto_adjust_job": "",
+      "four_cuboids_job": ""
+    },
+    "live": {
+      "normal_job1": "",
+      "normal_job2": "",
+      "26_frame_job": "",
+      "auto_adjust_job": "",
+      "four_cuboids_job": ""
+    },
+    "integration": {
+      "normal_job1": "1551939",
+      "normal_job2": "1551940",
+      "26_frame_job": "1551941",
+      "auto_adjust_job": "1551942",
+      "four_cuboids_job": "1551943"
+    },
+    "hipaa": {
+      "normal_job1": "",
+      "normal_job2": "",
+      "26_frame_job": "",
+      "auto_adjust_job": "",
+      "four_cuboids_job": ""
+    },
+    "staging": {
+      "normal_job1": "",
+      "normal_job2": "",
+      "26_frame_job": "",
+      "auto_adjust_job": "",
+      "four_cuboids_job": ""
+    }
+  },
+  "data_validation_api": {
+    "majspace24tls.eng01.devspace": {
+      "user_id": "",
+      "team_id": "",
+      "rp_user_id": "",
+      "rp_team_id": ""
+    },
+    "sandbox": {
+      "user_id": "24d46e26-556b-4606-ad5b-15a4764ad1d3",
+      "team_id": "57544607-54b4-46e6-a3de-9266454d00b3",
+      "rp_user_id": "24d46e26-556b-4606-ad5b-15a4764ad1d3",
+      "rp_team_id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+    },
+    "qa": {
+      "user_id": "f5286e4d-9b4e-4610-b42f-d7f117cea966",
+      "team_id": "a6c0a2b2-3735-434c-9063-51d8fb28f50c",
+      "rp_user_id": "",
+      "rp_team_id": ""
+    },
+    "integration": {
+      "user_id": "0655dff3-04ab-4d18-a49a-08bb9ff10580",
+      "team_id": "9a637c25-4430-41a5-a6af-a171d47ecadc",
+      "rp_user_id": "24d46e26-556b-4606-ad5b-15a4764ad1d3",
+      "rp_team_id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+    },
+    "fed": {
+      "user_id": "",
+      "team_id": "",
+      "rp_user_id": "",
+      "rp_team_id": ""
+    },
+    "live": {
+      "user_id": "",
+      "team_id": "",
+      "rp_user_id": "",
+      "rp_team_id": ""
+    },
+    "hipaa": {
+      "user_id": "",
+      "team_id": "",
+      "rp_user_id": "",
+      "rp_team_id": ""
+    },
+    "staging": {
+      "user_id": "742f7fe9-5352-4c3b-8b36-c9cf84cfe78a",
+      "team_id": "386f6920-ffe6-4d65-86e3-6091c337b1f8",
+      "rp_user_id": "742f7fe9-5352-4c3b-8b36-c9cf84cfe78a",
+      "rp_team_id": "386f6920-ffe6-4d65-86e3-6091c337b1f8"
+    }
+  },
+  "ac_adap_jobs": {
+    "majspace24tls.eng01.devspace": "",
+    "sandbox": {
+      "job_id": 1656388
+    },
+    "qa": "",
+    "integration": {
+      "job_id": 1620237
+    },
+    "fed": "",
+    "live": "",
+    "hipaa": "",
+    "staging": ""
+  },
+  "video_annotation_api": {
+    "majspace24tls.eng01.devspace": {
+      "unit_id": "",
+      "video_id": ""
+    },
+    "sandbox": {
+      "unit_id": "d4fc767a9d16b72df852ef3a2822a224486fc9e78e5c833742a55be3ea984773",
+      "video_id": "d4fc767a9d16b72df852ef3a2822a224486fc9e78e5c833742a55be3ea984773"
+    },
+    "qa": {
+      "unit_id": "77745d1f5b85ede62a770b0849f9b73747c9e2b6d8f690cf74a899d8b49ef0d9",
+      "video_id": "eb594bee8e19ad33cc26d77fd9a99fc77df43eaf015e71e66482ae0840533aca"
+    },
+    "integration": {
+      "unit_id": "1bfbd1526274c7311d5cd92c49376fcd750e1ac9087b15f5a53439411caf9bd2",
+      "video_id": "022983c10ef5dea27543aac7b7be4e2b1869fca576564bbc93ff14efe8c5769e"
+    },
+    "fed": {
+      "unit_id": "",
+      "video_id": ""
+    },
+    "live": {
+      "unit_id": "",
+      "video_id": ""
+    },
+    "hipaa": {
+      "unit_id": "",
+      "video_id": ""
+    },
+    "staging": {
+      "unit_id": "",
+      "video_id": ""
+    }
+  },
+  "plss": {
+    "majspace24tls.eng01.devspace": "",
+    "qa": "",
+    "sandbox": 1591896,
+    "fed": "",
+    "live": "",
+    "integration": 1570353,
+    "hipaa": "",
+    "staging": 1422922
+  },
+  "audio_annotation": {
+    "majspace24tls.eng01.devspace": "",
+    "qa": "",
+    "sandbox": 1591925,
+    "fed": "",
+    "live": "",
+    "integration": 2231163,
+    "hipaa": "",
+    "staging": 1423163
+  },
+  "audio_transcription": {
+    "majspace24tls.eng01.devspace": "",
+    "qa": "",
+    "sandbox": 1606317,
+    "fed": "",
+    "live": "",
+    "integration": 2117626,
+    "hipaa": "",
+    "staging": ""
+  },
+  "mlait": {
+    "majspace24tls.eng01.devspace": "",
+    "qa": "",
+    "sandbox": 1591971,
+    "fed": "",
+    "live": "",
+    "integration": 1666124,
+    "hipaa": "",
+    "staging": 1423210
+  },
+  "ontology_mismatch": {
+    "majspace24tls.eng01.devspace": "",
+    "qa": "",
+    "sandbox": 1950570,
+    "fed": "",
+    "live": "",
+    "integration": 1957627,
+    "hipaa": "",
+    "staging": "1554316"
+  },
+  "sda": {
+    "majspace24tls.eng01.devspace": {
+      "s3_new_unit_url": "",
+      "s3_judgable_unit_url": "",
+      "azure_new_unit_url": "",
+      "azure_judgable_unit_url": ""
+    },
+    "sandbox": {
+      "s3_new_unit_url": "https://client.sandbox.cf3.us/jobs/1593969/units/2200191802",
+      "s3_judgable_unit_url": "https://client.sandbox.cf3.us/jobs/1593969/units/2200191793",
+      "azure_new_unit_url": "https://client.sandbox.cf3.us/jobs/1593971/units/2200191814",
+      "azure_judgable_unit_url": "https://client.sandbox.cf3.us/jobs/1593971/units/2200191805"
+    },
+    "qa": {
+      "s3_new_unit_url": "",
+      "s3_judgable_unit_url": "",
+      "azure_new_unit_url": "",
+      "azure_judgable_unit_url": ""
+    },
+    "integration": {
+      "s3_new_unit_url": "https://client.integration.cf3.us/jobs/1583355/units/2198990248",
+      "s3_judgable_unit_url": "https://client.integration.cf3.us/jobs/1583355/units/2198990239",
+      "azure_new_unit_url": "",
+      "azure_judgable_unit_url": ""
+    },
+    "staging": {
+      "s3_new_unit_url": "",
+      "s3_judgable_unit_url": "",
+      "azure_new_unit_url": "",
+      "azure_judgable_unit_url": ""
+    },
+    "live": {
+      "s3_new_unit_url": "",
+      "s3_judgable_unit_url": "",
+      "azure_new_unit_url": "",
+      "azure_judgable_unit_url": ""
+    },
+    "fed": {
+      "s3_new_unit_url": "",
+      "s3_judgable_unit_url": "",
+      "azure_new_unit_url": "",
+      "azure_judgable_unit_url": ""
+    },
+    "hipaa": {
+      "s3_new_unit_url": "",
+      "s3_judgable_unit_url": "",
+      "azure_new_unit_url": "",
+      "azure_judgable_unit_url": ""
+    }
+  },
+  "ontology_attribute_output": {
+    "majspace24tls.eng01.devspace": {
+      "url_output": "",
+      "json_output": ""
+    },
+    "sandbox": {
+      "url_output": "1592701",
+      "json_output": "1592702"
+    },
+    "qa": {
+      "url_output": "",
+      "json_output": ""
+    },
+    "integration": {
+      "url_output": "",
+      "json_output": ""
+    },
+    "fed": {
+      "url_output": "",
+      "json_output": ""
+    },
+    "live": {
+      "url_output": "",
+      "json_output": ""
+    },
+    "hipaa": {
+      "url_output": "",
+      "json_output": ""
+    },
+    "staging": {
+      "url_output": "1422925",
+      "json_output": "1422924"
+    }
+  },
+  "ipa_job": {
+    "what_is_greater": {
+      "majspace24tls.eng01.devspace": "",
+      "qa": "",
+      "sandbox": 1607922,
+      "live": "",
+      "integration": 1674806,
+      "fed": "",
+      "hipaa": "",
+      "staging": 1421232
+    },
+    "ui_sample": {
+      "integration":{
+        "audio_annotation": 1989920,
+        "audio_ann_ui": 2096748,
+        "audio_transcription": 2129081,
+        "checkbox": 1779653,
+        "checkboxes": 1793917,
+        "text": 1781047,
+        "textarea": 1990193,
+        "ratings": 1781046,
+        "radio": 1990068,
+        "radio_default": 1674852,
+        "select": 1781045,
+        "image_annotation": 1791243,
+        "image_annotation_without_ontology": 1989925,
+        "image_annotation_output_url": 1989922,
+        "image_segmentation": 1958364,
+        "video_annotation": 1989895,
+        "text_relationship": 2041809,
+        "image_transcription": 1988433,
+        "image_transcription_without_ontology": 1989923,
+        "image_transcription_output_url": 1988432,
+        "text_annotation": 1797578,
+        "html_tag": 1941279,
+        "image_transcription_url": 1988432,
+        "sda": 1997828,
+        "sample_unit": 2039769,
+        "taxonomy": 2053234,
+        "unsupported_cml_tag": 2192342
+      }
+    },
+    "job_finished": {
+      "majspace24tls.eng01.devspace": "",
+      "qa": "",
+      "sandbox": 1607922,
+      "live": "",
+      "integration": 1674806,
+      "fed": "",
+      "hipaa": "",
+      "staging": ""
+    }
+  },
+  "job_2K": {
+      "devspace": "",
+      "qa": "",
+      "sandbox": 1729484,
+      "live": "",
+      "integration": 1683281,
+      "fed": "",
+      "hipaa": "",
+      "staging": 1422950
+  },
+  "make_input_output_3_input_test": {
+    "sandbox": "1809741",
+    "integration": ""
+  },
+  "make_input_output_aggr_test": {
+    "sandbox": "1674852",
+    "integration": "1767443"
+  },
+  "make_input_output_tagg": {
+    "sandbox": "",
+    "integration": "1581464"
+  },
+  "make_input_output_avg_array": {
+    "sandbox": "",
+    "integration": "1756933"
+  },
+  "make_input_output_input_fields": {
+    "sandbox": "",
+    "integration": "1756930"
+  },
+  "make_input_output_no_input_fields": {
+    "sandbox": "",
+    "integration": "1766140"
+  },
+  "notify_contributor": {
+    "sandbox": 45159223,
+    "integration": 45155174,
+    "majspace24tls.eng01.devspace": "",
+    "qa": "",
+    "sandbox": 1729484,
+    "live": "",
+    "integration": 1683281,
+    "fed": "",
+    "hipaa": "",
+    "staging": 1422950
+  },
+  "ipa_job_performance": {
+    "checkbox": {
+      "100_unit": 1803125,
+      "1000_unit": 1802183,
+      "10000_unit": 1804006,
+      "50000_unit": 1805011,
+      "100000_unit": ""
+    },
+    "image_annotation": {
+      "100_unit": 1802236,
+      "1000_unit": 1802838,
+      "10000_unit": 1802846,
+      "50000_unit": 1806654,
+      "100000_unit": ""
+  },
+    "radios":{
+      "100_unit": 1805162,
+      "1000_unit": 1795975,
+      "10000_unit": 1648621,
+      "50000_unit": 1629964,
+      "100000_unit": 1629880,
+      "200000_unit": 1629643
+    },
+    "text": {
+      "100_unit": "",
+      "1000_unit": "",
+      "10000_unit": "",
+      "50000_unit": 1807720,
+      "100000_unit": ""
+    }
+  }
+}

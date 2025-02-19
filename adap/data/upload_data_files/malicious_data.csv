@@ -1,0 +1,4 @@
+﻿url,content
+<img src=brokenlink onerror=alert('image')>,<script>alert('script_tag')</script>
+<img src=brokenlink onerror=alert('image')>,<script>alert('script_tag')</script>
+<img src=brokenlink onerror=alert('image')>,<script>alert('script_tag')</script>

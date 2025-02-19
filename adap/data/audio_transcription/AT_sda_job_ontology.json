@@ -1,0 +1,18 @@
+{
+  "labelGroups": [
+    {
+      "title": "Transcribable",
+      "color": "#9A2517",
+      "labels": [
+        "Person",
+        "Pets",
+        "Kids"
+      ],
+      "allowMultipleSelection": false,
+      "isForTranscribableSegment": true,
+      "allowNoSelection": false
+    }
+  ],
+  "spans": [],
+  "events": []
+}

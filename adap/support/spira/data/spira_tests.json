@@ -1,0 +1,706 @@
+{
+  "test_access_to_me_endpoint[internal_app_role-200]": {
+    "id": [98],
+    "package": "akon"
+  },
+  "test_access_to_me_endpoint[no_logged_user-401]": {
+    "id": [99],
+    "package": "akon"
+  },
+  "test_access_to_me_endpoint[cf_internal_role-200]": {
+    "id": [100],
+    "package": "akon"
+  },
+  "test_access_to_me_endpoint[team_admin-403]": {
+    "id": [101],
+    "package": "akon"
+  },
+  "test_access_to_me_endpoint[org_admin-403]": {
+    "id": [102],
+    "package": "akon"
+  },
+  "test_access_to_me_endpoint[standard_user-403]": {
+    "id": [103],
+    "package": "akon"
+  },
+  "test_get_org_users[internal_app_role-200]": {
+    "id": [75],
+    "package": "akon"
+  },
+  "test_get_org_users[cf_internal_role-200]": {
+    "id": [76],
+    "package": "akon"
+  },
+  "test_get_org_users[team_admin-403]": {
+    "id": [77],
+    "package": "akon"
+  },
+  "test_get_org_users[org_admin-403]": {
+    "id": [78],
+    "package": "akon"
+  },
+  "test_get_org_users[standard_user-403]": {
+    "id": [79],
+    "package": "akon"
+  },
+  "test_get_org_users_invalid_key_valid_org_id[internal_app_role-404]": {
+    "id": [80],
+    "package": "akon"
+  },
+  "test_get_org_users_invalid_key_valid_org_id[cf_internal_role-404]": {
+    "id": [81],
+    "package": "akon"
+  },
+  "test_get_org_users_valid_key_invalid_org_id[internal_app_role-404]": {
+    "id": [82],
+    "package": "akon"
+  },
+  "test_get_org_users_valid_key_invalid_org_id[cf_internal_role-404]": {
+    "id": [83],
+    "package": "akon"
+  },
+  "test_get_user_by_email_from_list_exact_match[internal_app_role-200]": {
+    "id": [84],
+    "package": "akon"
+  },
+  "test_get_user_by_email_from_list_exact_match[cf_internal_role-200]": {
+    "id": [85],
+    "package": "akon"
+  },
+  "test_paginate_org_users_invalid[page\u003d0-0-1-422]": {
+    "id": [86],
+    "package": "akon"
+  },
+  "test_paginate_org_users_invalid[per_page\u003d0-1-0-422]": {
+    "id": [87],
+    "package": "akon"
+  },
+  "test_paginate_org_users_invalid[negative--1--1-422]": {
+    "id": [88],
+    "package": "akon"
+  },
+  "test_paginate_org_users_invalid[per_page as text-1-invalid-422]": {
+    "id": [89],
+    "package": "akon"
+  },
+  "test_paginate_org_users_invalid[page as text-invalid-1-422]": {
+    "id": [90],
+    "package": "akon"
+  },
+  "test_paginate_org_users_invalid[happy path-2-3-200]": {
+    "id": [91],
+    "package": "akon"
+  },
+  "test_paginate_org_users_valid[internal_app_role-1-1-200]": {
+    "id": [92],
+    "package": "akon"
+  },
+  "test_paginate_org_users_valid[cf_internal_role-10-10-200]": {
+    "id": [93],
+    "package": "akon"
+  },
+  "test_get_user_by_email_less_than_three_char[internal_app_role-200]": {
+    "id": [94],
+    "package": "akon"
+  },
+  "test_get_user_by_email_less_than_three_char[cf_internal_role-200]": {
+    "id": [95],
+    "package": "akon"
+  },
+  "test_get_user_by_email_three_char[internal_app_role-200]": {
+    "id": [96],
+    "package": "akon"
+  },
+  "test_get_user_by_email_three_char[cf_internal_role-200]": {
+    "id": [97],
+    "package": "akon"
+  },
+  "test_access_to_switch_team_endpoint[internal_app_role-204]": {
+    "id": [104],
+    "package": "akon"
+  },
+  "test_access_to_switch_team_endpoint[cf_internal_role-204]": {
+    "id": [105],
+    "package": "akon"
+  },
+  "test_access_to_switch_team_endpoint[no_logged_user-404]": {
+    "id": [106],
+    "package": "akon"
+  },
+  "test_access_to_switch_team_endpoint[team_admin-403]": {
+    "id": [107],
+    "package": "akon"
+  },
+  "test_access_to_switch_team_endpoint[org_admin-403]": {
+    "id": [108],
+    "package": "akon"
+  },
+  "test_access_to_switch_team_endpoint[standard_user-403]": {
+    "id": [109],
+    "package": "akon"
+  },
+  "test_switch_current_team_invalid_team[internal_app_role-200]": {
+    "id": [110],
+    "package": "akon"
+  },
+  "test_switch_current_team_invalid_team[cf_internal_role-200]": {
+    "id": [111],
+    "package": "akon"
+  },
+  "test_switch_current_team_nonexistent_team": {
+    "id": [112],
+    "package": "akon"
+  },
+  "test_switch_current_team_nonexistent_user": {
+    "id": [113],
+    "package": "akon"
+  },
+  "test_switch_current_team_valid_team[internal_app_role-200]": {
+    "id": [114],
+    "package": "akon"
+  },
+  "test_switch_current_team_valid_team[cf_internal_role-200]": {
+    "id": [115],
+    "package": "akon"
+  },
+  "test_switch_api_team_invalid_team": {
+    "id": [116],
+    "package": "akon"
+  },
+  "test_switch_api_team_valid_team[internal_app_role-200]": {
+    "id": [117],
+    "package": "akon"
+  },
+  "test_switch_api_team_valid_team[cf_internal_role-200]": {
+    "id": [118],
+    "package": "akon"
+  },
+  "test_switch_api_team_nonexistent_team": {
+    "id": [119],
+    "package": "akon"
+  },
+  "test_switch_api_team_nonexistent_user": {
+    "id": [120],
+    "package": "akon"
+  },
+  "test_copy_job_no_rows": {
+    "id": [121],
+    "package": "job"
+  },
+  "test_copy_job_all_rows": {
+    "id": [122],
+    "package": "job"
+  },
+  "test_copy_job_test_questions_only": {
+    "id": [123],
+    "package": "job"
+  },
+  "test_copy_job_template_team_id": {
+    "id": [124],
+    "package": "job"
+  },
+  "test_copy_job_template_invalid_team_id": {
+    "id": [125],
+    "package": "job"
+  },
+  "test_copy_job_template_org_admin_outside_org": {
+    "id": [126],
+    "package": "job"
+  },
+  "test_create_blank_job": {
+    "id": [127],
+    "package": "job"
+  },
+  "test_create_blank_job_team_id": {
+    "id": [128],
+    "package": "job"
+  },
+  "test_create_job_with_api_key[valid_key-PJRs8x1jLiybePhKnX8M-200]": {
+    "id": [129],
+    "package": "job"
+  },
+  "test_create_job_with_api_key[empty_key--401]": {
+    "id": [130],
+    "package": "job"
+  },
+  "test_create_job_with_api_key[invalid_key-12345678qwerty-401]": {
+    "id": [131],
+    "package": "job"
+  },
+  "test_create_job_with_title_and_instructions": {
+    "id": [132],
+    "package": "job"
+  },
+  "test_create_job_with_title_and_instructions_team_id": {
+    "id": [133],
+    "package": "job"
+  },
+  "test_create_job_with_json_data": {
+    "id": [134],
+    "package": "job"
+  },
+  "test_create_job_with_json_data_team_id": {
+    "id": [135],
+    "package": "job"
+  },
+  "test_create_job_with_empty_json_data": {
+    "id": [136],
+    "package": "job"
+  },
+  "test_create_job_with_csv_data": {
+    "id": [137],
+    "package": "job"
+  },
+  "test_create_job_with_csv_data_team_id": {
+    "id": [138],
+    "package": "job"
+  },
+  "test_delete_job": {
+    "id": [139],
+    "package": "job"
+  },
+  "test_get_status_empty_job": {
+    "id": [140],
+    "package": "job"
+  },
+  "test_get_json_status_for_simple_job": {
+    "id": [141],
+    "package": "job"
+  },
+  "test_list_of_jobs_for_user": {
+    "id": [142],
+    "package": "job"
+  },
+  "test_notify_contributor": {
+    "id": [143],
+    "package": "job"
+  },
+  "test_flag_a_contributor": {
+    "id": [144],
+    "package": "job"
+  },
+  "test_add_tag_to_job": {
+    "id": [145],
+    "package": "job"
+  },
+  "test_replace_tags_on_job": {
+    "id": [146],
+    "package": "job"
+  },
+  "test_add_channel_to_job": {
+    "id": [147],
+    "package": "job"
+  },
+  "test_disable_channel_on_job": {
+    "id": [148],
+    "package": "job"
+  },
+  "test_launch_simple_job": {
+    "id": [149],
+    "package": "job"
+  },
+  "test_pause_simple_job": {
+    "id": [150],
+    "package": "job"
+  },
+  "test_resume_simple_job": {
+    "id": [151],
+    "package": "job"
+  },
+  "test_cancel_running_simple_job": {
+    "id": [152],
+    "package": "job"
+  },
+  "test_cancel_paused_simple_job": {
+    "id": [153],
+    "package": "job"
+  },
+  "test_auto_launch_job": {
+    "id": [154],
+    "package": "job"
+  },
+  "test_create_new_row": {
+    "id": [155],
+    "package": "job"
+  },
+  "test_create_random_number_of_rows": {
+    "id": [156],
+    "package": "job"
+  },
+  "test_get_rows": {
+    "id": [157],
+    "package": "job"
+  },
+  "test_get_row_count": {
+    "id": [158],
+    "package": "job"
+  },
+  "test_delete_a_unit": {
+    "id": [159],
+    "package": "job"
+  },
+  "test_update_a_unit[hidden_gold]": {
+    "id": [160],
+    "package": "job"
+  },
+  "test_update_a_unit[golden]": {
+    "id": [161],
+    "package": "job"
+  },
+  "test_update_a_unit[finalized]": {
+    "id": [162],
+    "package": "job"
+  },
+  "test_update_a_unit[new]": {
+    "id": [163],
+    "package": "job"
+  },
+  "test_cancel_a_unit": {
+    "id": [164],
+    "package": "job"
+  },
+  "test_split_unit_column": {
+    "id": [165],
+    "package": "job"
+  },
+  "test_update_job_title": {
+    "id": [166],
+    "package": "job"
+  },
+  "test_update_job_cml": {
+    "id": [167],
+    "package": "job"
+  },
+  "test_upload_json": {
+    "id": [168],
+    "package": "job"
+  },
+  "test_upload_empty_json": {
+    "id": [169],
+    "package": "job"
+  },
+  "test_upload_csv": {
+    "id": [170],
+    "package": "job"
+  },
+  "test_convert_uploaded_tq": {
+    "id": [171],
+    "package": "job"
+  },
+  "test_generate_report[source-source-/source%s.csv]": {
+    "id": [172],
+    "package": "report"
+  },
+  "test_generate_report[gold report-gold_report-/job_%s_gold_report.csv]": {
+    "id": [173],
+    "package": "report"
+  },
+  "test_generate_report[full report-full-/f%s.csv]": {
+    "id": [174],
+    "package": "report"
+  },
+  "test_generate_report[contributor report-workset-/workset%s.csv]": {
+    "id": [175],
+    "package": "report"
+  },
+  "test_generate_report[aggregated report-aggregated-/a%s.csv]": {
+    "id": [176],
+    "package": "report"
+  },
+  "test_generate_report[json report-json-/job_%s.json]": {
+    "id": [177],
+    "package": "report"
+  },
+  "test_get_row_and_judgements": {
+    "id": [178],
+    "package": "report"
+  },
+  "test_get_aggregated_result_for_row": {
+    "id": [179],
+    "package": "report"
+  },
+  "test_get_all_judgments_per_row": {
+    "id": [180],
+    "package": "report"
+  },
+  "test_access_to_me_endpoint_rp[internal_app_role-200]": {
+    "id": [181],
+    "package": "requestor_proxy"
+  },
+  "test_access_to_me_endpoint_rp[cf_internal_role-200]": {
+    "id": [182],
+    "package": "requestor_proxy"
+  },
+  "test_access_to_me_endpoint_rp[team_admin-200]": {
+    "id": [183],
+    "package": "requestor_proxy"
+  },
+  "test_access_to_me_endpoint_rp[org_admin-200]": {
+    "id": [184],
+    "package": "requestor_proxy"
+  },
+  "test_access_to_me_endpoint_rp[standard_user-200]": {
+    "id": [185],
+    "package": "requestor_proxy"
+  },
+  "test_access_to_me_endpoint_rp[multi_team_user-200]": {
+    "id": [186],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_valid_jwt[internal_app_role-204]": {
+    "id": [187],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_valid_jwt[cf_internal_role-204]": {
+    "id": [188],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_valid_jwt[team_admin-204]": {
+    "id": [189],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_valid_jwt[org_admin-204]": {
+    "id": [190],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_valid_jwt[standard_user-204]": {
+    "id": [191],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_valid_jwt[multi_team_user-204]": {
+    "id": [192],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_invalid_jwt[internal_app_role-403]": {
+    "id": [193],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_invalid_jwt[cf_internal_role-403]": {
+    "id": [194],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_invalid_jwt[team_admin-403]": {
+    "id": [195],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_invalid_jwt[org_admin-403]": {
+    "id": [196],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_invalid_jwt[standard_user-403]": {
+    "id": [197],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_invalid_jwt[multi_team_user-403]": {
+    "id": [198],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_invalid_team[internal_app_role-422]": {
+    "id": [199],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_invalid_team[cf_internal_role-422]": {
+    "id": [200],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_invalid_team[team_admin-422]": {
+    "id": [201],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_invalid_team[standard_user-422]": {
+    "id": [202],
+    "package": "requestor_proxy"
+  },
+  "test_switch_team_endpoint_org_admin": {
+    "id": [203],
+    "package": "requestor_proxy"
+  },
+  "test_switch_api_team_builder[internal_app_role-200]": {
+    "id": [204],
+    "package": "user"
+  },
+  "test_switch_api_team_builder[cf_internal_role-200]": {
+    "id": [205],
+    "package": "user"
+  },
+  "test_switch_api_team_builder[no_logged_user-401]": {
+    "id": [206],
+    "package": "user"
+  },
+  "test_switch_api_team_builder[team_admin-200]": {
+    "id": [207],
+    "package": "user"
+  },
+  "test_switch_api_team_builder[org_admin-200]": {
+    "id": [208],
+    "package": "user"
+  },
+  "test_switch_api_team_builder[standard_user-200]": {
+    "id": [209],
+    "package": "user"
+  },
+  "test_switch_api_team_multi_team_user": {
+    "id": [210],
+    "package": "user"
+  },
+  "test_get_user_account_info": {
+    "id": [211],
+    "package": "user"
+  },
+  "test_get_users_teams[internal_app_role-200]": {
+    "id": [212],
+    "package": "user"
+  },
+  "test_get_users_teams[no_logged_user-401]": {
+    "id": [213],
+    "package": "user"
+  },
+  "test_get_users_teams[cf_internal_role-200]": {
+    "id": [214],
+    "package": "user"
+  },
+  "test_get_users_teams[team_admin-200]": {
+    "id": [215],
+    "package": "user"
+  },
+  "test_get_users_teams[org_admin-200]": {
+    "id": [216],
+    "package": "user"
+  },
+  "test_get_users_teams[standard_user-200]": {
+    "id": [217],
+    "package": "user"
+  },
+  "test_get_users_teams[multi_team_user-200]": {
+    "id": [218],
+    "package": "user"
+  },
+  "test_generate_jwt_token[internal_app_role-200]": {
+    "id": [219],
+    "package": "workflow"
+  },
+  "test_launch_wf": {
+    "id": [220],
+    "package": "workflow"
+  },
+  "test_pause_wf": {
+    "id": [221],
+    "package": "workflow"
+  },
+  "test_resume_wf": {
+    "id": [222],
+    "package": "workflow"
+  },
+  "test_create_wf[valid_key-PJRs8x1jLiybePhKnX8M-201]": {
+    "id": [223],
+    "package": "workflow"
+  },
+  "test_create_wf[empty_key--403]": {
+    "id": [224],
+    "package": "workflow"
+  },
+  "test_create_wf[invalid_key-12345678qwerty-403]": {
+    "id": [225],
+    "package": "workflow"
+  },
+  "test_create_wf_no_name": {
+    "id": [226],
+    "package": "workflow"
+  },
+  "test_read_wf_info[valid_key-PJRs8x1jLiybePhKnX8M-200]": {
+    "id": [227],
+    "package": "workflow"
+  },
+  "test_read_wf_info[empty_key--403]": {
+    "id": [228],
+    "package": "workflow"
+  },
+  "test_read_wf_info[invalid_key-12345678qwerty-403]": {
+    "id": [229],
+    "package": "workflow"
+  },
+  "test_user_able_get_info_for_his_job": {
+    "id": [230],
+    "package": "workflow"
+  },
+  "test_get_wf_owner[valid_key-PJRs8x1jLiybePhKnX8M-200]": {
+    "id": [231],
+    "package": "workflow"
+  },
+  "test_get_wf_owner[empty_key--403]": {
+    "id": [232],
+    "package": "workflow"
+  },
+  "test_get_wf_owner[invalid_key-12345678qwerty-403]": {
+    "id": [233],
+    "package": "workflow"
+  },
+  "test_update_wf[valid_key-PJRs8x1jLiybePhKnX8M-200]": {
+    "id": [234],
+    "package": "workflow"
+  },
+  "test_update_wf[empty_key--403]": {
+    "id": [235],
+    "package": "workflow"
+  },
+  "test_update_wf[invalid_key-12345678qwerty-403]": {
+    "id": [236],
+    "package": "workflow"
+  },
+  "test_user_not_able_delete_only_his_wf": {
+    "id": [237],
+    "package": "workflow"
+  },
+  "test_delete_wf": {
+    "id": [238],
+    "package": "workflow"
+  },
+  "test_get_list_of_wfs": {
+    "id": [239],
+    "package": "workflow"
+  },
+  "test_count_wfs": {
+    "id": [240],
+    "package": "workflow"
+  },
+  "test_upload_data": {
+    "id": [241],
+    "package": "workflow"
+  },
+  "test_delete_data_upload": {
+    "id": [242],
+    "package": "workflow"
+  },
+  "test_create_step": {
+    "id": [243],
+    "package": "workflow"
+  },
+  "test_delete_step": {
+    "id": [244],
+    "package": "workflow"
+  },
+  "test_create_route": {
+    "id": [245],
+    "package": "workflow"
+  },
+  "test_update_route": {
+    "id": [246],
+    "package": "workflow"
+  },
+  "test_delete_route": {
+    "id": [247],
+    "package": "workflow"
+  },
+  "test_delete_invalid_route": {
+    "id": [248],
+    "package": "workflow"
+  },
+  "test_list_of_routers": {
+    "id": [249],
+    "package": "workflow"
+  },
+  "test_create_filter_rule": {
+    "id": [250],
+    "package": "workflow"
+  }
+}

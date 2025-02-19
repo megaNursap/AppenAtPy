@@ -1,0 +1,14 @@
+[{
+	"description": "",
+	"class_name": "Table_1",
+	"display_color": "#FF1744",
+	"report_value": "table_1",
+	"relationship_types": [],
+	"maximum_instances_number": 1
+}, {
+	"description": "Cell_1 corresponds to cells in Table_1",
+	"class_name": "Cell_1",
+	"display_color": "#651FFF",
+	"report_value": "cell_1",
+	"relationship_types": []
+}]

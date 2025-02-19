@@ -1,0 +1,164 @@
+  {
+      "test_account": {
+         "user_name":"cf_internal user",
+         "email":"cf_internal@figure-eight.com",
+         "api_key":"gAAAAABfBMKQYSsg_PYxncm-2HVUuZ87uqFT85jv1h5_-OK-X5V8SPSaXedk6Fl4ZpM9YURxYl2scSNlsON9ah6oC63FPO3CkMCrh8z9xwDirVExtdg25HM=",
+         "password":"gAAAAABfBMKQU71sSrOd5VPyrDRi8q8h2MnMUf5zHyE4ZTDGWIGe1W3YOuWFLz_C2bUDjg5jm5ZUivzSAO4376vvhOYG6JC-6k8WuqSHoXsBdHlg7LJ1Heo=",
+         "teams":[
+            {
+               "id":"43a87445-4093-4caa-8a76-ef52f731828e",
+               "name":"cf_internal"
+            }
+         ],
+    "jwt_token":"gAAAAABfBMKQq7diMmzvyktpvPbvyYmfQtYuKFIiyy3KVqLrOOdFykCBVoTRp4Mr5ZeEpe1eVTj7Bk8SNhQSoadNAj00RR8E5qbp0Qc6QLOVvwWzeWm6fXlo46GjA0g1EkLCmkMqJxOK3DmMoo-hl9EXujFbAfDHv5CBC2umyBEWf6eZbmzAeEToFfmMQ80fSis8zXkJ130saaXBR8a2lTpsArUjpGDtLotG5YUlginsOQonr7U1k7rDD_G1EZhqH53e3Lap57VbPU3G1syo9Fam-L4m4Gm_QRtjR48YGEj6SGBS_u8i0slUW3S4kvnNXqMmdqgp_t5zfCj-iVG6oVYR07b5ATkU3JQ7oO7nEPUo20s530gjJ5O6zrj3qdzw6jwgWkxPgE8Zza_QwYpmzb055trEk378T5lkkY5npjpf1WaJ7RT90mEynp3bUPM2vxUdYu4zdHL7wBfsd4CujcNFDwIU2bsHKjnHl-vL6Od3paLE2yx66Mm3MtXFyuTLZaxm4Z_nJGvKfhl6zu6BKkIeU7KnH8FMh8H4sbVs09YDJQHLGTqyolAvSuBqylOxmzV0I0eJPjszK57UcBkzni-2hDSwbN7bomKVZMU-thX_VuWHbjpzNtBrKIKlwggANpsQT5cFiAlTsgVc5VHq4w8KTLmG0BOGSFauaLiEDzQwnt04RjRW-cytU8U-nRXqFi50IcyQ0lymvbMx3nt2FRklvOYPAIowb7I9Wzuhm_kLvivA7brK5Cb-Pzn7VUczKNneDViIdwHm"
+
+    },
+     "org_admin": {
+      "user_name": "org_admin+2020_12_01_11_36@appen.com",
+      "email": "org_admin+2020_12_01_11_36@appen.com",
+      "api_key": "gAAAAABfxo7AY1R27NfNkTScu-CUfsdAvAQqbzSvFKdy34kqeOrRMPxfffWI2WbGx7rZgFXH1jYeosfNmjJEjYl0D2xEEJSm6vk0WSd0GXj6jjETE-BsV4g=",
+      "password": "gAAAAABfxo7AQPwHF3zgK7HbO3l2U_QHQZrehBiagYzcFwgh-fIwk3mfUO0lXx6ILlTwzqn37Aowvr7rNfUUVnt9M7y1GizZJA==",
+      "teams": [
+        {
+          "id": "8f4acbeb-61fe-47be-ad47-b595b5cbb87e",
+          "name": "51714 team 202012011136"
+        }
+      ],
+      "org_name": "18077org202012011136",
+      "org_id": "9d23c722-b389-4625-9af9-644d3e7cdd69",
+      "jwt_token": "gAAAAABfxo7AmBaUrQfbf2o1cmCiyLTJkMt4gh1ARyLMm8RaV_N-xHjS74IB94seRlpJToKJb4XpaFjn100dOiMc7l0P8vQRxDr_kzOoxc8cXNIt96hI526b5CqcXl7swdvCNsKK78nOh_lqn4gSeICZl02qTfUN_zpA-iacLRfkKslHe-6FBcfeJ3iHERZyu_Fsa0p5mTemFs-DIJxFetDicx1dUpuhWg=="
+    },
+
+       "cf_internal_role":{
+         "user_name":"cf_internal user",
+         "email":"cf_internal@figure-eight.com",
+         "api_key":"gAAAAABfBMKQYSsg_PYxncm-2HVUuZ87uqFT85jv1h5_-OK-X5V8SPSaXedk6Fl4ZpM9YURxYl2scSNlsON9ah6oC63FPO3CkMCrh8z9xwDirVExtdg25HM=",
+         "password":"gAAAAABfBMKQU71sSrOd5VPyrDRi8q8h2MnMUf5zHyE4ZTDGWIGe1W3YOuWFLz_C2bUDjg5jm5ZUivzSAO4376vvhOYG6JC-6k8WuqSHoXsBdHlg7LJ1Heo=",
+         "teams":[
+            {
+               "id":"43a87445-4093-4caa-8a76-ef52f731828e",
+               "name":"cf_internal"
+            }
+         ],
+    "jwt_token":"gAAAAABfBMKQq7diMmzvyktpvPbvyYmfQtYuKFIiyy3KVqLrOOdFykCBVoTRp4Mr5ZeEpe1eVTj7Bk8SNhQSoadNAj00RR8E5qbp0Qc6QLOVvwWzeWm6fXlo46GjA0g1EkLCmkMqJxOK3DmMoo-hl9EXujFbAfDHv5CBC2umyBEWf6eZbmzAeEToFfmMQ80fSis8zXkJ130saaXBR8a2lTpsArUjpGDtLotG5YUlginsOQonr7U1k7rDD_G1EZhqH53e3Lap57VbPU3G1syo9Fam-L4m4Gm_QRtjR48YGEj6SGBS_u8i0slUW3S4kvnNXqMmdqgp_t5zfCj-iVG6oVYR07b5ATkU3JQ7oO7nEPUo20s530gjJ5O6zrj3qdzw6jwgWkxPgE8Zza_QwYpmzb055trEk378T5lkkY5npjpf1WaJ7RT90mEynp3bUPM2vxUdYu4zdHL7wBfsd4CujcNFDwIU2bsHKjnHl-vL6Od3paLE2yx66Mm3MtXFyuTLZaxm4Z_nJGvKfhl6zu6BKkIeU7KnH8FMh8H4sbVs09YDJQHLGTqyolAvSuBqylOxmzV0I0eJPjszK57UcBkzni-2hDSwbN7bomKVZMU-thX_VuWHbjpzNtBrKIKlwggANpsQT5cFiAlTsgVc5VHq4w8KTLmG0BOGSFauaLiEDzQwnt04RjRW-cytU8U-nRXqFi50IcyQ0lymvbMx3nt2FRklvOYPAIowb7I9Wzuhm_kLvivA7brK5Cb-Pzn7VUczKNneDViIdwHm"
+      },
+
+     "test_hc_account": {
+      "user_name":"cf_internal user",
+         "email":"cf_internal@figure-eight.com",
+         "api_key":"gAAAAABfBMKQYSsg_PYxncm-2HVUuZ87uqFT85jv1h5_-OK-X5V8SPSaXedk6Fl4ZpM9YURxYl2scSNlsON9ah6oC63FPO3CkMCrh8z9xwDirVExtdg25HM=",
+         "password":"gAAAAABfBMKQU71sSrOd5VPyrDRi8q8h2MnMUf5zHyE4ZTDGWIGe1W3YOuWFLz_C2bUDjg5jm5ZUivzSAO4376vvhOYG6JC-6k8WuqSHoXsBdHlg7LJ1Heo=",
+         "teams":[
+            {
+               "id":"43a87445-4093-4caa-8a76-ef52f731828e",
+               "name":"cf_internal"
+            }
+         ],
+    "jwt_token":"gAAAAABfBMKQq7diMmzvyktpvPbvyYmfQtYuKFIiyy3KVqLrOOdFykCBVoTRp4Mr5ZeEpe1eVTj7Bk8SNhQSoadNAj00RR8E5qbp0Qc6QLOVvwWzeWm6fXlo46GjA0g1EkLCmkMqJxOK3DmMoo-hl9EXujFbAfDHv5CBC2umyBEWf6eZbmzAeEToFfmMQ80fSis8zXkJ130saaXBR8a2lTpsArUjpGDtLotG5YUlginsOQonr7U1k7rDD_G1EZhqH53e3Lap57VbPU3G1syo9Fam-L4m4Gm_QRtjR48YGEj6SGBS_u8i0slUW3S4kvnNXqMmdqgp_t5zfCj-iVG6oVYR07b5ATkU3JQ7oO7nEPUo20s530gjJ5O6zrj3qdzw6jwgWkxPgE8Zza_QwYpmzb055trEk378T5lkkY5npjpf1WaJ7RT90mEynp3bUPM2vxUdYu4zdHL7wBfsd4CujcNFDwIU2bsHKjnHl-vL6Od3paLE2yx66Mm3MtXFyuTLZaxm4Z_nJGvKfhl6zu6BKkIeU7KnH8FMh8H4sbVs09YDJQHLGTqyolAvSuBqylOxmzV0I0eJPjszK57UcBkzni-2hDSwbN7bomKVZMU-thX_VuWHbjpzNtBrKIKlwggANpsQT5cFiAlTsgVc5VHq4w8KTLmG0BOGSFauaLiEDzQwnt04RjRW-cytU8U-nRXqFi50IcyQ0lymvbMx3nt2FRklvOYPAIowb7I9Wzuhm_kLvivA7brK5Cb-Pzn7VUczKNneDViIdwHm"
+
+    },
+
+    "non_cf_team": {
+       "user_name":"cf_internal user",
+         "email":"cf_internal@figure-eight.com",
+         "api_key":"gAAAAABfBMKQYSsg_PYxncm-2HVUuZ87uqFT85jv1h5_-OK-X5V8SPSaXedk6Fl4ZpM9YURxYl2scSNlsON9ah6oC63FPO3CkMCrh8z9xwDirVExtdg25HM=",
+         "password":"gAAAAABfBMKQU71sSrOd5VPyrDRi8q8h2MnMUf5zHyE4ZTDGWIGe1W3YOuWFLz_C2bUDjg5jm5ZUivzSAO4376vvhOYG6JC-6k8WuqSHoXsBdHlg7LJ1Heo=",
+         "teams":[
+            {
+               "id":"43a87445-4093-4caa-8a76-ef52f731828e",
+               "name":"cf_internal"
+            }
+         ],
+    "jwt_token":"gAAAAABfBMKQq7diMmzvyktpvPbvyYmfQtYuKFIiyy3KVqLrOOdFykCBVoTRp4Mr5ZeEpe1eVTj7Bk8SNhQSoadNAj00RR8E5qbp0Qc6QLOVvwWzeWm6fXlo46GjA0g1EkLCmkMqJxOK3DmMoo-hl9EXujFbAfDHv5CBC2umyBEWf6eZbmzAeEToFfmMQ80fSis8zXkJ130saaXBR8a2lTpsArUjpGDtLotG5YUlginsOQonr7U1k7rDD_G1EZhqH53e3Lap57VbPU3G1syo9Fam-L4m4Gm_QRtjR48YGEj6SGBS_u8i0slUW3S4kvnNXqMmdqgp_t5zfCj-iVG6oVYR07b5ATkU3JQ7oO7nEPUo20s530gjJ5O6zrj3qdzw6jwgWkxPgE8Zza_QwYpmzb055trEk378T5lkkY5npjpf1WaJ7RT90mEynp3bUPM2vxUdYu4zdHL7wBfsd4CujcNFDwIU2bsHKjnHl-vL6Od3paLE2yx66Mm3MtXFyuTLZaxm4Z_nJGvKfhl6zu6BKkIeU7KnH8FMh8H4sbVs09YDJQHLGTqyolAvSuBqylOxmzV0I0eJPjszK57UcBkzni-2hDSwbN7bomKVZMU-thX_VuWHbjpzNtBrKIKlwggANpsQT5cFiAlTsgVc5VHq4w8KTLmG0BOGSFauaLiEDzQwnt04RjRW-cytU8U-nRXqFi50IcyQ0lymvbMx3nt2FRklvOYPAIowb7I9Wzuhm_kLvivA7brK5Cb-Pzn7VUczKNneDViIdwHm"
+
+    },
+
+      "test_ui_account": {
+      "user_name":"cf_internal user",
+         "email":"cf_internal@figure-eight.com",
+         "api_key":"gAAAAABfBMKQYSsg_PYxncm-2HVUuZ87uqFT85jv1h5_-OK-X5V8SPSaXedk6Fl4ZpM9YURxYl2scSNlsON9ah6oC63FPO3CkMCrh8z9xwDirVExtdg25HM=",
+         "password":"gAAAAABfBMKQU71sSrOd5VPyrDRi8q8h2MnMUf5zHyE4ZTDGWIGe1W3YOuWFLz_C2bUDjg5jm5ZUivzSAO4376vvhOYG6JC-6k8WuqSHoXsBdHlg7LJ1Heo=",
+         "teams":[
+            {
+               "id":"43a87445-4093-4caa-8a76-ef52f731828e",
+               "name":"cf_internal"
+            }
+         ],
+    "jwt_token":"gAAAAABfBMKQq7diMmzvyktpvPbvyYmfQtYuKFIiyy3KVqLrOOdFykCBVoTRp4Mr5ZeEpe1eVTj7Bk8SNhQSoadNAj00RR8E5qbp0Qc6QLOVvwWzeWm6fXlo46GjA0g1EkLCmkMqJxOK3DmMoo-hl9EXujFbAfDHv5CBC2umyBEWf6eZbmzAeEToFfmMQ80fSis8zXkJ130saaXBR8a2lTpsArUjpGDtLotG5YUlginsOQonr7U1k7rDD_G1EZhqH53e3Lap57VbPU3G1syo9Fam-L4m4Gm_QRtjR48YGEj6SGBS_u8i0slUW3S4kvnNXqMmdqgp_t5zfCj-iVG6oVYR07b5ATkU3JQ7oO7nEPUo20s530gjJ5O6zrj3qdzw6jwgWkxPgE8Zza_QwYpmzb055trEk378T5lkkY5npjpf1WaJ7RT90mEynp3bUPM2vxUdYu4zdHL7wBfsd4CujcNFDwIU2bsHKjnHl-vL6Od3paLE2yx66Mm3MtXFyuTLZaxm4Z_nJGvKfhl6zu6BKkIeU7KnH8FMh8H4sbVs09YDJQHLGTqyolAvSuBqylOxmzV0I0eJPjszK57UcBkzni-2hDSwbN7bomKVZMU-thX_VuWHbjpzNtBrKIKlwggANpsQT5cFiAlTsgVc5VHq4w8KTLmG0BOGSFauaLiEDzQwnt04RjRW-cytU8U-nRXqFi50IcyQ0lymvbMx3nt2FRklvOYPAIowb7I9Wzuhm_kLvivA7brK5Cb-Pzn7VUczKNneDViIdwHm"
+
+    },
+
+     "test_predefined_jobs": {
+      "user_name": "test_predefined_jobs+2020_12_01_12_15@appen.com",
+      "email": "test_predefined_jobs+2020_12_01_12_15@appen.com",
+      "api_key": "gAAAAABfxpdnXqhIazcng2-e-bHB6HFElcdKS5hCbgUw5DTFZFrXDqhJ4Bt5kVHIs5B4pCb9e9RsoyWHJRKZtPw4Kqgnmij6RxNVUgKY4MENt6bn1hWWvcI=",
+      "password": "gAAAAABfxpdnPOrSpSwT8ukpPmMwhmMixFNQbhX60dkbCW_7l3uuNOH_bEjL20vxfyw0l4eFNJ9t7Zm5yGTEv8WVEhFBGky5JQ==",
+      "teams": [
+        {
+          "name": "76385 team 202012011215",
+          "id": "da0e5702-8dc2-4969-8660-fc068e68f776"
+        }
+      ],
+      "desc": "WF should be disable, TQG should be disable"
+    },
+
+     "test_ui_reset_password": {
+       "user_name": "test_ui_reset_psw+2020_11_05_13_06@appen.com",
+       "email": "test_ui_reset_psw+2020_11_05_13_06@appen.com",
+       "api_key": "gAAAAABfpGtz394QVoz6DBlU4UujVs4lFsQYs89AQSeGjl5vJJn4oHJMHf-Dz2B8MaDfXj0F1rtdDgtbfFvnY5Ijrlb1KFxas9-2vdEuSqLwbraYh-LYv1A=",
+       "password": "gAAAAABfpGtzFmRufSxpCN8hYSi0rvWUK3jnE7rTt0LT6-9bVeuP0NOwdJ-NeP1sfor8S9HeON1M3X9QZIUivs-aDrhtuUGZvJ5okdPWjHDGedp9PEO_rQ8=",
+       "teams": [
+         {
+           "name": "18806 team 202011051306",
+           "id": "9478abc1-88bf-496f-9739-3b0a0ef7a14b"
+         }
+       ]
+     },
+
+       "test_lidar": {
+       "user_name": "",
+       "email": "",
+       "api_key": "",
+       "password": "",
+       "akon_id": ""
+     },
+
+       "for_multiple_user": {
+        "user_name": "for_multiple_user+2020_12_01_13_06@appen.com",
+        "email": "for_multiple_user+2020_12_01_13_06@appen.com",
+        "api_key": "gAAAAABfKvCDRTiR8weDlmktsr9oEoqR65WxcHF8ZBmjoWWUKkyVx0zcCfF5wDj4JRRg5sASYZeLnw5YM5XiED2O6-A1qh4INl1FJOfbvM3a4WiD0OnsKBU=",
+        "password": "gAAAAABfKvCDSHBmUmu_0T57dr6f0nQo2QTtRrroyCMYsto7szSWxYwUYsC1v0SO2NjxXb08t7cx9xUwM1Gg_-oCMKNfhaLfJcZJ2h7zyRF6BjatnU-mqtM=",
+        "teams": [
+          {
+            "id": "5ef944bd-b260-4f3e-853c-558d55c0301f",
+            "name": "40115 team 202012011306"
+          }
+        ]
+      },
+      "multi_team_user": {
+        "user_name": "donaldpadilla64734@appen.com",
+        "email": "donaldpadilla64734@appen.com",
+        "api_key": "gAAAAABfxrn6ruhqeYRsZYH9VQZ4bapUOKFK91ts6q71TSYpmk_Ubl-EBbIq-Fvj2gvouCHMs97uC9qXFDx_VpelNvL7STornGlHK5DeujZ4vXRZnCIhJnU=",
+        "password": "gAAAAABfxroYoMswodcOEBEjwedynbP4lvCQtgEio6_LS90vmVclG-Ci1r2wNaCMYjDwNHZC27EX6vwq2QxN5GZFdH7vgLYgztBOXuk9Ew0HHHXVsPis2kU=",
+        "teams": [
+          {
+            "id": "5ef944bd-b260-4f3e-853c-558d55c0301f",
+            "name": "40115 team 202012011306"
+          },
+          {
+            "id": "2482b5dc-2f96-4578-b333-1322775cd7d1",
+            "name": "93225 team 202012011306"
+          }
+        ],
+        "org_name": "38688org202012011306",
+        "org_id": "051ae580-8f72-415e-ac78-68f138a234a6"
+      },
+      "test_contributor_task": {
+        "user_name": "test_contributor_task 2020_12_01_09_59",
+        "email": "test_contributor_task+2020_12_01_09_59@appen.com",
+        "api_key": "gAAAAABfxnaT961cY6j5iTkvnA3Idke_5YtTsu58plggUF7rNTJAqEL3S2R6drgOwhPTSle-efd2P2e_NQFi0qyaqg8vQUTeTpojAXGcr7c8BzekI_q2flVmM7i4jiDpNx8twRTqUz99YA_MixIzyvv6TXxKgeRD6N_4kLoLuL-PUD1XD7LjTiWBexaTBFEw1x5-sH77AmZ522W4d9D2_H8aIGvlbfysPg==",
+        "password": "gAAAAABfxnaTfGfMIjthijcTZZlXklvUy0Y6wtpevV_DAiyJXC4zvEiVrQmgEgHtVuIFKfw1OLnY2HCAmTvWwBx9nL-g8TT58A==",
+        "default_hc": 52,
+        "worker_id": "45155176"
+      }
+  }

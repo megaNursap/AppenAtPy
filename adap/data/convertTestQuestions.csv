@@ -1,0 +1,10 @@
+_id,_pct_missed,_judgments,_hidden,_contention,_pct_contested,_gold_pool,_golden,_review_state,_ask_question_here,ask_question_here_gold,ask_question_here_gold_reason,image_url
+2186961871,0.00,0,false,,0,,TRUE,,,"first_option
+second_option",,https://s3.amazonaws.com/pichost/segmentor/us101/IMG_9622.JPG
+2186961872,0.00,0,false,,0,,TRUE,,,first_option,,https://s3.amazonaws.com/pichost/segmentor/us101/IMG_9618.JPG
+2186961873,0.00,0,false,,0,,TRUE,,,first_option,,https://s3.amazonaws.com/pichost/segmentor/us101/IMG_9623.JPG
+2186961874,0.00,0,false,,0,,TRUE,,,first_option,,https://s3.amazonaws.com/pichost/segmentor/us101/IMG_9615.JPG
+2186961875,0.00,0,false,,0,,TRUE,,,first_option,,https://s3.amazonaws.com/pichost/segmentor/us101/IMG_9624.JPG
+2186961876,0.00,0,false,,0,,TRUE,,,first_option,,https://s3.amazonaws.com/pichost/segmentor/us101/IMG_9616.JPG
+2186961877,0.00,0,false,,0,,TRUE,,,first_option,,https://s3.amazonaws.com/pichost/segmentor/us101/IMG_9620.JPG
+2186961878,0.00,0,true,,0,,TRUE,,,first_option,,https://s3.amazonaws.com/pichost/segmentor/us101/IMG_9617.JPG

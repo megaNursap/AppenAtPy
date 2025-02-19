@@ -1,0 +1,10 @@
+GET_HEALTHCHECK = "/health_check"
+GET_SCENE = "/v1/scene_info?baseUrl=%s"
+GET_FRAMEBINARY = "/v1/get_frame?baseUrl=%s"
+PUT_SUBMITANNOTATION = "/v1/save_annotation"
+GET_ANNOTATION = "/v1/get_annotation?baseUrl=%s&fileName=%s"
+GET_RESULT = "/v1/get_result?resultUrl=%s"
+GET_CALLIBRATION = "/v1/get_calibration?baseUrl=%s&imageId=%s"
+POST_PREDICTBOX = "/v1/predict_box"
+
+URL = "https://pointcloud.internal.{}.cf3.us"

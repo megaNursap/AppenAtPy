@@ -1,0 +1,12 @@
+<strong>original link:</strong>
+<p>
+  <span>{{ image_url }}</span>
+</p>
+
+<strong>link encoded</strong>
+<p>
+  <span>
+    <img src="{{ image_url | secure: 'Azure_test' }}"/>
+    <cml:shapes type="['dot']" source_data="{{ image_url | secure: 'Azure_test' }}" validates="required" ontology="true" name="annotation" label="Annotate this image" class-threshold="0.7" dot-distance="10" dot-threshold="0.7" class-agg="agg" dot-agg="10"/>
+  </span>
+</p>

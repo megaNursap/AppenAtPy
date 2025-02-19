@@ -1,0 +1,1124 @@
+{
+   "test_account": {
+    "user_name": "qa+integration_api_staging@figure-eight.com",
+    "email": "qa+integration_api_staging@figure-eight.com",
+    "password": "gAAAAABhUiPWfxbzxOOFWZBURKeVgpL4d4-1F3qIb9fNepfLPzwLjnZlNbKzYXZjH0Dh4WhkmIOiBRf4ArKNbIW0YKbQA_um32IZSU5bJY-v-0En1KMwlF8=",
+    "api_key": "gAAAAABhUiPWcqFjdBhS7-ioclGOw0WZfcn6EBu-buNbQnzfKUcVE4-hPEjQXo0LZxEWN3OrzzgbWDqI9R8QWqk25qKbbk9fNHqBxzdPAUlwJ5nkI2Tmy9w=",
+    "contributor": false,
+    "main_team": "qa+integration_api_staging@figure-eight.com",
+    "main_team_id": "386f6920-ffe6-4d65-86e3-6091c337b1f8",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": true,
+      "cfInternalCheckbox": true,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      },
+      {
+        "name": "qa+integration_api_staging@figure-eight.com",
+        "id": "386f6920-ffe6-4d65-86e3-6091c337b1f8"
+      }
+    ],
+    "akon_id": "0655dff3-04ab-4d18-a49a-08bb9ff10580",
+    "wf_source_report": "/2021-11-12-18-32-32_image_categorization_8_rows.csv"
+  },
+  "test_contributor_task": {
+    "user_name": "sandbox+task1@figure-eight.com",
+    "email": "sandbox+task1@figure-eight.com",
+    "api_key": "",
+    "password": "gAAAAABhXIYjxlFR_Vir7hgSFQJuj1ON9Oup4TZa-TgIuUazYoNhyTefMI7CptnGAopWKxQUgbZA8Io1_kReaxwzkamEv5MGNnQP6ws-BDay-28CIpFePJw=",
+    "akon_id": "",
+    "worker_id": "45155196",
+    "contributor": true
+  },
+  "test_ui_contributor1": {
+    "user_name": "qa+keycloak+worker1+1@figure-eight.com",
+    "email": "qa+keycloak+worker1+1@figure-eight.com",
+    "password": "gAAAAABhXIYjxlFR_Vir7hgSFQJuj1ON9Oup4TZa-TgIuUazYoNhyTefMI7CptnGAopWKxQUgbZA8Io1_kReaxwzkamEv5MGNnQP6ws-BDay-28CIpFePJw=",
+    "api_key": "",
+    "akon_id": "",
+    "worker_id": "",
+    "contributor": true
+  },
+  "test_performance_stage_account": {
+    "email": "qa+staging_load_22@figure-eight.com",
+    "password": "gAAAAABhUh-RhdFyIlWene_q4HuLvyRDUBrehbUTEZhigpkoWGav-lJ0vGJwkmKcmvcW2tT1B9QI3bvINwo2UAlWsFv1TmgFZdKBy0d4GvIBITuT8a9WGxw=",
+    "api_key": "gAAAAABhcGZlLynhNkwRmsze5YW1EB77EIrEdTUT6KeMt_UcM4Q2CCH5G5NxvPryv0rswCkUcAzqEAZzUju5s79dRD-6Wn4iakAfVU3vcIy9wB7GooQF7Jk=",
+    "jwt_token": "gAAAAABhcbet0K5hok5QsDLT4AP2XEfEme_kQR9AJYDAxQ7KGJd6DUOZRU83sLEm94lM6yyGCvxmYe2Qnkse0wf5jB1wrTawJ6z6ZRsgqUfLSqOCY0oFNtaMTbStWrtrD93qpI3qL1ymsOm0AgT3tte6CPqb_60hldFhzk3MbLDS7JRnKxpfoUIlguRLnsIKQcQ9mGkQW0kB2nkGycpP4GA_iVzAxoTGA-FaoYcwtZ0YJ5dkJexA9TlyeGbgyjLJwuaRqV8JNARObtbUY_GIOggetYAaOdB9rCHL48Dr8vlx_vcMx_nIQlj3BHuCXBAfe9gdKdtL47uh-rLeELkCHGit1nuwhQ4JObYj0pGfMjB7NttvYQFldKLLKe_-abqoGzMGX-V-aB-XfHm3w9aEwJKjIJ_bHRlKe_ZLmX2w0e2cBS3cOnUyWUVSdt7CidAaqaWoG96bcGVoTtd6HldgoDzZHDYTRcIaYc9NmrysrxK370A6aie6Cm6iU4dZFx1c-W4BBWzOC6g6qyGd5CJaJ3imgPCq_-JMqkx86GOLpTxXMCSNOhyitvmSlytK9XuK7wjsIetgkBxDkEUSwcelDSubowRNQHq7frKnpodlQAyVN6q-Rqg2GU1piPODeFqHNoV09WyR4i9NnXprOrxfZ4ZUka-uXNcPkL7RcyNFHsrDE7T9xwpZjGEhJtUMqk8Frym2Hi7mY-J6iGO2IMCfVVkyxSdYSRvWe_d54gxrRy53sdhp-8oCXkuqUZMxxT0BBa3vAVaXJV8Kt8Uxz8dbwq40HjKsv3sTc6RO3N15hS1O1jf4jQEZVy3y2M2F8LumHKqeKcLyhYVeaajVjuLAnEu58mhDJ_lMvIeniANeemkYh0GXm6h_e8EDla0L5pNEBeuVCFuniV6XtwvpTkl13XSTjjPFBCQob_qTzE_rw_a9LsYYnBdmp8tz_f_C0Z-ShqYwYhAxXzVynJ4Nd2ODMqJCmyueNNJtkMcZLIBhf5NiBwOsKDfD9vajspS2wsHFIQqF775xDCmH9hYKMqO1UR7lre6_MQQfqDSDZ_O140glYsFizPxyAHl8Y_zAoB2WnFoxHXsPTXxZ2CrVWg99F5T_9tXIeP_whU8JCg8WuNlqv1bQPHaxJyH1VL5mGXYJGmEwHnicTM_8AA-3bZLvfKmWru8gDZRgisN68DmN4mfebd9NXMui20RQq1RWMUXwY4cTt-tX_ZCQxpGChgm8HAEcjoEPgRqjEuRSLlGioXdC95S-ZaHVnaFYh1GUM1OT0dnLp5mMnnehtTRKGOWUuW6FAlf1nZ5ndcgrSfUPDvp5jdDqyFmmeUEVi09mV5F9CmR9jAQINH31E1DsXlc_JuR0YuvQXM3XQyt8H0AkqivanfFkFl98Fyd6rKYkLFrAm8qyd6Rl6P34VnemxwXwu-VSSSP_ETiCGIeZOZeJ-DpGUU-iSA8sSeaIG_MoyNlUVDWko6MDK0825jzXve4HUcCbfc2XJX-HtQkpN3XxGV6JSmDXJFeVAfNmnnUbZJdymVTrgzddihJrDKIGbfTgd3s3FhoEtppQWg==",
+    "template_job_id": 0,
+    "worker_password": "gAAAAABhbwspbzGus1X8hw4DYunoplX-YItSr-q3Tm_s-nuWFtvYgvejWS5nYAGgIcUVYLQH3rKRtUJQ10C7XoMJdFiwAtnPgFyq7g6ZLTOn2l6CU-1w290="
+  },
+  "test_stage_load_contributor": {
+    "user_name": "stage+load+worker1+1@figure-eight.com",
+    "email": "stage+load+worker1+1@figure-eight.com",
+    "password": "gAAAAABhbwspbzGus1X8hw4DYunoplX-YItSr-q3Tm_s-nuWFtvYgvejWS5nYAGgIcUVYLQH3rKRtUJQ10C7XoMJdFiwAtnPgFyq7g6ZLTOn2l6CU-1w290="
+  },
+  "test_predefined_jobs": {
+    "user_name": "qa+integration_job_staging@figure-eight.com",
+    "email": "qa+integration_job_staging@figure-eight.com",
+    "password": "gAAAAABhUiPWVE4DQ0vVhePgapCVbpvJsdBP_g31VePz1P8_0ezkp1Qswn46yd4BhLZhEh177R-PAYvam2ygj7SQW5EteURxDpLUAFZt4vuYY2Szh6EZq6k=",
+    "api_key": "gAAAAABhUiPWN5nQP30Qrictzuqg0rJhlDNbKtx8b_SSLBz2krLkIqVmSk556KJsTReTEYuhmH783owpie2Hn7lxxA-3IqFO6CeVB6jJUGH_lCRC_otLXtM=",
+    "contributor": false,
+    "main_team": "qa+integration_job_staging@figure-eight.com",
+    "main_team_id": "9d6f1775-f4aa-433c-882a-232c8a121e93",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": false,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "name": "qa+integration_job_staging@figure-eight.com",
+        "id": "9d6f1775-f4aa-433c-882a-232c8a121e93"
+      }
+    ],
+    "desc": "WF should be disable"
+  },
+  "test_ui_account": {
+    "user_name": "qa+ui@figure-eight.com",
+    "email": "qa+ui@figure-eight.com",
+    "password": "gAAAAABhUh-RhdFyIlWene_q4HuLvyRDUBrehbUTEZhigpkoWGav-lJ0vGJwkmKcmvcW2tT1B9QI3bvINwo2UAlWsFv1TmgFZdKBy0d4GvIBITuT8a9WGxw=",
+    "api_key": "gAAAAABhUh-Rh1YMmoyNlIUTVa2bQD_lYQc42624dnKJWStTos8BmXUbBRvRd43xrJB2fsIrRuLvs7P2uxCwck_JIbTR80m77vLngNt0s95JJXH34sgEyek=",
+    "x_storage_refs_token": "gAAAAABkEHBItG4ouA_2EhMsYM-j2JQIbXIkW9X208ffzGCqMNJUzWaQwzGY9CSSA6yxzOrpyEObvEhAu46Q821UuTqyTcYLP38pV6peVeYjMumv_pfw_rSfkwl7VmYBaTeEx4URRaXGgBmj70iyeGgnxVgcpWPXBn0cej3GBHctTOgx39CDpO3sH4qBKPsJ7_O4AckLx-y_2rnrQFZAKWpq1zv0mqTLU7nhZg4SZPWmv2mzFjuYNO256xpx8L2hWHWC_YYyJaHm9_N7LaYzPushTZGzrfEkoKyVb90219VtDL0p9lqpLWEA5_rF87OeQNqWR7cA8S7UJg1KDFRaSi23q7L9ZGTN9qSSt1jYETmHp6hERpAa3ePYNaudT2kWTIWIX4xGQHjaPfnSpIhDFpTJLjO9iFabKdd72BIfV4PK3-AIKZdb1uKkGNHNQXppLGEV811wK4BoSgyvwvidZaupfazW5XFFGqleSn90LK7SUcZeJo8HUrsl-TYNSjz1k8ByGsbwnFo4Y2ZztPv_yff7ZiqgFwMnasy1Q82-6ucqABbnlbsZVm3NYzeS7rQ3nN3CA8BTGKW9rrzYOAOAmKFiXNlWC9VMV9vvgtCBWlT7WTNtfj4b0XQzXkGRS1jLMojbCqI13mV3eQeQr1qfyPEUOZayBsjdKJOZGKARUeSrMVVyOOH-M7mmVVCsHq02-yt6f9rlJzJmTeXK86cjPDJkEKknW8wQAH2ChZOwKdCxQCBH4f1Yp3BAlu66F1HoxZH14lXp6cI5",
+    "contributor": false,
+    "main_team": "qa+integration_api_staging@figure-eight.com",
+    "main_team_id": "386f6920-ffe6-4d65-86e3-6091c337b1f8",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": true,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      },
+      {
+        "name": "qa+integration_api_staging@figure-eight.com",
+        "id": "386f6920-ffe6-4d65-86e3-6091c337b1f8"
+      }
+    ],
+    "akon_id": "742f7fe9-5352-4c3b-8b36-c9cf84cfe78a",
+    "jwt_token": "gAAAAABhaJg18g7XHM2zyPY9yQnEvTDWp3LaHztR279qgMrH4o6f-8I6nzoMOQCh2aPJeoAFHBtz13BNSdVmtNw8_faPWBuzcu9A4r78_Ne0IM-odNm9fysM7CRprkrxaf6xnFeXw-Ver8v9BJHn2XoYuvZ_6Axw4GkGfQ0-a4Td0DkG6PZelSxjh0OSdso2FVUP11PP4MMNSZoWr9xCzgxcPwtrGwCrCnMdmB9te69tufX6IVKQ52JTXL2Ei-Y9eri36QwChxd6cW7vyf6AFU7Q86ftFRi02SC37xx5q0frEtUHxQ80LIHtMLnwm_5_ndmyeqxivMQ6f0PWZz7fnPMGyONH6vrbjpXS1tGTOKgDwu81bjx5mmCYIeVjFx3IKqpjw4CbTlEd_AwyIJqv_RKYZN0U440053m41fmBSQQxlXCyjSH0_NcMwZ63BfCc2Mc3ew5HYiPqS-IPdIMbPiEL5brIodkgxE7PcM_8fUvJQ-A7Y1hxo6SDKHwCx5EBrkJ9Lz1E2mGTyhd_KR07wtty8hNd4MVdPnsvHdfM-DcANE5bHFwPwZOm_Lz7DDpi19ly9avYXm3zxUbVu8OaN_-rTBmLPF8LbxGSCcA8RSDBwtzhArVpdCKdkBbU7G1fbwZ3fa-IvkTgaodEN6ZP5iiWcPQ2EdHtNJTddh6F8m70BZfEbvJGh17d9qTJqrCDn64vFkzPKF7pQvSoYzeMM3moC9SMCZvIrRCiUqQFHHDUlbXP88XjfdaY38XFdijiHxpXmgG6VTEjAY5_pk33Y_J6hf500PMa6dlLcZJvTY9AHE8ab4Ue_N0AOzPKPLfBloAEZBOQ7NRHWMigGR5BuihflriEbeya8A6JK-8VAx3Yc6Ok1yL62CbiEMlcDlEsaryjsyfudKw5aEtQ3ODzvNZw-KerjRU15MzTvRN6BPBcjY6T3YPWeCid3UNYW-WAYNsRye6xUYD128Lw4FmExxVSTuXyKlhlWuucB3FONqBsDA1Mb2Iq6nqzWlxvYnI2uCnH3a57QDAS2lXOXBPERXqZtt9RKevR2CEvL4_TEP40uYWBDo5s_Wo0BsCjGHBsFbJJcSfNG12bkP_SvZrkwmwp1-zqS8mJA59QxPJCROqXSqoiXn6WecfhSZlMcujbO4iqCxQ5y-VlVzsOS-sbvavJed6GzTzsMBzvQgF8ou8ACBBWLlrAyiYimM2i3cd4qOKvTvw3w0VRZlBWggMKEtbHrvgSLMdQUfGm7iVLgVsA7OzZTyyeEKmiakK8DV1T0PTj-SCUZ41lJh9nDtfAYIjvYcBEf6gUj4k5HfkDoHYaeVtHUvK-oKaWbF282TuCQvOtzba6YBqs0Jl1u3LP4EuxlvkxvH6XydpzGzl4e94UNkzsUNmBtR0RPhZUzVt-AADCMAqdCXngD5TMLRwyjPtAX3x-PFSjjzWEp-EwDzZf8cKjliGdRsdio9D9SeHCXObqsMOv2nN4qcn1xTj8_GL_u0nqRmNwNg=="
+  },
+  "test_ui_reset_password": {
+    "user_name": "sandbox+test_ui1@figure-eight.com",
+    "email": "sandbox+test_ui1@figure-eight.com",
+    "password": "gAAAAABjPvTCY2VnQNhZmzPQPp9YxVfag4awrTsP3K3gEDO7cv588IVZbmH0gBKCvi6N73AHLOOL6U44T6uQya1OVyhN3r0vwfqOUxkUGXeDOhBlBX9XEck=",
+    "api_key": "gAAAAABhUh-RYPD7AM9NPloUcBv8_YPrvaNaHcXBSabKh9KYENaZtwn9rsRDqd5VY4UGHsT4x8JW8ngmYvOthVVrcsz0OLuVGrE1FbCGK5Re1jwZu3F5fJc=",
+    "contributor": false,
+    "main_team": "sandbox+test_ui1@figure-eight.com",
+    "main_team_id": "2d3aea25-016b-41d2-8cdd-37c4cc74438e",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": false,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "trial",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      },
+      {
+        "name": "sandbox+test_ui1@figure-eight.com",
+        "id": "2d3aea25-016b-41d2-8cdd-37c4cc74438e"
+      }
+    ]
+  },
+  "internal_app_role": {
+    "user_name": "INT internal app",
+    "email": "qa+internalapp_int@figure-eight.com",
+    "password": "gAAAAABhUh-Rvea5CPCwwcFC5u_zzWyrhWJDWTTGfdWUurEobBXcn57fYN5eKAG5HoZlVI-g6EHXSY2CAcrk-gv17mT8WT9sV2FuUOJsTg_mSxEBmygy17E=",
+    "api_key": "gAAAAABhUh-Rn8pdxRnDI8JB4A-t8Gs-voxKTgTRmhLnU9nD2YIn8NP31bYi8JosE95lX89J0KJTJxajN5V6XLv3lBBeSlsx24Ai2nzFSsl-0AvF-hOGsyI=",
+    "contributor": false,
+    "main_team": "qa+internalapp_int@figure-eight.com",
+    "main_team_id": "5f2eebc1-8612-44be-80ac-d001e94db505",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": false,
+      "internalAppCheckbox": true,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      },
+      {
+        "name": "qa+internalapp_int@figure-eight.com",
+        "id": "5f2eebc1-8612-44be-80ac-d001e94db505"
+      }
+    ],
+    "org_id": "0f62b1b9-3e81-4670-aca8-5f2695ec355c",
+    "akon_id": "dce393ee-95c9-46b5-a36f-2d13cffbe5bf",
+    "jwt_token": "gAAAAABhUh-RQwXcATso4BvdBf-4wX7lQ7rWQMC8I4WaSJnJwEVWK7C9XdZ6mW9KmtEC4bXoifMuHUyCO7-5Re4eMUoE779g5e6_Q8xyDK223r4kKmXEm7ux4eTU7umQXYgV3n6_ZfHRY03RCQgYl9l3dym6h__v-Zp9c_fPOt6-XLceHtHnAQ0RqRoEUO8KVu_NUnKCuY4BbSgDZn7ZevcRj9HQuJyaA570BTDIouvuDHVH_zhN8NKUvWo1O4X-9mKD8wnYhZuxIeJSksZYdhshvM54wYRqtm_L5EDnpJqinQeRGZjo4-QLZ0tfx3AAir4ljQwFMSVsTzckeaLAmEHoidcJvALNxZBU_cMgNGL4PHJ4PihBGreK6h7C2f4QxhUm_6zWZFvV0UBdmG9z8cP6LuD1nZyks84ogjEjXJxayI4kwW1nYfMKvcNGRY3SQh30yHGJKulwAfoWdtsH76oroAsvusGegUEVCRnS0OCx70H7LFfBWUFpNxYe8ptO8N0YaKORCxGCu_I6UiT6xCLsws0odPJ-w0YDmg75PKhkDq-kMFmhq9QhEk_ePeGKtzvPEYj1h30VdDZ4TkjfHqcTLj44ZMJ_io3bD13sLDj8sdV1xZwMBZgqxv2evVcfcUa5nTEZzKL1pNLon9j1vsMqmKmf7mtrSCVRZ0Hb7KgJCtPNWzogQxdhOY2l_BXOJpoW_pmYeyQYWucc1qcACSSyub-cu1p99oY2rh8WuRi07VKLVs3dsawJboAudtF9xd7tf0_j_9nTdMWMPpNX4S2fpkawtE1QPSlUAYwo1yO4yNJ1rIieDgSvqxYtCTyXRYwVbbFIpTyD",
+    "desc": "user has internal_app"
+  },
+  "cf_internal_role": {
+    "user_name": "INT cfinternal",
+    "email": "qa+cfinternal_int_admin@figure-eight.com",
+    "password": "gAAAAABhXMhuX1sVWnLNrSQmQX8tL3OlvVIOORQkvuPAH6KH_s3TXgwglkoE0RP8oIjvKdPuulIxwIIBkRGvl2r_YW3HJ7WnlGayK5VDIXWDwPKMgT9SXbE=",
+    "api_key": "gAAAAABhaKlG42wUz2hcBPyMg1_k9L8Eke17nHTxKXW7941iZA6LhCctchADWxr8-jovSksKRdOBhyIHgGUNL5FMDbaBp8l_7ktDsa2G8GER5TbD86kWNvI=",
+    "contributor": false,
+    "main_team": "qa+internalapp_int@figure-eight.com",
+    "main_team_id": "",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": true,
+      "cfInternalCheckbox": true,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": true
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      },
+      {
+        "name": "qa+internalapp_int@figure-eight.com",
+        "id": "5f2eebc1-8612-44be-80ac-d001e94db505"
+      }
+    ],
+    "org_id": "ac1c6f24-6ea7-4a02-8d0b-63a3fede51aa",
+    "akon_id": "70d2ee44-1d2d-4792-8b98-352427a2a6c7",
+    "jwt_token": "gAAAAABhUh-Rp-ev0Ab4iU_BGcxC5Sf44Y203ZJQvuW4vvXrOc0ufzpCc4C15Hhwo-bxYpEOpax8z3rldJBxYdly5Nflt_reMaQq5yknDuU3Z0wXjHnmcuhX7XSNdRchoaF9j-lYwDOH0yRUysmAfohalGxc-Dti7cRz7ZZsaRPd2SVYTZC-Ee3bK61dDGvvUlw9d-0UH13eqMd4vX_z1jHYHJvkWucvjQutRhYL84QoG7ykWmAP7msqR1QLqOqz22k6ziOd8o7Y0GQVCOB4NIFSSiSt0oCweNauvrGjhtEZs2ulzXmvqOFx6Jl8r_K1TYlrwIpqQTmpkl6ovMXSJmxez55b9aZcSuiVC8cycwoUEXuqClUYhykxQmVSvLr_xdQOwq_lX3Zw-qbfIseqjrZ2weCTkf_dwUoYnKh1eVSjH0kEd7BSmOe-UPfLmwbK6ERawBAJxi8cEmd5PE6ROK_qYrLrfXzz2csUiGKaIcZUiCILMGuU-FDSpy42r-ydpLTAoaAshr61uIKPCZBI_DzP18g7xPmhjv1IiyE5Le1mi5eDE0q01l687dFS-ksx_awEJSihgZNgpFIQDfXuCWwJCrY3qnLEh6_HbqS3nuq0k3mifXpv7hX4sagsrluKi0FNLUUjbhvdzfNsDTKE9cdsJSg26TkUXemNtBnI3TXEISb6QnILQemSviLGZnP14FbOeBb_VMXpdCP7jg3HnWNE_lmBTqQL8B9wnH95V0R9--dSC5SlvmRCsAE0gwPBd81qSKIf0MwO6d282CRqThq_SPa7QoWRTP9Oj3Al7dbZkz1bty1MQRdgDu8pe6NEPuj7N4UcMlbq",
+    "desc": "user has cf_internal role"
+  },
+  "org_admin": {
+    "user_name": "INT org_admin",
+    "email": "qa+orgadmin_int@figure-eight.com",
+    "password": "gAAAAABhUh-RMcSzHHT1y9DKV_dkFYwe-87XfBpCduxLb31ALQkXiWDGo1Ezg99tt6KMufPhHyJpbEcuhKcqi-oCzm6IfeNFQWlS1Y_Xi8lC-s3hm7wao-U=",
+    "api_key": "gAAAAABhUh-RR7OawRQco9gYtfjqdT4N2vohKp3o_PEADJvRLlELr278yjUwcgY32_Id43Be3PLWu3CnwUKlhaXHT3hxTR9KBEj2ZKvotzDByuZvB2cn_Vc=",
+    "contributor": false,
+    "main_team": "qa+internalapp_int@figure-eight.com",
+    "main_team_id": "5f2eebc1-8612-44be-80ac-d001e94db505",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": false,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      },
+      {
+        "name": "qa+2_int@figure-eight.com",
+        "id": "teams?q=qa%2B2_int%40figure-eight.com"
+      },
+      {
+        "name": "qa+integration_job@figure-eight.com",
+        "id": "78920fe0-f0ac-40d8-b863-9989467502c2"
+      },
+      {
+        "name": "qa+22_int@figure-eight.com",
+        "id": ""
+      },
+      {
+        "name": "qa+internalapp_int@figure-eight.com",
+        "id": "5f2eebc1-8612-44be-80ac-d001e94db505"
+      }
+    ],
+    "akon_id": "b3fafe68-97b8-42eb-a324-358fdbb81ef0",
+    "jwt_token": "gAAAAABhX2FaOc8ycYc68qMwolcf-9Po4GcLmvzqbQ1q4wyQFuk_Xdyj9hJ09RqJnbwH6IB0er8SOYnQc6EsD2PFm3aFoNG1kmxAL-D1TEW_43vYPOVUWwg-VcD_p2MBOXqnVDKgPi0LnhEvhe_J3kQsu71ErIZOof-1nP30K96qi7slQS3JqmnTOheHkAjJ1k--60ukaD8ATJZVTMQBZouds9omcNYl_ZjZbGw0_P_XKbk4i1sGMK7ilddXGFvgyO9h1o0fCy7561BkD37m1QWzRRUMr108-aZcgE-LW3djFHNXhbV6QpxB712mX-M4qzaTmCQVVJO_1MZqSrqx3Ahoqp-lHPoMAG2xAQ7OyoVSiownwWyK9rr2kZLxUnrt7zCvq8QLLC9-cTRChKaO3tFt1-flpqzaU4H6QY5jAiiyuDywpkrnlKHuSnajWjmKtt4oracTABgIHFhlg3BgfvvrHriuspzkuQ-LP7wVRbmDsdekIWgaxyOc12FyKdqVSS31sTGioV0qr_68IFoLslpeG2b7rjKMD7wNlb-TJqw8_8jHAVYT8rweGSmrfdSVDwda_lHjuUjXDcK6C9X--C3T8Bf8rPulXo4BE4T3BjwnjzDAUC19ultIX5OiD0VpthkGlh2J2ruiu4c3mltFT5aP-60IbGqaipkXZAtOR4lGXF167Js-KIbKrU5fbhXkKCab4haUkCSQ2aX71Wa4ILZkBpJb6eQjwyH81cLgxrzu6V_GLfoqeq2aU--NDQf1YnpkbNKFAz7SiInEFHXdtVMIu4AXoV0X2Wh3A6uxIOEcqmVXqLNz_ShCIwyEfe7STRRHd5xpgEmSbxDPaqG-CNqxM_AmpRCopNN4eYFDn-0YPKDJ42bTHd6ODWnXasE1hSfwFXCrKVwQO91hHZ06zVYYzBmTYUhP1pASoa8JIONqvWa5LRK-T2v2U-iN7lZbiF2auNXJ1m6pSXWkdndZogkIQdgpBhC8JiaRkB_GNDBjpXOdVwZ88fgRNRNH2f7HadpvutdCB3sKBdhasHqQyvl3XAJUt4T8qS7kZnjPfdNjexSt34ekg3bhqwprlsIiBpHhTdxp8uBeKHww1xZH-eWOY8TtmswVVy1OFabKmq2lwrQARKoZgKAkk5-oOzf1boo1wH5BCq8nxlQm6kx38HuEcG7Q5KM8l4i8ugMH_zXf0P0cGRzYKsM9FBNd0JJ6hqgkIa0oww-cKg-GPP6eBBJCWRblkwZLqIlZ7SOofCN3M8zuCyIUH2Ku-GEogV1c7t_sXHS706s_DySqWCUb1aDS7HzpsUx8sNBlwDKKqz52OQPp3BdlQQbd6aiSqOlBum3rKy9Dozwvz9068DJOssmdyZzAdgNqrP8FXdzImsT2N8XYf2qGSuENaNMOMHyU1d3GZXMhGhncyMtGSNtm712fmienqFGz_bp9gf9BK6e-J0KRemguKKF4wxI5pjiagOjLy-3xEBWGFOdJ8Esx-OShNfpBn68zKibQyXX1jRA_WLuq7KTAB0LWYmHeb6xUGdpzTJ7BUMjIhDiuvkDhnStT3qnVN3o3xpDq5Uj0kgfMaazjXmU5NJh1sny8LDEzGAKmV30DJZqLvL6KI8LPW9LfK7X10tcyXQ=="
+  },
+  "team_admin": {
+    "user_name": "INT team_admin",
+    "email": "qa+teamadmin_int@figure-eight.com",
+    "password": "gAAAAABhUh-R6OCcC66I2F0iUC8Ln-8U6kkfpvAa93kpE751tNvXbly4f5so5rEEAL8fpLS5c_wuGw7XwLscjVjZublS0UNJ3LpjH6QtoyJ2iFSgLlALuWk=",
+    "api_key": "gAAAAABhUh-RB6G53gPJKPAUh84IYrUkRv-JmjFHic5IvfDTAamiXWhD1adDEPwUzs1g3AJVFNIq65OOWVpgvZ9D7KrIs83jt4afVStL6xk9EaV90_w_Q0I=",
+    "contributor": false,
+    "main_team": "qa+internalapp_int@figure-eight.com",
+    "main_team_id": "5f2eebc1-8612-44be-80ac-d001e94db505",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": false,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      },
+      {
+        "name": "qa+internalapp_int@figure-eight.com",
+        "id": "5f2eebc1-8612-44be-80ac-d001e94db505"
+      }
+    ],
+    "akon_id": "a903c9d5-4df7-4d4c-ba8f-db6a90bc8137",
+    "jwt_token": "gAAAAABhUh-R1s4hXqeEiGRkPiVcpmqqh1jSOfdxoVGJxDYNbw-5wZJ37yI0TllkHpaF80btV2oEWKyAGs_xlckNO0q3zh_TxkVpuLIMVHahHyoOMill4_jXBpRCq4-Zc6_5D6AGoZqwyfLDX3UnR3zAuumYP8Bx7GQLney9ro-vtjx6tVcpNjI7JaxCrF6bvrdnym2PiD1b7oYI7JxG8wnrdp4BQQEBZgcKrMRK2TeQqB61oYf5vLUOPDrdryIqV9exZ4FnQfxwKmyXQMJIFDS7yUcq5TVa69d2mHBGeuPVLpY38xxZxOcVzEn1cCNPJSmehcBoRFzc1Csd8VC_vvJP8jfhfmSxbiPSelwtvo2ReV9jxmjy-eELspgY019xcD6zX946xeAeq627RGPHZGO_k1UF90BfZkyTdACYrUE2qQcmcy3EdyhiAT9J-YcKG4BWVwly8YhPARqm6v982AgzZuINmc6TjD6mE4AYCwEfNWqZqsT0_Kr9U4vo2nMtWxQxdwp5iZ4K9YWr27uPCPJY2lfBflvlocJYoAXmfRirsqjzgkp6vFc4Kv--sx-Sx4gk9QwWG7Bd8F9fbLyQJtuOj1UGR4OH8blZslJ49uuoG1Y5rsLgutOFXTU4vzkVtW8tW9Ez58Xr8BxrtbwcNOfuL_2j5UP2UoB0-FU7Aj_9hsK1Z9CcuMSLhdPZDpsSfo8K9MJ-WPVzsXyhgd7AAfSzpAU8uX7EumHfmfaVflR1cf88fFGJediNdK9RHEAmWtHVWBgWH0UFDJ8zaZpS7KHfWuUC47smIxL0J2Ad2K0sSwcWSOxNbCTDz7T1INDfN8fSFvgCSRyw"
+  },
+  "standard_user": {
+    "user_name": "INT standard_user",
+    "email": "qa+standarduser_int@figure-eight.com",
+    "password": "gAAAAABhUh-Rfg0_mO95Vli9in0HhojDDEKfX08X2I1fM8_N_okTdSGDFJmjvG9FG85DNgrrQLoCdSaFgWJWhPMSvEHoaHUI_mXGj6KZ9nXm_IJ7nzRWWdc=",
+    "api_key": "gAAAAABhUh-R_p-SMzjCBIIbLssoi8Ki6US0ivab68nRiw9Tnz78yau2urxly-QLN8OPY7BOdJf004Gui0zOSMcF1aSWJizhsYC4pfRRHFd1nub8X9K-HrQ=",
+    "contributor": false,
+    "main_team": "qa+internalapp_int@figure-eight.com",
+    "main_team_id": "5f2eebc1-8612-44be-80ac-d001e94db505",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": false,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      },
+      {
+        "name": "qa+internalapp_int@figure-eight.com",
+        "id": "5f2eebc1-8612-44be-80ac-d001e94db505"
+      }
+    ],
+    "akon_id": "7cb3f99b-0b93-4168-a429-56b2d36e1fcd",
+    "jwt_token": "gAAAAABhUh-RJnvHvov6PbRZW9NMcy-mci6KHY4BvRWNp3CDTFzfQPzXznR_EMZxZn1ktwGbErA2Dl4GiWa8S_y5PqcfsHJJ7mtmqLKtIXOclvxJvvH-VuuYTBdIfkdKQYBKzXDyOBuwm2P-FhGyQwqZRpxf3i7gnfZYjGHTpgtI7zsmMgazcD4xPnNp3mZ5J7rZuFtbr7y3rhSD925goDSzN1cSUk4KaK4F2_bvwNF8LN6fAEamkwm4xh5-YCWhwUOA8mchGq93S1OfJgFhTIMb1UyIA9I_Lhz5PdMn5DMoWzqw_Wlxt54YYW22QKrR4Up2TQM6sdoq4kHoTelfbskNkglh80B_oo_ABQrnO21Qj0_bBYajBLhaEDs9zVR46qhfOYReU1vOIHzIBL6SEuViH12a3zbN_Rgtp6TyC91-W9uAjj0Ik7M0F2ZP6RoUfaC5ZHbgFCYxtKlXFhR1lkdnVQcve0tlOfvlHme9ymwYkltfCS3R_sDVnWM0iaE1RMdeIvadrG2SpM5dSn_AGqivzxzBXx3nOK0MwlGB40oTgobVVMnLmn5Fuga_ZfWLNWJHAX2oJJ0_GR27tPVI8UP2M3sd_nRkjUPPZiYcFKSQHNlza1qn-oN-430Sfw6rjYoMNuxeiuGXNtq0QAjtld81zv4S5ONV89ug6ukF8YP6qiGRg6gdsrOUc2CPLUfaNpi3NYxUfgOFeT39KmFVjfPjMKH8j0_OR7_M02ys28ciPnuHdBN0CNFQYOAd_pZuX39jlmHzUScXOPIM1H3iXSvyM9dw_OQ9TjJg5ISDlw3cRliz3kNU3erWF1BozEVNCPdzKcStG5bX"
+  },
+  "multi_team_user": {
+    "user_name": "INT 22",
+    "email": "qa+22_int@figure-eight.com",
+    "password": "gAAAAABhUh-Rn4sdapJM_ihaGcgKUGxBkPJJRWcl6CK5YJk3IiSq1eeO_qs6K2WKUgFPGEMqQUVopUXbXR-zM4fPpFrjEXoN6LOaYAlz1vSGAAFUJxoZOjM=",
+    "api_key": "gAAAAABhUh-Rbkveybe7YaUOOzSggQG3cjitlagNttiwgOs_cOA7EibA3rSLvc6LRia4WiiDe04bXthKnAM1RMpgThmIhnHIhFyHLdgflci9Izd91vLF24I=",
+    "contributor": false,
+    "main_team": "qa+internalapp_int@figure-eight.com",
+    "main_team_id": "68f80964-59bb-48d4-bf03-092547ad0369",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": false,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "name": "qa+22_int@figure-eight.com",
+        "id": "68f80964-59bb-48d4-bf03-092547ad0369"
+      },
+      {
+        "name": "qa+internalapp_int@figure-eight.com",
+        "id": "5f2eebc1-8612-44be-80ac-d001e94db505"
+      },
+       {
+        "name": "qa+integration_job_staging@figure-eight.com",
+        "id": "9d6f1775-f4aa-433c-882a-232c8a121e93"
+      }
+    ],
+    "akon_id": "6d225827-4d5b-4811-b823-2021dc30fb94",
+    "jwt_token": "gAAAAABhUh-RQ52f2cK7TQD-q3rjHIGBBIQNp7yMR3AjAHkZyOsgfkQHw0ss2NxMBXCaNnMjqE_JvCcmW2DKprxDGc3nkGQiet0Yke_iXefgdCcs5nA258zyVzUTRnxYOElCNP7a3YMTouBO0Y6L-vmTexvWtH6FULkNwM_2HpT6tArImqvnyOH1pTrHQkLkGmjTbyIS7fmyRsSRxlwbQO8J3LJbWXdBgkgi2ZgDYZLXhRetyhjJyupr5aZpzhqQihpH-ewFA7r70iJX7plrLul100iphus_E-pchG9cWkSp_5OMDVIZlQ3lLctUFSvjthVx_w06hSrjbyCUKgZrnhpDDIuJAjsZhl9meSUH_RW94MdE0Q4FTs1inTsRMCYVQgvA5j-bkkP6Wo1XD8uS73jx6VNd6voefPNQC5LfjYMFuJBCZsP4VoFS4v41NRqg4wy5MMA0THjKggbf3RmiYa19ahiaScbRxu3F7_tpSmVE92wMb1WSy0u4rpxEBFbTokqz82Ny1cdcG3nRrFM0aSm3tbL7LWUAMiWyADIhKXEv6stvrOqC-phXvRHHziiZpd6hA2E44dF-ijnY_nwmDqsG2e1IZN7I6-o_xDKad_HTXjbqGX3p2QZ5ozuYA8vl4a4t79nlUgb33W18QH3ziKnvkIe6_ju-XPuyEFZ_Tm-OtvzYjUX1W90Wu6n40Ub-JNvBUHe4npMtzWM3AsA1jd3DL5foyaLBp8qlFVMkiaQTTtydHrs56MmPXuTAoFWclE-IyUyckI6CFfwCHE8pknjZd9ICxlC29SelYwSmL5qY2YoHtuaV8w0="
+  },
+  "no_logged_user": {
+    "user_name": "no_logged_user",
+    "api_key": "gAAAAABhUh-R1HyQbX8vIZTezFJ3W0tdf4nDdO1QKEgGAoFLeO2dMRL4RirsRnh41FFJRkLmHB1ZlfZuxikYOW4xDur376qcBG_BEL3joD9muLgM_ZIMNC6nbAkISy4OQV1YlfX6ugkraE5nEXRYkMVmKvyHgu_IlUBSZwiolokJ3632WAZweRVkabUt13cWJz8byB7zBqsQ6y8EAdi4ig6hBfDNr3UTWQ==",
+    "akon_id": "no_logged_user",
+    "contributor": true
+  },
+  "test_lidar": {
+    "user_name": "qa+lidar@appen.com",
+    "email": "qa+lidar@appen.com",
+    "password": "gAAAAABhUh-RYjzx8qGKwSPaZPNJWAH8fz5CUGcr9RJhVNVhkhlJ1nHayBaX30tkb0pbeYEfEnXg8V0x-K2pGUaWImBsuYgTjzxVDfkfvOFuP4WAS0XgxOg=",
+    "api_key": "gAAAAABhUh-RuEEWWRMhKlPQE8TS9CVvCoZHN4Xe56CvoV66krAq_bd1jFipRQ4W5Evd2ovo2q-SGsMc1DJ-APHkUcAOvJMj19NjCRIuJxt7lpCrbbt3xIk=",
+    "contributor": false,
+    "main_team": "qa+lidar@appen.com",
+    "main_team_id": "b97ee7b8-32e6-4bfb-9504-5bd5bbb605d1",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": true,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "name": "qa+lidar@appen.com",
+        "id": "b97ee7b8-32e6-4bfb-9504-5bd5bbb605d1"
+      }
+    ],
+    "akon_id": ""
+  },
+  "template_job": {
+    "job_id": 1309545,
+    "template_id": 210
+  },
+  "no_models": {
+    "user_name": "qa+no_models@appen.com",
+    "email": "qa+no_models@appen.com",
+    "password": "gAAAAABhUh-Rqt18XxXp5GM70TBqN0AkDYf0xDtNw2y7dC4dED1gCxs-L1_0rlwpZ6szEmzkhJP74RBcZRUv4LshxUncHz_rj-ZyCFPomXD88T_VRNFYNaE=",
+    "api_key": "gAAAAABhUh-RFBj51Jl4-zIkfuRQiX3sPn8tyKfw1vrqEZdH8mgW5MstF01Ffp-6nkhTnDknCUTuRuLGWlDSffhsrfs2Vqo8RwHTsUpshP8prrF_ZCIJ048=",
+    "contributor": false,
+    "main_team": "qa+no_models@appen.com",
+    "main_team_id": "7f0fcdd6-7679-421e-a0b9-cec12a034f52",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": true,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "name": "qa+no_models@appen.com",
+        "id": "7f0fcdd6-7679-421e-a0b9-cec12a034f52"
+      }
+    ],
+    "akon_id": "",
+    "jwt_token": "",
+    "desc": "WF should be enabled, Models should be disabled"
+  },
+  "view_job_ui": {
+    "user_name": "sandbox+test_ui1@figure-eight.com",
+    "email": "sandbox+test_ui1@figure-eight.com",
+    "password": "gAAAAABjPvTCY2VnQNhZmzPQPp9YxVfag4awrTsP3K3gEDO7cv588IVZbmH0gBKCvi6N73AHLOOL6U44T6uQya1OVyhN3r0vwfqOUxkUGXeDOhBlBX9XEck=",
+    "api_key": "gAAAAABhUh-R0KtYXWsVfNHqqncplr3EswkFQSOv27qbNnVjGntJwS9Phh-QQoNu1-jQwl0oABHkfkg4jsEB00G31EAj6e5Tjr4uxnnWBRWfFHGEsz3WK8o=",
+    "contributor": false,
+    "main_team": "sandbox+test_ui1@figure-eight.com",
+    "main_team_id": "2d3aea25-016b-41d2-8cdd-37c4cc74438e",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": false,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "trial",
+    "teams": [
+      {
+        "name": "sandbox+test_ui1@figure-eight.com",
+        "id": "2d3aea25-016b-41d2-8cdd-37c4cc74438e"
+      }
+    ]
+  },
+  "fair_pay_account": {
+    "user_name": "FairPay User",
+    "email": "fairpay_int@appen.com",
+    "password": "gAAAAABhUh-REJPoeEA5YJHXkxvr25hlzfPOPZj4cVp01yvGdHjF9CKvy0F0SfjS_QIBFpnqlp7DrMrDTHc-QlmREzZvHTWjTCv45vcmyR9-GD05WnSLcy0=",
+    "api_key": "gAAAAABhb0q0mDvfSi8WH7O7MLPQWdUn6JEPtWI71dQ7yaLRjzTDt-i5DxXl9lh-lnZvBN8keiQmMGL6Z3rmh_FleRF0pZaFUzm4x5PQasjdfizYHwDvLQM=",
+    "contributor": false,
+    "main_team": "fairpay_int@appen.com",
+    "main_team_id": "2ba95cf9-9818-4d5c-8db9-e1eb308d49ab",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": true,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "name": "fairpay_int@appen.com",
+        "id": "2ba95cf9-9818-4d5c-8db9-e1eb308d49ab"
+      }
+    ],
+    "akon_id": "",
+    "jwt_token": "",
+    "desc": "This user has fair pay enabled"
+  },
+  "fair_pay2_account": {
+    "user_name": "FairPay2 User",
+    "email": "fairpay2_staging@appen.com",
+    "api_key": "gAAAAABj64DrAGdy6N3t1-hlPPwGXOR6c3MBDl55Aa5DBAAPz9lylO_icj4Wi7IbIDcUABdFoC3F0mHRg7MEjqo4XBgGuL7cgbWKd88NZnnuk73gb6QIj3s=",
+    "password": "gAAAAABjRcG-Gj650uqRUj_49TAHxQmL0YbpOlSRuUCgoS4kEX0G8WnZu8MGcwWLCQezxbm_aaLenhYT2JmPwmRBMSqKaZdvFg==",
+    "teams": [
+      {
+        "id": "4dcfa35e-e35f-4c4b-aecd-d72f6b88760e"
+      }
+    ],
+    "akon_id": "",
+    "jwt_token": "",
+    "desc": "This user has fair pay 2 enabled"
+  },
+  "test_edit_team": {
+    "user_name": "sandbox+edit_team@appen.com",
+    "email": "sandbox+edit_team@appen.com",
+    "password": "gAAAAABhUh-RoQ0vdNiCGzzgt98MCoyblC4JQmdylnszxpwEgb8LQkMjUvfe5kbGDmTTuCS6hH6oX7jEzihdOIKgUi14q2_4ijreafpu-21a0n6nqmld2Gk=",
+    "api_key": "gAAAAABhUh-RtCjT7O64oh-Lyn70cXPNhcvXemQOcvKiC0IRjteQ43NMX_VBAfdOCMlwtK1EJGYnjfL-v7SU4IcL2TEyPvQS5HluHF7SF61_H7wiVhccMYk=",
+    "contributor": false,
+    "main_team": "sandbox+edit_team@appen.com",
+    "main_team_id": "b7f79ca4-d7a7-4628-9315-afc67d75882b",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": false,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "enterprise",
+    "teams": [
+      {
+        "name": "sandbox+edit_team@appen.com",
+        "id": "b7f79ca4-d7a7-4628-9315-afc67d75882b"
+      }
+    ],
+    "desc": "this user is for testing edit team purpose"
+  },
+  "test_tqg": {
+    "user_name": "tq-generator@figure-eight.com",
+    "email": "tq-generator@figure-eight.com",
+    "password": "gAAAAABhUh-Ru3Zko2rZNzwEHwXpaRJoxb-8Qpjtln9KUNXfP_ol4zugtfYwhtvPhINfH__3IEHgsS1NQYcw6Ke_Dme4yw5DuyWL52VYC4KigeRdxh8dEBgrDST0gd3upMQa22AbRftJIDsxNvYee0b_pBdnW_uAg1uOhCRVQQMs_ExVPMlgRZDw1uGjE6Bcr4nAu1nXivZFpGV-w1Xe1TsDJCn58dUX6Q==",
+    "api_key": "gAAAAABhUh-R70HAf1eyFwdDvP7Fb1DcMpQy2Kyh6CLJR5EQRkoT1RZWCovVy3yneUM22ZcxlCP0T4RmSsepT6zhaQ3JpZm9AXK6aJdqZHqaSVDTVuk2I7mdJmmH0a_TKf2-xzJSzwtg04l5FZOSSecv0Nx7WtyvkVfL2E4Sn-n_ChFfXbHNS_qINbZpZX0CU4ZDD5lWCBRipmNOj2YZyQuh7qg0OhS2lpUJXRf_bpG0GhqRYmLFYbA=",
+    "contributor": false,
+    "main_team": "tq-generator@figure-eight.com",
+    "main_team_id": "38b01c63-a13a-4a36-9e63-867aab5a1dac",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": false,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "name": "tq-generator@figure-eight.com",
+        "id": "38b01c63-a13a-4a36-9e63-867aab5a1dac"
+      }
+    ],
+    "akon_id": ""
+  },
+  "test_nda": {
+    "user_name": "qa+nda@appen.com",
+    "email": "qa+nda@appen.com",
+    "password": "gAAAAABhUh-RhjRLgkHZAhAqGHNvfgxCxeBABLfN8V-nY9pAfeNFGtNV6eEz4r6cT4h6DL2FiuIvRdwJkpiQLIt4ESN2LXm4s2RFwJwMczoav2vlFIZhPqQ=",
+    "api_key": "gAAAAABhUh-Rm8XfdtKuRYZYb0JY1Lf1uwxQMZ9qIcrQQQUboRfeMJhzzJZ2rTEnC2YHJ2zisQPcEAjs2WYJMYUfYFqxp0BuYbR_ryCjp6-5iJAnUp5Z4sI=",
+    "contributor": false,
+    "main_team": "qa+nda@appen.com",
+    "main_team_id": "e5c8c070-3a79-4c0e-b0e9-5c4ca51f8b3c",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": false,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "trial",
+    "teams": [
+      {
+        "name": "qa+nda@appen.com",
+        "id": "e5c8c070-3a79-4c0e-b0e9-5c4ca51f8b3c"
+      }
+    ],
+    "akon_id": ""
+  },
+  "test_sda": {
+    "user_name": "qa+integration_sda@appen.com",
+    "email": "qa+integration_sda@appen.com",
+    "password": "gAAAAABhUh-Ri5_fsoCCav4RVURAcSFA_L4bFuOB28j-BRc5X-Scmm0P707dxoy60HIrxdbEzoY-E4feb0Ufd-6UwHvlWe4Ltykc16RiPJQx6z0JZkXCpho=",
+    "api_key": "gAAAAABhUh-RisskG6gpIvp_j7roQMfmu_qFtPRdepONBceb7aUbl_Og-g2IKfScyqgp08xCZwqW968KPT7U78Ap4E8Qlhd-vCYcGzkFcMIjh4GUaS9SHuc=",
+    "contributor": false,
+    "main_team": "SDA Team INT",
+    "main_team_id": "teams?q=SDA+Team+INT",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": false,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "name": "SDA Team INT",
+        "id": "teams?q=SDA+Team+INT"
+      }
+    ],
+    "akon_id": ""
+  },
+  "adap_integration_users_for_performance": {
+    "user_name": "qa+keycloak+worker1+1@figure-eight.com",
+    "email": "qa+keycloak+worker1+1@figure-eight.com",
+    "password": "gAAAAABhUh-RMTVFktpUE00J4mt4dHH2hcf2LZ1gW4V34SQA8fYyJwTJX5Jjshob5AvI_U-bIB62id5gyQH-4ApuV_HsfqvgpgYIfj4i5paHhah5-DSAF8_xVvnhm4S6EhfqkvzpKSIuIMsc9uf2D60GHDPY0wLbsCANfjucpfWK7jImUO6rUw85BgfwC9m0aFpEOkYTz9Gi3snoDDbDMY6gHYfHhonv-Q==",
+    "contributor": true
+  },
+  "test_ac_adap": {
+    "user_name": "ac_adap_user_new@appen.com",
+    "email": "ac_adap_user_new@appen.com",
+    "password": "gAAAAABhUh-R3jxr123r89LknEUgz1IQO92ZKWku_mXOXgWDjeK04egh2jjXqsVqRdOntkHUWNbCluJVibz79uunigUe5pMR92ktYRUslbffr-WDjJldAN4=",
+    "api_key": "gAAAAABhUh-ROs2-4GvJmT-kkgDgCO-0cKetUuxszqI6l9Lr-GUVfdbHapx6QioOCY5Gw3ctFpP6B-QLbn-wfo5RlAcs0E5aoi9lkpLPm0AIElMvFay64Xs=",
+    "contributor": false,
+    "main_team": "ac_adap_user_new@appen.com",
+    "main_team_id": "c0966784-0243-4d97-9256-446d6e152157",
+    "user_roles": {
+      "activeCheckbox": true,
+      "financeManagerCheckbox": false,
+      "organizationManagerCheckbox": false,
+      "cfInternalCheckbox": true,
+      "internalAppCheckbox": false,
+      "superAdminCheckbox": false
+    },
+    "user_plan": "pro",
+    "teams": [
+      {
+        "name": "ac_adap_user_new@appen.com",
+        "id": "c0966784-0243-4d97-9256-446d6e152157"
+      }
+    ],
+    "akon_id": ""
+  },
+  "teams_details": {
+    "qa+integration_api_staging@figure-eight.com": {
+      "id": "386f6920-ffe6-4d65-86e3-6091c337b1f8",
+      "org_name": "",
+      "roles": {
+        "managedServiceCustomer": false,
+        "qualityFlow": false,
+        "appenConnectCustomer": false,
+        "ndaAccess": false,
+        "hostedChannelsEnabled": false,
+        "requesterRenderJsEnabled": true,
+        "designVerified": true,
+        "orderApproved": true,
+        "deleteFinalizedImages": false,
+        "jobLaunchNotification": false,
+        "workflowsEnabled": true,
+        "textUtteranceEnabled": false,
+        "assistedImageTranscriptionEnabled": true,
+        "useMlApiForModels": true,
+        "localNavEnabled": false,
+        "reevaluationEnabled": false,
+        "fairPayEnabled": false,
+        "scriptsEnabled": true,
+        "ontologyAttributesEnabled": true,
+        "inPlatformAuditEnabled": false
+      },
+      "add_roles": {
+        "active_learning_client": false,
+        "taxonomyzer_client": false,
+        "doublepass_client": false,
+        "workflows_client": true,
+        "ai_client": true,
+        "tq_generator": true,
+        "requester_premium_support": false
+      }
+    },
+    "qa+integration_job_staging@figure-eight.com": {
+      "id": "9d6f1775-f4aa-433c-882a-232c8a121e93",
+      "org_name": "integration-cross-team-org",
+      "roles": {
+        "managedServiceCustomer": false,
+        "qualityFlow": false,
+        "appenConnectCustomer": false,
+        "ndaAccess": false,
+        "hostedChannelsEnabled": false,
+        "requesterRenderJsEnabled": false,
+        "designVerified": true,
+        "orderApproved": false,
+        "deleteFinalizedImages": false,
+        "jobLaunchNotification": false,
+        "workflowsEnabled": false,
+        "textUtteranceEnabled": false,
+        "assistedImageTranscriptionEnabled": true,
+        "useMlApiForModels": false,
+        "localNavEnabled": false,
+        "reevaluationEnabled": false,
+        "fairPayEnabled": false,
+        "scriptsEnabled": false,
+        "ontologyAttributesEnabled": false,
+        "inPlatformAuditEnabled": false
+      },
+      "add_roles": {
+        "active_learning_client": false,
+        "taxonomyzer_client": false,
+        "doublepass_client": false,
+        "workflows_client": false,
+        "ai_client": false,
+        "tq_generator": false,
+        "requester_premium_support": false
+      }
+    },
+    "sandbox+test_ui1@figure-eight.com": {
+      "id": "2d3aea25-016b-41d2-8cdd-37c4cc74438e",
+      "org_name": "",
+      "roles": {
+        "managedServiceCustomer": false,
+        "qualityFlow": false,
+        "appenConnectCustomer": false,
+        "ndaAccess": false,
+        "hostedChannelsEnabled": false,
+        "requesterRenderJsEnabled": false,
+        "designVerified": true,
+        "orderApproved": false,
+        "deleteFinalizedImages": false,
+        "jobLaunchNotification": false,
+        "workflowsEnabled": false,
+        "textUtteranceEnabled": false,
+        "assistedImageTranscriptionEnabled": false,
+        "useMlApiForModels": false,
+        "localNavEnabled": false,
+        "reevaluationEnabled": false,
+        "fairPayEnabled": false,
+        "scriptsEnabled": false,
+        "ontologyAttributesEnabled": false,
+        "inPlatformAuditEnabled": false
+      },
+      "add_roles": {
+        "active_learning_client": false,
+        "taxonomyzer_client": false,
+        "doublepass_client": false,
+        "workflows_client": false,
+        "ai_client": false,
+        "tq_generator": false,
+        "requester_premium_support": false
+      }
+    },
+    "qa+internalapp_int@figure-eight.com": {
+      "id": "5f2eebc1-8612-44be-80ac-d001e94db505",
+      "org_name": "integration-cross-team-org",
+      "roles": {
+        "managedServiceCustomer": false,
+        "qualityFlow": false,
+        "appenConnectCustomer": false,
+        "ndaAccess": false,
+        "hostedChannelsEnabled": false,
+        "requesterRenderJsEnabled": false,
+        "designVerified": true,
+        "orderApproved": false,
+        "deleteFinalizedImages": false,
+        "jobLaunchNotification": false,
+        "workflowsEnabled": true,
+        "textUtteranceEnabled": false,
+        "assistedImageTranscriptionEnabled": false,
+        "useMlApiForModels": false,
+        "localNavEnabled": false,
+        "reevaluationEnabled": false,
+        "fairPayEnabled": false,
+        "scriptsEnabled": false,
+        "ontologyAttributesEnabled": false,
+        "inPlatformAuditEnabled": false
+      },
+      "add_roles": {
+        "active_learning_client": false,
+        "taxonomyzer_client": false,
+        "doublepass_client": false,
+        "workflows_client": false,
+        "ai_client": false,
+        "tq_generator": false,
+        "requester_premium_support": false
+      }
+    },
+    "qa+2_int@figure-eight.com": {
+      "id": "teams?q=qa%2B2_int%40figure-eight.com",
+      "org_name": "integration-cross-team-org",
+      "roles": {
+        "managedServiceCustomer": false,
+        "qualityFlow": false,
+        "appenConnectCustomer": false,
+        "ndaAccess": false,
+        "hostedChannelsEnabled": false,
+        "requesterRenderJsEnabled": false,
+        "designVerified": true,
+        "orderApproved": false,
+        "deleteFinalizedImages": false,
+        "jobLaunchNotification": false,
+        "workflowsEnabled": false,
+        "textUtteranceEnabled": false,
+        "assistedImageTranscriptionEnabled": false,
+        "useMlApiForModels": false,
+        "localNavEnabled": false,
+        "reevaluationEnabled": false,
+        "fairPayEnabled": false,
+        "scriptsEnabled": false,
+        "ontologyAttributesEnabled": false,
+        "inPlatformAuditEnabled": false
+      },
+      "add_roles": {
+        "active_learning_client": false,
+        "taxonomyzer_client": false,
+        "doublepass_client": false,
+        "workflows_client": false,
+        "ai_client": false,
+        "tq_generator": false,
+        "requester_premium_support": false
+      }
+    },
+    "qa+lidar@appen.com": {
+      "id": "b97ee7b8-32e6-4bfb-9504-5bd5bbb605d1",
+      "org_name": "",
+      "roles": {
+        "managedServiceCustomer": false,
+        "qualityFlow": false,
+        "appenConnectCustomer": false,
+        "ndaAccess": false,
+        "hostedChannelsEnabled": false,
+        "requesterRenderJsEnabled": false,
+        "designVerified": true,
+        "orderApproved": true,
+        "deleteFinalizedImages": false,
+        "jobLaunchNotification": false,
+        "workflowsEnabled": true,
+        "textUtteranceEnabled": false,
+        "assistedImageTranscriptionEnabled": false,
+        "useMlApiForModels": false,
+        "localNavEnabled": false,
+        "reevaluationEnabled": false,
+        "fairPayEnabled": false,
+        "scriptsEnabled": false,
+        "ontologyAttributesEnabled": false,
+        "inPlatformAuditEnabled": false
+      },
+      "add_roles": {
+        "active_learning_client": false,
+        "taxonomyzer_client": false,
+        "doublepass_client": false,
+        "workflows_client": false,
+        "ai_client": false,
+        "tq_generator": false,
+        "requester_premium_support": false
+      }
+    },
+    "qa+no_models@appen.com": {
+      "id": "7f0fcdd6-7679-421e-a0b9-cec12a034f52",
+      "org_name": "",
+      "roles": {
+        "managedServiceCustomer": false,
+        "qualityFlow": false,
+        "appenConnectCustomer": false,
+        "ndaAccess": false,
+        "hostedChannelsEnabled": false,
+        "requesterRenderJsEnabled": false,
+        "designVerified": true,
+        "orderApproved": false,
+        "deleteFinalizedImages": false,
+        "jobLaunchNotification": false,
+        "workflowsEnabled": true,
+        "textUtteranceEnabled": false,
+        "assistedImageTranscriptionEnabled": false,
+        "useMlApiForModels": false,
+        "localNavEnabled": false,
+        "reevaluationEnabled": false,
+        "fairPayEnabled": false,
+        "scriptsEnabled": false,
+        "ontologyAttributesEnabled": false,
+        "inPlatformAuditEnabled": false
+      },
+      "add_roles": {
+        "active_learning_client": false,
+        "taxonomyzer_client": false,
+        "doublepass_client": false,
+        "workflows_client": true,
+        "ai_client": false,
+        "tq_generator": false,
+        "requester_premium_support": false
+      }
+    },
+    "fairpay_int@appen.com": {
+      "id": "2ba95cf9-9818-4d5c-8db9-e1eb308d49ab",
+      "org_name": "",
+      "roles": {
+        "managedServiceCustomer": false,
+        "qualityFlow": false,
+        "appenConnectCustomer": false,
+        "ndaAccess": false,
+        "hostedChannelsEnabled": false,
+        "requesterRenderJsEnabled": false,
+        "designVerified": true,
+        "orderApproved": true,
+        "deleteFinalizedImages": false,
+        "jobLaunchNotification": false,
+        "workflowsEnabled": false,
+        "textUtteranceEnabled": false,
+        "assistedImageTranscriptionEnabled": false,
+        "useMlApiForModels": false,
+        "localNavEnabled": false,
+        "reevaluationEnabled": false,
+        "fairPayEnabled": true,
+        "scriptsEnabled": false,
+        "ontologyAttributesEnabled": false,
+        "inPlatformAuditEnabled": false
+      },
+      "add_roles": {
+        "active_learning_client": false,
+        "taxonomyzer_client": false,
+        "doublepass_client": false,
+        "workflows_client": false,
+        "ai_client": false,
+        "tq_generator": false,
+        "requester_premium_support": false
+      }
+    },
+    "sandbox+edit_team@appen.com": {
+      "id": "b7f79ca4-d7a7-4628-9315-afc67d75882b",
+      "org_name": "",
+      "roles": {
+        "managedServiceCustomer": false,
+        "qualityFlow": false,
+        "appenConnectCustomer": false,
+        "ndaAccess": false,
+        "hostedChannelsEnabled": false,
+        "requesterRenderJsEnabled": false,
+        "designVerified": true,
+        "orderApproved": false,
+        "deleteFinalizedImages": false,
+        "jobLaunchNotification": false,
+        "workflowsEnabled": false,
+        "textUtteranceEnabled": false,
+        "assistedImageTranscriptionEnabled": false,
+        "useMlApiForModels": false,
+        "localNavEnabled": false,
+        "reevaluationEnabled": false,
+        "fairPayEnabled": false,
+        "scriptsEnabled": true,
+        "ontologyAttributesEnabled": false,
+        "inPlatformAuditEnabled": false
+      },
+      "add_roles": {
+        "active_learning_client": true,
+        "taxonomyzer_client": false,
+        "doublepass_client": false,
+        "workflows_client": false,
+        "ai_client": false,
+        "tq_generator": false,
+        "requester_premium_support": false
+      }
+    },
+    "tq-generator@figure-eight.com": {
+      "id": "38b01c63-a13a-4a36-9e63-867aab5a1dac",
+      "org_name": "",
+      "roles": {
+        "managedServiceCustomer": false,
+        "qualityFlow": false,
+        "appenConnectCustomer": false,
+        "ndaAccess": false,
+        "hostedChannelsEnabled": false,
+        "requesterRenderJsEnabled": false,
+        "designVerified": true,
+        "orderApproved": false,
+        "deleteFinalizedImages": false,
+        "jobLaunchNotification": false,
+        "workflowsEnabled": true,
+        "textUtteranceEnabled": false,
+        "assistedImageTranscriptionEnabled": false,
+        "useMlApiForModels": false,
+        "localNavEnabled": false,
+        "reevaluationEnabled": false,
+        "fairPayEnabled": false,
+        "scriptsEnabled": false,
+        "ontologyAttributesEnabled": false,
+        "inPlatformAuditEnabled": false
+      },
+      "add_roles": {
+        "active_learning_client": false,
+        "taxonomyzer_client": false,
+        "doublepass_client": false,
+        "workflows_client": false,
+        "ai_client": false,
+        "tq_generator": false,
+        "requester_premium_support": false
+      }
+    },
+    "qa+nda@appen.com": {
+      "id": "e5c8c070-3a79-4c0e-b0e9-5c4ca51f8b3c",
+      "org_name": "",
+      "roles": {
+        "managedServiceCustomer": false,
+        "qualityFlow": false,
+        "appenConnectCustomer": false,
+        "ndaAccess": true,
+        "hostedChannelsEnabled": false,
+        "requesterRenderJsEnabled": false,
+        "designVerified": true,
+        "orderApproved": false,
+        "deleteFinalizedImages": false,
+        "jobLaunchNotification": false,
+        "workflowsEnabled": false,
+        "textUtteranceEnabled": false,
+        "assistedImageTranscriptionEnabled": false,
+        "useMlApiForModels": false,
+        "localNavEnabled": false,
+        "reevaluationEnabled": false,
+        "fairPayEnabled": false,
+        "scriptsEnabled": false,
+        "ontologyAttributesEnabled": false,
+        "inPlatformAuditEnabled": false
+      },
+      "add_roles": {
+        "active_learning_client": false,
+        "taxonomyzer_client": false,
+        "doublepass_client": false,
+        "workflows_client": false,
+        "ai_client": false,
+        "tq_generator": true,
+        "requester_premium_support": false
+      }
+    },
+    "SDA Team INT": {
+      "id": "teams?q=SDA+Team+INT",
+      "org_name": "SydneySDA",
+      "roles": {
+        "managedServiceCustomer": false,
+        "qualityFlow": false,
+        "appenConnectCustomer": false,
+        "ndaAccess": false,
+        "hostedChannelsEnabled": false,
+        "requesterRenderJsEnabled": true,
+        "designVerified": true,
+        "orderApproved": true,
+        "deleteFinalizedImages": false,
+        "jobLaunchNotification": false,
+        "workflowsEnabled": true,
+        "textUtteranceEnabled": false,
+        "assistedImageTranscriptionEnabled": true,
+        "useMlApiForModels": true,
+        "localNavEnabled": false,
+        "reevaluationEnabled": false,
+        "fairPayEnabled": false,
+        "scriptsEnabled": false,
+        "ontologyAttributesEnabled": false,
+        "inPlatformAuditEnabled": false
+      },
+      "add_roles": {
+        "active_learning_client": false,
+        "taxonomyzer_client": false,
+        "doublepass_client": false,
+        "workflows_client": false,
+        "ai_client": false,
+        "tq_generator": true,
+        "requester_premium_support": false
+      }
+    },
+    "ac_adap_user_new@appen.com": {
+      "id": "c0966784-0243-4d97-9256-446d6e152157",
+      "org_name": "",
+      "roles": {
+        "managedServiceCustomer": false,
+        "qualityFlow": false,
+        "appenConnectCustomer": true,
+        "ndaAccess": false,
+        "hostedChannelsEnabled": false,
+        "requesterRenderJsEnabled": false,
+        "designVerified": true,
+        "orderApproved": false,
+        "deleteFinalizedImages": false,
+        "jobLaunchNotification": false,
+        "workflowsEnabled": false,
+        "textUtteranceEnabled": false,
+        "assistedImageTranscriptionEnabled": false,
+        "useMlApiForModels": false,
+        "localNavEnabled": false,
+        "reevaluationEnabled": false,
+        "fairPayEnabled": false,
+        "scriptsEnabled": false,
+        "ontologyAttributesEnabled": false,
+        "inPlatformAuditEnabled": false
+      },
+      "add_roles": {
+        "active_learning_client": false,
+        "taxonomyzer_client": false,
+        "doublepass_client": false,
+        "workflows_client": false,
+        "ai_client": false,
+        "tq_generator": false,
+        "requester_premium_support": false
+      }
+    }
+  },
+  "org_details": {
+    "integration-cross-team-org": {
+      "id": "ac1c6f24-6ea7-4a02-8d0b-63a3fede51aa",
+      "teams": [
+        {
+          "team_name": "qa+2_int@figure-eight.com",
+          "team_id": "teams?q=qa%2B2_int%40figure-eight.com"
+        },
+        {
+          "team_name": "qa+integration_job@figure-eight.com",
+          "team_id": "78920fe0-f0ac-40d8-b863-9989467502c2"
+        },
+        {
+          "team_name": "qa+22_int@figure-eight.com",
+          "team_id": ""
+        },
+        {
+          "team_name": "qa+internalapp_int@figure-eight.com",
+          "team_id": "5f2eebc1-8612-44be-80ac-d001e94db505"
+        }
+      ],
+      "admins": [
+        "qa+orgadmin_int@figure-eight.com"
+      ],
+      "settings": {
+        "akon_organization[sso_editing_enabled]": false,
+        "akon_organization[sso_org_level_enabled]": false,
+        "akon_organization[sso_reset_tokens_desired]": false,
+        "akon_organization[analytics_enabled]": false,
+        "akon_organization[secure_data_access_enabled]": false,
+        "akon_organization[cross_team_access_enabled]": true
+      }
+    },
+    "SydneySDA": {
+      "id": "0adb571e-968d-4ce1-864b-4e8a989b74e3",
+      "teams": [
+        {
+          "team_name": "SDA Team INT",
+          "team_id": "teams?q=SDA+Team+INT"
+        },
+        {
+          "team_name": "qa+performance1+user2@figure-eight.com",
+          "team_id": ""
+        }
+      ],
+      "admins": [
+        "qa+performance1+user2@figure-eight.com"
+      ],
+      "settings": {
+        "akon_organization[sso_editing_enabled]": false,
+        "akon_organization[sso_org_level_enabled]": false,
+        "akon_organization[sso_reset_tokens_desired]": false,
+        "akon_organization[analytics_enabled]": false,
+        "akon_organization[secure_data_access_enabled]": true,
+        "akon_organization[cross_team_access_enabled]": false
+      }
+    }
+  },
+  "fairpay_flag": {
+      "user_name": "fairpay_flag@figure-eight.com",
+      "email": "fairpay_flag@figure-eight.com",
+      "password": "gAAAAABfovst-QVf6sek-WW3mhNYBoa771GUyKi7w1gQZh191Q_hkOSGSvt6cP4SBPIa7mAHmlp76eUUmgWQQ7R622NeTdkplAHsv-32f92naVhgCMgwFcI=",
+      "api_key": "gAAAAABhwOYVqc2JPJcxsIvm2547PVT-T4C_oarVbGlCNcl07Xe2a5OGoD0hEmE8RtEGGEJeCozK1J1D29B2_Rqub2fN5pofoVqjX816mCYBLxwGmBj3ErI='",
+      "teams": [
+        {
+          "id": "cdb2fb5c-cc69-4798-ae9b-eae0ad0c06a1"
+        }
+      ],
+      "desc": "using for testing scenario - turn on/off "
+  }
+}

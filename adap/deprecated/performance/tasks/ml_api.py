@@ -1,0 +1,43 @@
+from locust import HttpLocust, TaskSet, task, seq_task
+import os
+from adap.deprecated.performance.utils.locust_support import setup_wait_time
+
+ENV = os.environ['TEST_ENV']
+WAIT_CONFIG_TYPE = os.environ['WAIT_CONFIG_TYPE']
+WAIT_TIME = os.environ['WAIT_TIME']
+
+
+
+class ml_api(TaskSet):
+
+    @task
+    @seq_task(1)
+    def predict(self):
+        header = {
+            "Content-Type": "application/json",
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache"
+        }
+        url = "base_models/pretrained-ocr-model/predict"
+
+        payload = {
+                "image_b64": "data:image/jpeg;base64,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",
+                "dataType": "generic"
+        }
+
+        with self.client.post(url, headers=header, json=payload, catch_response=True) as response:
+            if "image" not in response.text:
+                response.failure("Incorrect response")
+                print(response.text)
+            else:
+                response.success()
+
+
+class WebsiteUser(HttpLocust):
+    task_set = ml_api
+    host = "https://ml-api.internal." + ENV + ".cf3.us"
+
+    def __init__(self):
+        super(WebsiteUser, self).__init__()
+
+    wait_time = setup_wait_time(WAIT_CONFIG_TYPE, WAIT_TIME)

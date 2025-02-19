@@ -1,0 +1,8 @@
+{
+  "smoke": {"id": 13},
+  "cross_team": {"id": 16},
+  "uat_api": {"id": 14},
+  "workflow": {"id": 15},
+  "ui_smoke": {"id": 17},
+  "all": {"id":18}
+}

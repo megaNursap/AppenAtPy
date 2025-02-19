@@ -1,0 +1,96 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: master0-$TS
+  labels:
+    app: qa-perf-platform
+  namespace: $NAMESPACE
+spec:
+  template:
+    metadata:
+      name: master0-$TS
+      labels: 
+        app: qa-perf-platform
+    spec:
+      serviceAccountName: master0
+      containers:
+      - name: master0
+        image: 411719562396.dkr.ecr.us-east-1.amazonaws.com/qa-automation:$IMAGE_TAG
+        imagePullPolicy: Always
+        command: ["/bin/sh"]
+        args: ["scripts/execute_scenario.sh", "$SCENARIO_FILENAME"]
+        envFrom:
+        - secretRef:
+            name: db-conn-details
+        - secretRef:
+            name: slack-credentials
+        env:
+        - name: IMAGE_TAG
+          value: "$IMAGE_TAG"
+        - name: NAMESPACE
+          value: "$NAMESPACE"
+        - name: CAPTURE_RESULTS
+          value: "TRUE"
+        - name : RUN_TIME
+          value: "$RUN_TIME"
+        - name : NUM_SLAVES
+          value: "$NUM_SLAVES"
+        - name : HATCH_RATE
+          value: "$HATCH_RATE"
+        - name : NUM_CLIENTS
+          value: "$NUM_CLIENTS"
+        - name : ENV
+          value: "$ENV"
+        - name: TASK_ID
+          value: '0'
+        - name: SLACK_CHANNEL
+          value: '#testing-testing'
+        - name: WORKLOAD
+          value: '$WORKLOAD'
+        - name: QA_KEY
+          value: '$QA_KEY'
+        - name: QF_CAPTURE_RESULTS
+          value: '$QF_CAPTURE_RESULTS'
+        - name: QF_PROJECT_ID
+          value: '$QF_PROJECT_ID'
+        - name: QF_UNIT_TYPE
+          value: '$QF_UNIT_TYPE'
+        - name: QF_UNIT_GROUP_OPTION
+          value: '$QF_UNIT_GROUP_OPTION'
+        - name: QF_WORK_JOB_ID
+          value: '$QF_WORK_JOB_ID'
+        - name: QF_QA_JOB_ID
+          value: '$QF_QA_JOB_ID'
+        - name: QF_WORKER_TYPE
+          value: '$QF_WORKER_TYPE'
+        - name: QF_MAX_LOOP
+          value: '$QF_MAX_LOOP'
+        - name: QF_DRY_RUN
+          value: '$QF_DRY_RUN'
+        - name: QF_UPLOAD_UNIT_NUM_PER_ROUND
+          value: '$QF_UPLOAD_UNIT_NUM_PER_ROUND'
+        - name: QF_SEGMENTED_GROUP_NUM
+          value: '$QF_SEGMENTED_GROUP_NUM'
+        - name: QF_WORKING_SECONDS_PER_TASK_PAGE
+          value: '$QF_WORKING_SECONDS_PER_TASK_PAGE'
+        - name: QF_QA_WORKING_SECONDS_PER_TASK_PAGE
+          value: '$QF_QA_WORKING_SECONDS_PER_TASK_PAGE'
+        - name: QF_WORKER_FEEDBACK_RESULT_LIST
+          value: '$QF_WORKER_FEEDBACK_RESULT_LIST'
+        - name: QF_QA_REVIEW_RESULT_LIST
+          value: '$QF_QA_REVIEW_RESULT_LIST'
+        - name: QF_WORKER_ABANDON_PERCENTAGE
+          value: '$QF_WORKER_ABANDON_PERCENTAGE'
+        - name: QF_QA_ABANDON_PERCENTAGE
+          value: '$QF_QA_ABANDON_PERCENTAGE'
+        - name: QF_NUM_CLIENTS_PM
+          value: '$QF_NUM_CLIENTS_PM'
+        - name: QF_NUM_CLIENTS_WORKER
+          value: '$QF_NUM_CLIENTS_WORKER'
+        - name: QF_NUM_CLIENTS_QA
+          value: '$QF_NUM_CLIENTS_QA'
+        - name: QF_DATA_TYPE
+          value: '$QF_DATA_TYPE'
+      restartPolicy: Never
+      terminationGracePeriodSeconds: 30   
+  backoffLimit: 0

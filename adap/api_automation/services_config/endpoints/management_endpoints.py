@@ -1,0 +1,12 @@
+NEW_USER="/identity_management/users"
+DISABLE_USER="/identity_management/users/{email}/revoke"
+MOVE_USER_TO_TEAM="/identity_management/users/{email}/teams/{team_id}"
+TEAM_ADMIN="/identity_management/users/{email}/permissions/team_admin"
+ORG_ADMIN="/identity_management/users/{email}/permissions/organization_admin"
+USER="/identity_management/users/{email}"
+USER_LESS_TEAM = "/identity_management/teams"
+
+URL = "https://client-api.{}.cf3.us"
+PROD = "https://client-api.figure-eight.com/"
+FED = "https://app.{}.secure.cf3.us/client-api"
+FED_CUSTOMIZE = "https://{}/client-api"

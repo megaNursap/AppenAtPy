@@ -1,0 +1,25 @@
+<strong>Original url:</strong>
+<p>
+  <span>{{ image_url }}</span>
+</p>
+<strong>Secure link (expected to expire after 60s):</strong>
+<p>
+  {{ image_url | secure: 'GCP_test' }}
+</p>
+<strong>Img tag using original url (expected NOT to work):</strong>
+<p>
+  <br>
+    <img src="{{ image_url }}" />
+  </p>
+  <strong>Img tag using secure link (expected to work):</strong>
+  <p>
+    <br>
+      <img src="{{ image_url | secure: 'GCP_test' }}"/>
+    </p>
+
+    <strong>Shapes tool (using secure access)</strong>
+    <p>
+      <span>
+        <cml:shapes type="['dot']" source_data="{{ image_url | secure: 'GCP_test' }}" validates="required" ontology="true" name="annotation" label="Annotate this image" class-threshold="0.7" dot-distance="10" dot-threshold="0.7" class-agg="agg" dot-agg="10"/>
+      </span>
+    </p>

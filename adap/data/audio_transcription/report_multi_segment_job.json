@@ -1,0 +1,46 @@
+{
+  "annotation": {
+    "segments": [
+      {
+        "id": "4887ac77-a807-4342-8b4d-c28bf5d51a39",
+        "startTime": 2.635,
+        "endTime": 4.381,
+        "labels": [
+          "pets"
+        ],
+        "transcription": "The first <event_1/> <span_2>segment</span_2> transcribe"
+      },
+      {
+        "id": "f502b0f7-f023-49d3-b96b-4a965261ddd3",
+        "startTime": 6.256,
+        "endTime": 8.152,
+        "labels": [
+          "female",
+          "loud"
+        ],
+        "transcription": ""
+      },
+      {
+        "id": "c3ac99c2-51ff-4489-9da5-39fc14b40a96",
+        "startTime": 14.655,
+        "endTime": 16.851,
+        "labels": [
+          "kids",
+          "quite"
+        ],
+        "transcription": ""
+      },
+      {
+        "id": "e7376d5e-3d70-4d4a-ba05-32a5759065b2",
+        "startTime": 10.059,
+        "endTime": 12.459,
+        "labels": [
+          "person"
+        ],
+        "transcription": "The third segment <span_1>should</span_1> be [1.200] transcribe with text"
+      }
+    ]
+  },
+  "ableToAnnotate": true,
+  "nothingToTranscribe": false
+}

@@ -1,0 +1,28 @@
+{
+  "annotation": {
+    "segments": [
+      {
+        "id": "473a4809-928d-4152-9af4-9bd9b4251f97",
+        "startTime": 0,
+        "endTime": 8.846,
+        "layerId": "8c51689b-d522-4110-b274-96c826bc1fbb",
+        "labels": [
+          "female"
+        ],
+        "transcription": "Slightly more <span_1>clever</span_1> solution <event_1/>"
+      },
+      {
+        "id": "40f4e33a-c301-4db1-98f8-148f653f4f93",
+        "startTime": 23.099,
+        "endTime": 35.421,
+        "layerId": "f5e28840-527c-470b-a7da-a4e2ac15e40e",
+        "labels": [
+          "pets"
+        ],
+        "transcription": ""
+      }
+    ]
+  },
+  "ableToAnnotate": true,
+  "nothingToTranscribe": false
+}
