@@ -1,0 +1,45 @@
+// License: Proprietary
+// Copyright (c) 2019, Figure Eight Technologies, Inc.
+// All rights reserved - Do Not Redistribute
+
+pipeline {
+  agent { label 'docker' }
+
+   options{
+    ansiColor('xterm')
+    disableConcurrentBuilds()
+    timeout(time: 15, unit: 'MINUTES')
+  }
+
+  environment {
+      ECR_URL = "411719562396.dkr.ecr.us-east-1.amazonaws.com"
+      IMAGE_REPO = "qa-automation"
+      IMAGE_NAME = "qa-automation"
+      TAG = "$TAG"
+      GIT_SHA7 = "${GIT_COMMIT[0..6]}"
+      TIMESTAMP = "${new Date(currentBuild.startTimeInMillis).format("yyMMddHHmmssSSS")}"
+      DATE_SHA_TAG = "$TIMESTAMP-$GIT_SHA7"
+      CURRENT_BUILD_IMAGE_NAME = "$IMAGE_REPO:$TAG"
+      TIMESTAMPED_IMAGE_NAME = "$IMAGE_REPO:$DATE_SHA_TAG"
+      MASTER_IMAGE_NAME = "$IMAGE_REPO:master"
+      RANDOM_NUMBER = "${Math.abs(new Random().nextInt() % 1000) +100}"
+   }
+  stages {
+     stage('Start tests') {
+         steps {
+                echo "Starting docker..."
+                withCredentials([string(credentialsId: 'qa_automation_key',variable: 'QA_KEY')]){
+                    sh """
+                      set +x
+                      \$(aws ecr get-login --no-include-email --region us-east-1)
+                      set -xe
+                      set +e
+                      docker run --name  qa-automation-${TIMESTAMP} ${ECR_URL}/qa-automation:${TAG} /srv/jenkins_support/${script_name}.sh
+                      docker rm -f qa-automation-${TIMESTAMP}
+                      docker rmi -f ${ECR_URL}/qa-automation:${TAG}
+                     """
+              }
+          }
+     }
+  }
+}

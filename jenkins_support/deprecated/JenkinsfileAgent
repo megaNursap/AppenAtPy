@@ -1,0 +1,20 @@
+pipeline {
+  agent { label 'qa-automation' }
+
+  stages {
+     stage('Start tests') {
+         steps {
+                echo "Starting docker..."
+                sh """
+                  pwd
+                  ls
+                  cd /homer/jenkins
+                  ls
+                  pip list
+                 """
+
+          }
+
+     }
+  }
+}

@@ -1,0 +1,186 @@
+pipeline {
+  agent { label 'docker' }
+
+
+  options {
+    ansiColor('xterm')
+    disableConcurrentBuilds()
+    timeout(time: 160, unit: 'MINUTES')
+  }
+
+  environment {
+      ECR_URL = "411719562396.dkr.ecr.us-east-1.amazonaws.com"
+      IMAGE_NAME = "qa-automation"
+      IMAGE_REPO = "${ECR_URL}/${IMAGE_NAME}"
+      AWS_ACCOUNT = "411719562396"
+      GIT_SHA7 = "${GIT_COMMIT[0..6]}"
+      TIMESTAMP = "${new Date(currentBuild.startTimeInMillis).format("yyMMddHHmmssSSS")}"
+      DATE_SHA_TAG = "$TIMESTAMP-$GIT_SHA7"
+      CURRENT_BUILD_IMAGE_NAME = "${IMAGE_REPO}:${NAMESPACE}-${GIT_SHA7}"
+      RANDOM_NUMBER = "${Math.abs(new Random().nextInt() % 1000) +100}"
+      ENV = "${params.NAMESPACE}.eng01.devspace"
+      CONTAINER_NAME = "qa-automation-${params.NAMESPACE}-${params.TYPE}-${TIMESTAMP}"
+   }
+  stages {
+     stage('ECR and EKS config') {
+         steps {
+             echo "Ensure we can interact with ECR"
+             sh """
+               set +x
+               \$(aws ecr get-login --registry-ids $AWS_ACCOUNT --no-include-email --region us-east-1)
+               set -xe
+               set +e
+             """
+
+             echo "Set kubeconfig to use devspace ${params.NAMESPACE}"
+             sh """
+               aws eks --region us-east-1 update-kubeconfig --name engineering-devspace-sandbox
+               kubectl config set-context --current --namespace="${params.NAMESPACE}"
+             """
+         }
+     }
+     stage('Ensure Pods Running') {
+         steps {
+            echo "Waiting for devspace to be ready..."
+            sh "kubectl wait --for=condition=Ready --timeout=180s pod -l app.kubernetes.io/name=devspace-app"
+            echo "List of non-master images running in ${params.NAMESPACE}:"
+            sh """
+                kubectl config current-context
+                kubectl get pods --namespace ${params.NAMESPACE} -o=custom-columns='DATA:spec.containers[*].image' | grep ecr | grep -v master | grep -v common | tr ',' '\n' | uniq | sort
+            """
+         }
+     }
+     stage('Generate JSON datafiles') {
+         steps {
+             echo "Run rake tasks to generate qa datafiles for ${params.NAMESPACE}"
+             echo "  generate account_devspace.json in akon"
+             sh """
+                kubectl exec deploy/akon-web-services -c web /app/script/entrypoint_devspace.sh bundle exec rake create_qa_integration_test_users FORCE_DATAFILE_REGEN=${params.FORCE_DATAFILE_REGEN}
+             """
+             echo "  generate predefined_data.json in make"
+             sh """
+                kubectl exec deploy/make-services -c web /app/script/entrypoint_devspace.sh bundle exec rake create_qa_automation_test_jobs FORCE_DATAFILE_REGEN=${params.FORCE_DATAFILE_REGEN}
+             """
+         }
+     }
+     /* stage('Retrieve JSON datafiles') { */
+     /*     steps { */
+     /*         sh """ */
+     /*             ./adap/copy_devspace_required_files.sh */
+     /*         """ */
+     /*     } */
+     /* } */
+     /* stage('Building image to Run test suite') { */
+     /*     steps { */
+     /*         sh """ */
+     /*             ./adap/build_qa_automation.sh */
+     /*         """ */
+     /*     } */
+     /* } */
+     stage('Start tests') {
+         steps {
+                echo "Starting docker..."
+                withCredentials([string(credentialsId: 'qa_automation_key',variable: 'QA_KEY')]){
+                    sh """
+                      echo "Ensure we can interact with ECR"
+                      set +x
+                      \$(aws ecr get-login --registry-ids $AWS_ACCOUNT --no-include-email --region us-east-1)
+                      set -xe
+                      set +e
+                      ./adap/copy_devspace_required_files.sh
+                      ./adap/build_qa_automation.sh
+                      echo "List of non-master images running in ${NAMESPACE}:"
+                      kubectl get pods --namespace ${NAMESPACE} -o=custom-columns='DATA:spec.containers[*].image' | sort | uniq | grep ecr | grep -v master | grep -v common | tr ',' '\n' | uniq | sort
+                      echo "Running qa automation ${TYPE} tests in ${NAMESPACE}..."
+                      docker run --name ${CONTAINER_NAME} \
+                                 --shm-size=2g \
+                                 --env MARKEREXPR="$MARKEREXPR" \
+                                 --env NUMPROCESSES=$NUMPROCESSES \
+                                 --env CAPTURE=$CAPTURE \
+                                 --env SHOWCAPTURE=$SHOWCAPTURE \
+                                 ${CURRENT_BUILD_IMAGE_NAME} /srv/jenkins_support/run_devspace.sh ${ENV} ${TYPE} ${FLAKY} ${RUN_ALL_TESTS}
+                      echo "Copying test results for ${NAMESPACE}"
+                      docker cp ${CONTAINER_NAME}:/srv/result .
+                      docker cp ${CONTAINER_NAME}:/srv/adap/Failed_scenarios .
+                      docker cp ${CONTAINER_NAME}:/srv/allure_result_folder .
+                      ls ./result ./Failed_scenarios ./allure_result_folder
+                      echo "Cleaning up docker container"
+                      docker rm ${CONTAINER_NAME}
+                     """
+                     publishHTML([
+                            allowMissing: false,
+                            alwaysLinkToLastBuild: true,
+                            keepAll: true,
+                            reportDir: 'result/',
+                            reportFiles: 'report.html',
+                            reportName: 'Pytest report',
+                            includes: '**/*',
+                            reportTitles: ''
+                    ])
+                    allure([
+                        includeProperties: false,
+                        jdk: '',
+                        properties: [],
+                        reportBuildPolicy: 'ALWAYS',
+                        results: [[path: 'allure_result_folder']]
+                    ])
+                    junit 'result/*.xml'
+                    archiveArtifacts artifacts: 'Failed_scenarios/', allowEmptyArchive: true
+              }
+          }
+
+     post {
+            unstable {
+                withCredentials([string(credentialsId: 'slack_token',variable: 'SLACK_TOKEN')]){
+                 sh """
+                   if [ "$SLACK_NOTIFICATION" = "true" ]
+                   then
+                        curl -s https://slack.com/api/chat.postMessage \
+                                            -H "Content-type: application/json" \
+                                            -H "Authorization: Bearer $SLACK_TOKEN" \
+                                            --data \
+                                            '{
+                                              "as_user":"false",
+                                              "channel":"${SLACK_CHANNEL}",
+                                              "attachments": [{
+                                                "text":"${JOB_NAME} ${currentBuild.displayName} failed on *${ENV}* ",
+                                                "title": "Test Report",
+                                                "title_link": "${BUILD_URL}testReport/",
+                                                "color": "warning"
+                                              }]
+                                            }'
+                   else
+                      echo "no slack notification"
+                   fi
+                    """
+                }
+            }
+             aborted {
+                withCredentials([string(credentialsId: 'slack_token',variable: 'SLACK_TOKEN')]){
+                 sh """
+                   if [ "$SLACK_NOTIFICATION" = "true" ]
+                   then
+                        curl -s https://slack.com/api/chat.postMessage \
+                                            -H "Content-type: application/json" \
+                                            -H "Authorization: Bearer $SLACK_TOKEN" \
+                                            --data \
+                                            '{
+                                              "as_user":"false",
+                                              "channel":"${SLACK_CHANNEL}",
+                                              "attachments": [{
+                                                "text":"${JOB_NAME} ${currentBuild.displayName} failed on ${ENV} . Reason: Aborted.",
+                                                 "title": "Test report ${JOB_NAME}",
+                                                "title_link": "${BUILD_URL}testReport/",
+                                                "color": "warning"
+                                              }]
+                                            }'
+                   else
+                      echo "no slack notification"
+                   fi
+                    """
+                }
+            }
+     }
+     }
+  }
+}

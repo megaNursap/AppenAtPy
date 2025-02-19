@@ -1,0 +1,248 @@
+pipeline {
+  agent { label 'docker' }
+
+
+   options{
+    ansiColor('xterm')
+    disableConcurrentBuilds()
+    timeout(time: 180, unit: 'MINUTES')
+  }
+
+  environment {
+      ECR_URL = "411719562396.dkr.ecr.us-east-1.amazonaws.com"
+      IMAGE_REPO = "qa-automation"
+      IMAGE_NAME = "qa-automation"
+      AWS_ACCOUNT = "411719562396"
+      TAG = "$TAG"
+      OWNER = "$OWNER"
+      GIT_SHA7 = "${GIT_COMMIT[0..6]}"
+      TIMESTAMP = "${new Date(currentBuild.startTimeInMillis).format("yyMMddHHmmssSSS")}"
+      DATE_SHA_TAG = "$TIMESTAMP-$GIT_SHA7"
+      CURRENT_BUILD_IMAGE_NAME = "$IMAGE_REPO:$TAG"
+      TIMESTAMPED_IMAGE_NAME = "$IMAGE_REPO:$DATE_SHA_TAG"
+      MASTER_IMAGE_NAME = "$IMAGE_REPO:master"
+      RANDOM_NUMBER = "${Math.abs(new Random().nextInt() % 1000) +100}"
+
+   }
+  stages {
+     stage('Start tests') {
+         steps {
+                echo "Starting docker..."
+                withCredentials([string(credentialsId: 'qa_automation_key',variable: 'QA_KEY')]){
+
+                     crp_notification("starting")
+
+                     sh """
+                      set +x
+                      \$(aws ecr get-login --registry-ids $AWS_ACCOUNT --no-include-email --region us-east-1)
+                      set -xe
+                      set +e
+                      docker run --name qa-automation-${ENV}-${TYPE}-${TIMESTAMP} --shm-size=2g ${ECR_URL}/qa-automation:${TAG} /srv/jenkins_support/run_not_parallel.sh ${ENV} ${TYPE} ${FLAKY} ${QA_KEY} ${CRP} ${BUILD_URL}
+                      docker cp qa-automation-${ENV}-${TYPE}-${TIMESTAMP}:/srv/result .
+                      docker cp qa-automation-${ENV}-${TYPE}-${TIMESTAMP}:/srv/allure_report .
+                      docker cp qa-automation-${ENV}-${TYPE}-${TIMESTAMP}:/srv/adap/Failed_scenarios .
+                      docker cp qa-automation-${ENV}-${TYPE}-${TIMESTAMP}:/srv/allure_result_folder .
+                      docker rm -f qa-automation-${ENV}-${TYPE}-${TIMESTAMP}
+                      docker rmi -f ${ECR_URL}/qa-automation:${TAG}
+                      docker image ls
+                      ls
+                     """
+                     publishHTML([
+                            allowMissing: false,
+                            alwaysLinkToLastBuild: true,
+                            keepAll: true,
+                            reportDir: 'result/',
+                            reportFiles: 'report.html',
+                            reportName: 'Pytest report',
+                            includes: '**/*',
+                            reportTitles: ''
+                    ])
+                     allure([
+                        includeProperties: false,
+                        jdk: '',
+                        properties: [],
+                        reportBuildPolicy: 'ALWAYS',
+                        results: [[path: 'allure_result_folder']]
+                    ])
+                    junit 'result/*.xml'
+                    archiveArtifacts artifacts: 'Failed_scenarios/', allowEmptyArchive: true
+              }
+          }
+
+     post {
+           success {
+              script {
+                 // send slack notification if previous build failed
+                 try {
+                     if (currentBuild.getPreviousBuild().result == "UNSTABLE") {
+                         slack_notification("${JOB_NAME} ${currentBuild.displayName} *PASSED* on *${ENV}*",  "#7CD197")
+                     }
+                 }  catch (err) {
+                     echo "Error detected: slack notification"
+                 }
+
+              }
+           }
+           unstable {
+                 slack_notification("${JOB_NAME} ${currentBuild.displayName} failed on *${ENV}*",  "warning")
+                 teams_notification("Failed")
+           }
+           aborted {
+                 slack_notification("${JOB_NAME} ${currentBuild.displayName} failed on ${ENV}. Reason: Aborted.",  "warning")
+                 crp_notification("reject")
+                 teams_notification("Aborted")
+           }
+     }
+     }
+   }
+}
+
+
+
+def teams_notification(String message) {
+  try {
+      sh """
+           if [ "$TEAMS_NOTIFICATION" = "true" ]
+           then
+
+                curl -s https://appencorp.webhook.office.com/webhookb2/3e6dc370-4c97-4766-a84d-4b80c67fbbb6@fdf0ccaa-0346-4b63-8c15-21bf34a62d18/JenkinsCI/946dfb7a5367408e9cbc3fed3885df52/ba8c4cd3-7909-4507-88e1-343b975d8551 \
+                                    -H "Content-type: application/json" \
+                                    --data \
+                                    '{
+                                        "@type": "MessageCard",
+                                        "@context": "https://schema.org/extensions",
+                                        "summary": "QA Automation Test Results",
+                                        "themeColor": "0078D7",
+                                        "sections": [
+                                            {
+                                                "activityTitle": "QA Automation Test Results",
+                                                "facts": [
+                                                    {
+                                                        "name": "ENV:",
+                                                        "value": "${ENV}"
+                                                    },
+                                                    {
+                                                        "name": "Test Set:",
+                                                        "value":"${TYPE}"
+                                                    },
+                                                    {
+                                                        "name": "Status:",
+                                                        "value": "${message}"
+                                                    }
+                                                ],
+                                                "text": "${BUILD_URL}"
+                                            }
+                                        ],
+                                        "potentialAction": [
+
+                                            {
+                                                "@type": "OpenUri",
+                                                "name": "View Test Results",
+                                                "targets": [
+                                                    {
+                                                        "os": "default",
+                                                        "uri": "${BUILD_URL}"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }'
+           else
+              echo "no teams notification"
+           fi
+      """
+  } catch (err) {
+        echo err.getMessage()
+        echo "Error detected: Teams notification, but we will continue."
+  }
+}
+
+
+def slack_notification(String message, String color) {
+  withCredentials([string(credentialsId: 'slack_token',variable: 'SLACK_TOKEN')]){
+      script {
+          println("params: " + params)
+          NEW_OWNER = ''
+          try {
+              if (((!params.containsKey("OWNER")) || (!params.OWNER)) && (params.TYPE in ['adap_api_smoke', 'ui_smoke', 'adap_api_uat', 'adap_ui_uat', 'ac_api_smoke', 'ac_ui_smoke', 'ac_api_uat', 'ac_ui_uat', 'prod_smoke_api'])) {
+                  try {
+                       NEW_OWNER = sh(script: "curl -s -X GET 'https://qa-portal.internal.cf3.us/api/v1/smoke_duty?env=${params.ENV}' -H 'accept: application/json'  --max-time 5.5  ", returnStdout: true)
+                  }catch (err) {
+                       echo "Error detected: NEW_OWNER is not defined."
+                  }
+              } else {
+                 NEW_OWNER = OWNER
+              }
+          }  catch (err) {
+              echo "Error detected: OWNER is not defined."
+          }
+      }
+      try {
+           sh """
+               if [ "$SLACK_NOTIFICATION" = "true" ]
+               then
+                    curl -s https://slack.com/api/chat.postMessage \
+                                        -H "Content-type: application/json" \
+                                        -H "Authorization: Bearer $SLACK_TOKEN" \
+                                        --data \
+                                        '{
+                                          "as_user":"false",
+                                          "channel":"${SLACK_CHANNEL}",
+                                          "attachments": [{
+                                            "text":"${message} ${NEW_OWNER}",
+                                             "title": "Test report",
+                                            "title_link": "${BUILD_URL}testReport/",
+                                            "color": "${color}"
+                                          }]
+                                        }'
+               else
+                  echo "no slack notification"
+               fi
+           """
+
+       } catch (err) {
+            echo err.getMessage()
+            echo "Error detected: Slack notification, but we will continue."
+      }
+  }
+}
+
+
+def crp_notification(String message) {
+  script {
+     try {
+        sh """
+         if [ "$CRP" = "true" ]
+         then
+             if [ "${message}" = "starting" ]
+             then
+                curl -s -X POST https://qa-portal.internal.cf3.us/api/v1/test_run \
+                                        -H "Content-type: application/json" \
+                                        --max-time 5.5  \
+                                        --data \
+                                        '{
+                                         "env": "${ENV}",
+                                         "service_tag": "${TYPE}",
+                                         "deployment_link": "",
+                                         "jira": "",
+                                         "created": ${currentBuild.startTimeInMillis},
+                                         "jenkins_test_url":"${BUILD_URL}"
+                                        }'
+             else
+                echo "Portal notification: Test Job was rejected  ${BUILD_URL}"
+                curl -s -X POST https://qa-portal.internal.cf3.us/api/v1/test_run_rejected \
+                                    -H "Content-type: application/json" \
+                                    --max-time 5  \
+                                    --data \
+                                    '{
+                                     "jenkins_test_url":"${BUILD_URL}"
+                                    }'
+             fi
+         fi
+        """
+     } catch (err) {
+            echo err.getMessage()
+            echo "Error detected CRP notification, but we will continue."
+     }
+  }
+}

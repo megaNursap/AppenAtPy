@@ -1,0 +1,77 @@
+// License: Proprietary
+// Copyright (c) 2019, Figure Eight Technologies, Inc.
+// All rights reserved - Do Not Redistribute
+
+pipeline {
+  agent { label 'docker' }
+
+  options{
+    ansiColor('xterm')
+    buildDiscarder(
+      logRotator(
+        artifactDaysToKeepStr: '10',
+        artifactNumToKeepStr: '10',
+        daysToKeepStr: '5',
+        numToKeepStr: '5'
+      )
+    )
+    disableConcurrentBuilds()
+    timeout(time: 20, unit: 'MINUTES')
+  }
+
+  environment {
+    ECR_URL = '411719562396.dkr.ecr.us-east-1.amazonaws.com'
+    ERROR_EMAIL = 'jenkins-builds@figure-eight.com'
+    GIT_SHA7 = "${GIT_COMMIT[0..6]}"
+    IMAGE_NAME = 'qa-automation'
+    TAG = "latest"
+    TIMESTAMP = "${new Date(currentBuild.startTimeInMillis).format("yyMMddHHmmssSSS")}"
+  }
+
+  parameters {
+    string(defaultValue: "latest",
+           description: 'Tag for your qa-automation docker image?',
+           name: 'qa_automation_image_tag')
+  }
+
+  stages {
+
+
+    stage('Build image') {
+      steps {
+        withCredentials([usernameColonPassword(credentialsId: 'github-api-token', variable: 'GITHUB_KEY')]) {
+          sh """
+            echo \"\$GITHUB_KEY\" > github_key.txt
+            DOCKER_BUILDKIT=1 docker build --secret id=GITHUB_KEY,src=github_key.txt -t $ECR_URL/$IMAGE_NAME:${params.qa_automation_image_tag} .
+            rm -f github_key.txt
+          """
+        }
+      }
+    }
+
+    stage('Twistlock Stage') {
+      steps {
+        runTwistlock(
+          repository: "${ECR_URL}/${IMAGE_NAME}",
+          tag: "${params.qa_automation_image_tag}"
+        )
+      }
+    }
+
+    stage('Push image to ECR') {
+      steps {
+        sh """
+          set +x
+          \$(aws ecr get-login --no-include-email --region us-east-1)
+          set -xe
+          docker tag $ECR_URL/$IMAGE_NAME:${params.qa_automation_image_tag} $ECR_URL/$IMAGE_NAME:$TIMESTAMP-$GIT_SHA7
+          docker push $ECR_URL/$IMAGE_NAME:${params.qa_automation_image_tag}
+          docker push $ECR_URL/$IMAGE_NAME:$TIMESTAMP-$GIT_SHA7
+          docker rmi $ECR_URL/$IMAGE_NAME:$TIMESTAMP-$GIT_SHA7
+          docker rmi $ECR_URL/$IMAGE_NAME:${params.qa_automation_image_tag}
+        """
+      }
+    }
+  }
+
+}
