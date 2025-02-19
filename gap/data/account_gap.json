@@ -1,0 +1,30 @@
+{
+  "gap_pm1": {
+    "user_name": "sandbox+gap.pm1@figure-eight.com",
+    "email": "sandbox+gap.pm1@figure-eight.com",
+    "password": "gAAAAABil9h4EwrVg9graFrSqTB-Xp0Ktq-sOE3lW_7-7UGEABHS2IMMFc8emzM-wjXUC0FRwMuDb3OaEmtmPbb4_4zayyllBw==",
+    "user_role": "pm",
+    "user_nick_name": "PM"
+  },
+  "gap_pm2": {
+    "user_name": "sandbox+gap.pm2@figure-eight.com",
+    "email": "sandbox+gap.pm2@figure-eight.com",
+    "password": "gAAAAABil9h4EwrVg9graFrSqTB-Xp0Ktq-sOE3lW_7-7UGEABHS2IMMFc8emzM-wjXUC0FRwMuDb3OaEmtmPbb4_4zayyllBw==",
+    "user_role": "pm",
+    "user_nick_name": "PMacct2"
+  },
+  "gap_worker2": {
+    "user_name": "sandbox+gap.worker2@figure-eight.com",
+    "email": "sandbox+gap.worker2@figure-eight.com",
+    "password": "gAAAAABil9h4EwrVg9graFrSqTB-Xp0Ktq-sOE3lW_7-7UGEABHS2IMMFc8emzM-wjXUC0FRwMuDb3OaEmtmPbb4_4zayyllBw==",
+    "user_role": "worker",
+    "user_nick_name": "worker"
+  },
+  "gap_auditor1": {
+    "user_name": "sandbox+gap.auditor1@figure-eight.com",
+    "email": "sandbox+gap.auditor1@figure-eight.com",
+    "password": "gAAAAABil9h4EwrVg9graFrSqTB-Xp0Ktq-sOE3lW_7-7UGEABHS2IMMFc8emzM-wjXUC0FRwMuDb3OaEmtmPbb4_4zayyllBw==",
+    "user_role": "auditor",
+    "user_nick_name": "auditor"
+  }
+}
