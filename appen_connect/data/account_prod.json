@@ -1,0 +1,36 @@
+
+{
+  "test_ui_account": {
+    "user_name": "youremail@appen.com",
+    "email": "youremail@appen.com",
+    "password": "appencredential"
+  },
+  "test_active_vendor_account": {
+    "user_name": "yourvendorAccount@gmail.com",
+    "email": "yourvendoraccount@gmail.com",
+    "password": "password"
+  },
+    "test_express_active_vendor_account": {
+    "user_name": "yourvendorAccount@gmail.com",
+    "email": "yourvendoraccount@gmail.com",
+    "password": "password"
+  },
+    "test_contract_pending_vendor_account": {
+    "user_name": "yourvendorAccount@gmail.com",
+    "email": "yourvendoraccount@gmail.com",
+    "password": "password"
+  },
+   "test_DNH_active_vendor_account": {
+    "user_name": "yourvendorAccount@gmail.com",
+    "email": "yourvendoraccount@gmail.com",
+    "password": "password"
+  },
+  "auth_key": {
+    "auth_key": ""
+  },
+   "default": {
+      "user_name": "",
+      "password": "",
+      "keycloak_client_secret": ""
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "test_ui_account": {
+      "user_name": "ac.automation.qa1@appencorp.onmicrosoft.com",
+      "email": "ac.automation.qa1@appencorp.onmicrosoft.com",
+      "password": "gAAAAABgJKezD2xslHLFY5qM-S5fXppSdzN8KIvgCzP5Rl6T4UabbaAxfJ-Z4-7oxZxNsmkA3RspzeNfpJADyV5LRX2ffn0QbMQt5tgkdOwglUoEFePF7Wc=",
+      "id": "1295655",
+      "full_name": "Appen Connect"
+  },
+  "ac_internal_user": {
+      "user_name": "Oscar.Dena@figure-eight.com",
+      "email": "Oscar.Dena@figure-eight.com",
+      "password": "gAAAAABgJKezD2xslHLFY5qM-S5fXppSdzN8KIvgCzP5Rl6T4UabbaAxfJ-Z4-7oxZxNsmkA3RspzeNfpJADyV5LRX2ffn0QbMQt5tgkdOwglUoEFePF7Wc=",
+      "id": "1294877",
+      "full_name": "Oscar Dena"
+  },
+    "test_consent_form_vendor": {
+      "user_name": "sandbox+81391954@figure-eight.com",
+      "email": "sandbox+81391954@figure-eight.com",
+      "password": "gAAAAABgr-8X1IMFMreDxWJEGq2aSwBcbKOftMPX2Rh43awpvnAcom1w62BUCmQCy7t0u80HGTFvVus1UoIddHoqWbffsl3spL7E_OmOjI1aA9ft1JQcIBM=",
+      "id": "1295953",
+      "full_name": ""
+  },
+  "test_qa_user": {
+      "user_name": "ta-quality@appen.com",
+      "email": "ta-quality@appen.com",
+      "password": "gAAAAABgGwstR9eoZgC_mH1SRJlS8b88YKikS0IfVPjRcjpS49e6WMRVbFSpjN4DDaRyecc5WtiX6vvWeAveniwAY0c1IAGuZA==",
+      "id": "1295065",
+      "full_name": ""
+  },
+  "test_active_vendor_account": {
+    "user_name": "albanian1connect.stage.xyz@gmail.com",
+    "email": "albanian1connect.stage.xyz@gmail.com",
+    "firstName": "Albanian",
+    "lastName" : "Vendor One",
+    "country": "AL",
+    "state":  "Tirana",
+    "languages": [{"localeCode": "ekk_EST", "language": "ekk", "region": "EST", "spokenFluency": "NATIVE_OR_BILINGUAL",
+                   "writtenFluency": "NATIVE_OR_BILINGUAL", "primary": false},
+                  {"localeCode": "eng_USA", "language": "eng", "region": "USA", "spokenFluency": "NATIVE_OR_BILINGUAL",
+                   "writtenFluency": "NATIVE_OR_BILINGUAL", "primary": false},
+                  {"localeCode": "nob_NOR", "language": "nob", "region": "NOR", "spokenFluency": "NATIVE_OR_BILINGUAL",
+                   "writtenFluency": "NATIVE_OR_BILINGUAL", "primary": false},
+                  {"localeCode": "aae_ALB", "language": "aae", "region": "ALB", "spokenFluency": "NATIVE_OR_BILINGUAL",
+                   "writtenFluency": "NATIVE_OR_BILINGUAL", "primary": false},
+                  {"localeCode": "dty_NPL", "language": "dty", "region": "NPL", "spokenFluency": "NATIVE_OR_BILINGUAL",
+                   "writtenFluency": "NATIVE_OR_BILINGUAL", "primary": false},
+                  {"localeCode": "swh_KEN", "language": "swh", "region": "KEN", "spokenFluency": "NATIVE_OR_BILINGUAL",
+                   "writtenFluency": "NATIVE_OR_BILINGUAL", "primary": true}],
+    "translationExperiences":[
+      {
+         "fromLanguage":"aae_ALB",
+         "toLanguage":"eng_USA"
+      },
+      {
+         "fromLanguage":"nob_NOR",
+         "toLanguage":"eng_USA"
+      }
+    ],
+    "educationLevel":"MASTERS_DEGREE",
+    "gender":"FEMALE",
+    "password": "gAAAAABfD289inyBKCl4zZkJhQkrC3WReCAWL4La_YISi7KHpOiBwzJsNj_9eEXwKegLYzZn_PgA-2pTlGMUJg0RkKMZ-R7d3Q==",
+    "id": "1295131",
+    "guideline_document_id":"184",
+    "guideline_id":"3105",
+    "project_id":"1593",
+    "payoneer_program_id": "gAAAAABfZUFloSN8HCWHC8Ow-GPtNVsYl1Eau1ei3JknxApQC5Dcp4Df9lOS9D1z5KBNE9VGxRBEs_fclTk5rV9BwaDWy1KchA==",
+    "payeeid": "2T6NS97YL5P33279",
+    "ticket_id": "842292"
+  },
+  "test_express_active_vendor_account": {
+    "user_name": "key003connect.stage.xyz@outlook.com",
+    "email": "key003connect.stage.xyz@outlook.com",
+    "password": "gAAAAABfD289inyBKCl4zZkJhQkrC3WReCAWL4La_YISi7KHpOiBwzJsNj_9eEXwKegLYzZn_PgA-2pTlGMUJg0RkKMZ-R7d3Q==",
+    "id": "1294549",
+    "guideline_document_id":"",
+    "guideline_id":"",
+    "project_id":"546",
+      "program_id": "",
+    "payeeid": ""
+  },
+  "test_contract_pending_vendor_account": {
+    "user_name": "spexpressuser3.connect.stage.xyz@gmail.com",
+    "email": "spexpressuser3.connect.stage.xyz@gmail.com",
+    "password": "gAAAAABfD289inyBKCl4zZkJhQkrC3WReCAWL4La_YISi7KHpOiBwzJsNj_9eEXwKegLYzZn_PgA-2pTlGMUJg0RkKMZ-R7d3Q==",
+    "id": "1295497",
+    "guideline_document_id":"",
+    "guideline_id":"",
+    "project_id":"446"
+  },
+   "test_DNH_active_vendor_account": {
+    "user_name": "qjuser4connect.stage.xyz@gmail.com",
+    "email": "qjuser4connect.stage.xyz@gmail.com",
+    "password": "gAAAAABfD289inyBKCl4zZkJhQkrC3WReCAWL4La_YISi7KHpOiBwzJsNj_9eEXwKegLYzZn_PgA-2pTlGMUJg0RkKMZ-R7d3Q==",
+    "id": "1294645",
+    "guideline_document_id":"",
+    "guideline_id":"",
+     "payoneer_program_id": "gAAAAABfZT30p5MeevYlE71JAvgUhDlsKSQZ5ZiXxBxcIFK91gQWkDfZyXM27-mg0HoZut8ZMjCWIFCxDpWk1Np-drz0DPcM7g==",
+     "payoneer_payeeid": "1IK9T9F2Y7BYI61Q",
+      "project_id":"511"
+  },
+   "test_raterlabs_employee_account": {
+    "user_name": "spajjuriconnect.stage.xyz@gmail.com",
+    "email": "spajjuriconnect.stage.xyz@gmail.com",
+    "password": "gAAAAABf_VfR60ADYLCMED2bfseMTheKirf7Q28Ce7lYN2u54ONp2LYkZvCLgt3o6NATfLY1Ik3XEKmXqTgW-FSPhNQT6rdBHw==",
+    "id": "1295055",
+    "guideline_document_id":"",
+    "guideline_id":"",
+    "project_id":"546",
+      "program_id": "",
+    "payeeid": ""
+  },
+   "test_agency_account": {
+    "user_name": "agencyworker1connect.stage.xyz@gmail.com",
+    "email": "agencyworker1connect.stage.xyz@gmail.com",
+    "password": "gAAAAABfD289inyBKCl4zZkJhQkrC3WReCAWL4La_YISi7KHpOiBwzJsNj_9eEXwKegLYzZn_PgA-2pTlGMUJg0RkKMZ-R7d3Q==",
+    "id": "1295055",
+    "guideline_document_id":"",
+    "guideline_id":"",
+    "project_id":"546",
+      "program_id": "",
+    "payeeid": ""
+  },
+   "test_facility_employee_account": {
+    "user_name": "shashi.facilityconnect.stage.xyz@gmail.com",
+    "email": "shashi.facilityconnect.stage.xyz@gmail.com",
+    "password": "gAAAAABfD289inyBKCl4zZkJhQkrC3WReCAWL4La_YISi7KHpOiBwzJsNj_9eEXwKegLYzZn_PgA-2pTlGMUJg0RkKMZ-R7d3Q==",
+    "id": "1295055",
+    "guideline_document_id":"",
+    "guideline_id":"",
+    "project_id":"12057",
+     "program_id": "",
+    "payeeid": ""
+  },
+   "test_rq_user_account": {
+    "user_name": "spajjuri25connect.stage.xyz@gmail.com",
+    "email": "spajjuri25connect.stage.xyz@gmail.com",
+    "password": "gAAAAABfD289inyBKCl4zZkJhQkrC3WReCAWL4La_YISi7KHpOiBwzJsNj_9eEXwKegLYzZn_PgA-2pTlGMUJg0RkKMZ-R7d3Q==",
+    "id": "1295055",
+    "guideline_document_id":"",
+    "guideline_id":"",
+    "project_id":"546",
+      "program_id": "",
+    "payeeid": ""
+  },
+  "vendor_profile": {
+    "email": "profilevendorconnect.stage.xyz@gmail.com",
+    "password": "gAAAAABfvrHwct7ulqX2LTdJzqj1ZLJ6GqPDv1lTZ-y8gFdTETW6z8c9wFbxL8SIkoxuOSwowJHMlllYJoiqQmrNy1QvMnklU46nUW2KKpF4gAM_gJjf93k=",
+    "id" : "1295401",
+    "full_name": "Vendor Profile",
+    "first_name": "Vendor",
+    "last_name": "Profile"
+  },
+  "mfa_profile": {
+    "email": "sandbox+melon10@figure-eight.com",
+    "password": "gAAAAABjD6wKvULb88X-8QCcEZXj4eIgChOwWg2VuRiwxQVwVrMMCb18Qm9u35PooTUZuIWIi42Mdp6tFfJmYpNYAcMPHqJKjw==",
+    "id" : "1298418",
+    "full_name": "James TestTen",
+    "first_name": "James",
+    "last_name": "TestTen"
+  },
+  "test_project_mapping_vendor": {
+    "user_name": "rl1connect.stage.xyz@gmail.com",
+    "email": "rl1connect.stage.xyz@gmail.com",
+    "password": "",
+    "id": "1295422"
+  },
+  "auth_key": {
+    "auth_key": "gAAAAABfKPXX2vQOTzH8KkKorbjzeGgzp2da-ApZNUmpnxLrFYWjZhOeddTU8UQYpOUPOX7l9lnDhWlf-tTFzO9NMQOQDqqzJnqErlaAlKRzuWtkmKc1qahTyuFNgO-B18TYL5wCMl77"
+  },
+  "a9": {
+    "api_key": "gAAAAABfYn6-cLJluVY866lJMs56NSM2h2S8-mSln4iiI5uPqvj7Rm_WZAC_KhI2ZEdeSNThUHOxqOU6FaGl1uebzHrQmlRTyJHZ7yOBCLDozGeUv-pVGXwj2MuSgvRsAX3kU4Dsu0lQjx60F54h5PUKNh0NtB-FgcPNO1znVnSaK3Mm-uuX9FQ=\", \"6yW4kp4DRC-D-fvHqBf3D8Sy-Xs_vNnZ_1Xz--EiCiQ="
+  },
+  "keycloak":{
+      "client_secret": "gAAAAABgyUKFFx6W-ykxjAeHdbBjjIIBDPkZf1L2JMaG4ovxWZVkwUUsQFjAw4qfaxh2ApbVq43psaSlcPNLT51d3OseQPb3NaHfkD1bIxuDQ2N7ITvXANwvWnNCm7eGQrRJ-4vgmaM6"
+  },
+  "default": {
+      "user_name": "232572@example.com",
+      "password": "gAAAAABfiSvEI2tyKmEQBNP6eNwOFHenLneD4jOUIFm0rYTVoVEu87ntOYnbyjozq9oCzd_HtSUy9aExbwfPPyVKOazmNsIJ3A==",
+      "keycloak_client_secret": "gAAAAABfzYY_jtCc5UbD8syyqQNoitnuxp0q3O1lcI4DvIzrMl5eyCetEXRGfHl8lDIwQ95QJVlFChJBWMMYXpWDCbqqSqQfnySDjp8EYzG0uJIaPVxfZ0NT5u6T6vqMnePogLj6RTO0"
+  },
+  "adap_keycloak": {
+      "user_name": "qa+keycloak+worker1+1@figure-eight.com",
+      "password": "gAAAAABgnr91BcXqAQBjWPjpFaH6XmCqauH-_iyPz5FlwDuvOBvXuqjdpAbGDevBfqua-qeOLWhOdMq-of6n4oUviGvf0iZX0w==",
+      "keycloak_client_secret": "gAAAAABgnr8LPPM540hu4VFX-4r-OQJVbl257ydjlhpdKawyuw-IU2MVCmr20bDoFRn6RPLLyNUJKVBOVkYseQClL_0hyR5vhhhDYnDpSQaXs8Yxu5srH1DOx1K7H5pyh3Vh9WAHEOdu"
+  },
+  "performance_user": {
+    "user_name": "bharimovych@appen.com",
+    "password": "gAAAAABf97Ie1U3NZ_b0L1UZymsIGp9nW6Vpi4Mj67JlITOQf51paiwsUxy_5SGUn8TPgH2a_kq--vL-gUog3JZD9Ee8f5CS4A=="
+  },
+  "autoscreening_eng_1": {
+    "user_name": "sandbox+70000009@figure-eight.com",
+    "password": "gAAAAABg9brTU3EJWZumH8ZxqMbpra3xZLqZB39NYpLCkdVEZ50nwWy8F5omn9Ebu-sVeVK5Hj0E-qDrgDET2rMBzZvT_5TsjopEWtVRXT4ZEGmChhKzoKo=",
+    "id": 1296238,
+    "description": "USA Chicago. English"
+  },
+  "autoscreening_eng_2": {
+    "user_name": "sandbox+70000008@figure-eight.com",
+    "password": "gAAAAABg9brTU3EJWZumH8ZxqMbpra3xZLqZB39NYpLCkdVEZ50nwWy8F5omn9Ebu-sVeVK5Hj0E-qDrgDET2rMBzZvT_5TsjopEWtVRXT4ZEGmChhKzoKo=",
+    "id": 1296235,
+    "description": "USA Florida. English"
+  },
+   "autoscreening_fra": {
+    "user_name": "sandbox+70000025@figure-eight.com",
+    "password": "gAAAAABg9brTU3EJWZumH8ZxqMbpra3xZLqZB39NYpLCkdVEZ50nwWy8F5omn9Ebu-sVeVK5Hj0E-qDrgDET2rMBzZvT_5TsjopEWtVRXT4ZEGmChhKzoKo=",
+    "id": 1296818,
+    "description": "France Paris. French"
+  },
+  "false_positive_pdup1": {
+    "user_name": "sandbox+vpn00004@figure-eight.com",
+    "password": "gAAAAABg9brTU3EJWZumH8ZxqMbpra3xZLqZB39NYpLCkdVEZ50nwWy8F5omn9Ebu-sVeVK5Hj0E-qDrgDET2rMBzZvT_5TsjopEWtVRXT4ZEGmChhKzoKo=",
+    "id": 1296631,
+    "description": "USA - Chaim Mann -  vpn SF -  address 1 "
+  },
+   "false_positive_pdup2": {
+    "user_name": "sandbox+vpn00005@figure-eight.com",
+    "password": "gAAAAABg9brTU3EJWZumH8ZxqMbpra3xZLqZB39NYpLCkdVEZ50nwWy8F5omn9Ebu-sVeVK5Hj0E-qDrgDET2rMBzZvT_5TsjopEWtVRXT4ZEGmChhKzoKo=",
+    "id": 1296632,
+    "description": "USA - Ima Dudley - vpn Chicago -address 1"
+  },
+  "citiverify": {
+    "user_name": "citi0002connect.stage.xyz@gmail.com",
+    "password": "gAAAAABg9brTU3EJWZumH8ZxqMbpra3xZLqZB39NYpLCkdVEZ50nwWy8F5omn9Ebu-sVeVK5Hj0E-qDrgDET2rMBzZvT_5TsjopEWtVRXT4ZEGmChhKzoKo=",
+    "id": 1296902,
+    "description": ""
+  },
+  "fraud_detection":{
+     "check_ip_us_no_vpn": "1297536",
+     "check_ip_vpn_ua" : "1296628",
+     "check_ip_whitelisted" : "1297479",
+     "duplication_address": ["1296631", "1296632"]
+  },
+   "test_shasta_account": {
+      "user_name": "sandbox+shasta_vendor1@figure-eight.com",
+      "email": "sandbox+shasta_vendor1@figure-eight.com",
+      "password": "gAAAAABgJKezD2xslHLFY5qM-S5fXppSdzN8KIvgCzP5Rl6T4UabbaAxfJ-Z4-7oxZxNsmkA3RspzeNfpJADyV5LRX2ffn0QbMQt5tgkdOwglUoEFePF7Wc=",
+      "id": "1297543",
+      "full_name": "Shasta Vendor"
+  },
+  "landing_page_toccata":{
+    "email": "integration+toccatatwo@figure-eight.com",
+    "password": "gAAAAABinj7SwZBr9YVrv3RBuf2mK41L0yBKqZZv1Im8VXXPdEmK9sBbCoon0u_KpRRyya9HoTVKMNXtNY_1g4vJmkFCdD7_YQ=="
+  },
+  "landing_page_enoree":{
+    "email": "integration+enoreetwo@figure-eight.com",
+    "password": "gAAAAABinj7SwZBr9YVrv3RBuf2mK41L0yBKqZZv1Im8VXXPdEmK9sBbCoon0u_KpRRyya9HoTVKMNXtNY_1g4vJmkFCdD7_YQ=="
+  },
+  "landing_page_reedy":{
+    "email": "integration+reddytwo@figure-eight.com",
+    "password": "gAAAAABinj7SwZBr9YVrv3RBuf2mK41L0yBKqZZv1Im8VXXPdEmK9sBbCoon0u_KpRRyya9HoTVKMNXtNY_1g4vJmkFCdD7_YQ=="
+  },
+  "contributor_experience_setup": {
+    "email": "integration+user_setup@figure-eight.com",
+    "password": "gAAAAABkGbAlC-Gay4YSY-OfPGSa3ZZhWVBtM78hy4CpJl5R6HeHiP9y5UnM3vFV_dfNSI1BF26s1D4JbXUrVUVYQm-nuGETiQ=="
+  },
+   "contributor_experience_about_you": {
+    "email": "integration+about_you@figure-eight.com",
+    "password": "gAAAAABkJCt0ppGAA7S4Ih40AWINKoQEu4ClDUkQlB9UjqXx4edGX7MpJSfTDTl7nuPs65kVYK1_HkbBgWUVN9vHC3_ywWkocA=="
+  },
+  "keycloak_web_mobile":{
+      "client_secret": "gAAAAABkRhABDKhzH5OkzTBlqk4A9VO6joKdWva_uOaTrAcxrfqzKLbWWk4wu0Aexe48MFkl8dNk8LIT2tBuNu-jyTN44M86iYcVHliXHMkVkkG-5PWHoBzrXg1zfWIaYBnM7LOxRL55"
+  }
+}
+

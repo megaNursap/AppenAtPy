@@ -1,0 +1,24 @@
+{
+  "test_ui_account": {
+    "user_name": "",
+    "email": "",
+    "password": ""
+  },
+  "test_vendor_account": {
+    "user_name": "your vendor account",
+    "email": "your test vendor account",
+    "password": "password for the account"
+  },
+    "auth_key": {
+    "auth_key": "gAAAAABfKPXX2vQOTzH8KkKorbjzeGgzp2da-ApZNUmpnxLrFYWjZhOeddTU8UQYpOUPOX7l9lnDhWlf-tTFzO9NMQOQDqqzJnqErlaAlKRzuWtkmKc1qahTyuFNgO-B18TYL5wCMl77"
+  },
+    "default": {
+      "password": "gAAAAABfiSvEI2tyKmEQBNP6eNwOFHenLneD4jOUIFm0rYTVoVEu87ntOYnbyjozq9oCzd_HtSUy9aExbwfPPyVKOazmNsIJ3A==",
+      "keycloak_client_secret": "gAAAAABfoYusJJczubK1sOSIJE5I4DMvNtETvDu8rRd5dvQ9lVBX5gBl7ejis577ee23yqaLq1CUUr0m8SzYZ54mojY4V4cBdSSixo1u8JI-qsKK4ol_l4sdPXM_2SD-HR37UcKUcLnv"
+  },
+   "adap_keycloak": {
+      "user_name": "qa+sandbox+keycloak+worker0+0@figure-eight.com",
+      "password": "gAAAAABgw8T-sgfi5Ljn90I-hg6xmZg6kuOc8Y32duFgWDOZdRP7VdTX2aSKhD_vYfWlDzAu4kU5CXl_WhFqkZGh22h2zOlzgyljd34x_EVFVq4ZKhN7dNw=",
+      "keycloak_client_secret": "gAAAAABgw9TkPRkNxIc9F5uRzJaq8Lgy-IXv9aRdYL-gSniQ5jQCVYcS9S8Quw3EAkTBPeCxYHnABspSQkgZkDbufy4wIHtx8lvBTTyfomhczPYIEZmbtH5GrFra0fbZdL4NE_6XDNXa"
+  }
+}

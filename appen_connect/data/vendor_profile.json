@@ -1,0 +1,38 @@
+{
+  "firstName": "Vendor",
+  "lastName": "Profile",
+  "email": "profilevendorconnect.stage.xyz@gmail.com",
+  "country": "US",
+  "state": "CA",
+  "city": "San Francisco",
+  "zip": "57400",
+  "address": "10 Castro str",
+  "languages": [
+    {
+      "localeCode": "eng_USA",
+      "language": "eng",
+      "region": "USA",
+      "spokenFluency": "NATIVE_OR_BILINGUAL",
+      "writtenFluency": "NATIVE_OR_BILINGUAL",
+      "primary": true
+    }
+  ],
+  "translationExperiences": [],
+  "educationLevel": "DOCTORATE",
+  "businessName": "Vendor Profile",
+  "primaryPhone": "+1-266-906-4020",
+  "secondaryPhone": "",
+  "residencyYears": "5",
+  "experienceProofReading": true,
+  "experienceTranscription": true,
+  "workingCompanyEngineEvaluator": null,
+  "linguisticQualification": "DOCTORAL_DEGREE_COMPLETED",
+  "gender": "",
+  "ethnicity": "",
+  "complexion": "",
+  "disability": "",
+  "birthDate": null,
+  "userId": "1295401",
+  "profileCompleted": true,
+  "userStatus": "CONTRACT_PENDING"
+}
