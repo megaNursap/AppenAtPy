@@ -1,0 +1,125 @@
+version: v1beta9
+vars:
+- name: DEVSPACE_SUBDOMAIN
+  source: env
+  default: eng03
+  question: "What is the subdomain for this cluster?  Ex:  eng02 for eng02.devspace.cf3.us"
+images:
+  server:
+    image: 411719562396.dkr.ecr.us-east-1.amazonaws.com/devspace/qa-automation
+    tags:
+    - ${DEVSPACE_USERNAME}_${devspace.namespace}_${DEVSPACE_TIMESTAMP}_${DEVSPACE_GIT_COMMIT}
+    dockerfile: ./Dockerfile
+    context: .
+    createPullSecret: true
+    build:
+      disabled: false
+      buildKit:
+        inCluster:
+          namespace: buildkit
+          name: buildkit
+        args: ["--secret", "id=GITHUB_KEY,env=GITHUB_KEY", "--progress", "plain"]
+      docker:
+        args: ["--secret", "id=GITHUB_KEY,env=GITHUB_KEY"]
+
+hooks:
+  - command: |-
+      ./adap/generate_devspace_required_files.sh
+      ./adap/copy_devspace_required_files.sh
+    when:
+      before:
+        images: server
+
+commands:
+- name: integration-test
+  command: |-
+    kubectl rollout status statefulset qa-automation
+    kubectl exec -i statefulset/qa-automation -c qa-server -- sh -c 'rm -rf /srv/allure_result_folder/*'
+    kubectl exec -i statefulset/qa-automation -c qa-server -- ./jenkins_support/run_devspace.sh --space=${devspace.namespace}  --workers=2 $@
+    kubectl exec -i statefulset/qa-automation -c qa-server -- sh -c 'rm -rf /srv/allure-results/* && cp -r /srv/allure_result_folder/. /srv/allure-results'
+- name: allure
+  command: |-
+    kubectl port-forward statefulset/qa-automation 5050 --address 0.0.0.0 &
+    kubectl port-forward statefulset/qa-automation 5252 --address 0.0.0.0
+
+deployments:
+- name: qa-automation
+  helm:
+    componentChart: true
+    values:
+      securityContext:
+          fsGroup: 1000
+      volumes:
+      - name: test-results
+        size: "10Gi"
+      - name: allure-reports
+        size: "10Gi"  
+      initContainers:
+      # Wait for dependencies
+      - name: wait-for-make
+        image: bitnami/kubectl
+        command: ["kubectl", "rollout", "status", "deployment", "make-services"]
+      - name: wait-for-akon
+        image: bitnami/kubectl
+        command: ["kubectl", "rollout", "status", "deployment", "akon-web-deployment"]
+      containers:
+      - name: allure-ui
+        image: frankescobar/allure-docker-service-ui
+        env:
+          - name: 'ALLURE_DOCKER_PUBLIC_API_URL'
+            value: "http://localhost:5050"
+          - name: 'ALLURE_DOCKER_PUBLIC_API_URL_PREFIX'
+            value: ""
+      - name: allure-api
+        image: frankescobar/allure-docker-service
+        env:
+          - name: 'KEEP_HISTORY'
+            value: 'TRUE'
+          - name: 'KEEP_HISTORY_LATEST'
+            value: '20'
+        volumeMounts:
+        - containerPath: /app/allure-results
+          volume:
+            name: test-results
+            shared: true
+        - containerPath: /app/allure-reports
+          volume:
+            name: allure-reports
+      - name: qa-server
+        image: 411719562396.dkr.ecr.us-east-1.amazonaws.com/devspace/qa-automation:master
+        command:
+          - "python"
+          - "-m"
+          - "http.server"
+          - "8000"
+          - "--directory"
+          - "result/"
+        volumeMounts:
+        - containerPath: /srv/allure-results
+          volume:
+            name: test-results
+            shared: true  
+        env:
+        - name: DEVSPACE_SUBDOMAIN
+          value: ${DEVSPACE_SUBDOMAIN}
+        - name: DEVSPACE_DOMAIN
+          value: ${devspace.namespace}.${DEVSPACE_SUBDOMAIN}.devspace.cf3.us
+        # using a dynamic value here doesn't affect standard deploys and ensures current-master deploys are always fresh
+        - name: DEPLOYER_TAG
+          value: ${DEVSPACE_USERNAME}-deployed-${DEVSPACE_TIMESTAMP}
+      service:
+        name: qa-automation
+        ports:
+          - port: 8000
+            name: single-report
+          - port: 5050
+            name: allure-api
+          - port: 5252
+            name: allure-ui
+
+dev:
+  sync:
+  - imageName: server
+    localSubPath: ./
+    containerPath: /srv
+
