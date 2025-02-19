@@ -1,0 +1,80 @@
+{
+  "adap_requestor": {
+    "user_name": "ac_adap_user_new@appen.com",
+    "email": "ac_adap_user_new@appen.com",
+    "api_key": "gAAAAABhFsnwpy0yq0qROjjDtGzBARsEHKbAMLqFD3_FI1Al_75Pr4H0u-g3Tb8Yi_BiOBkVqafinkXK2jHrPc_96s1xs7Mi1kXisa6-259OicnpCBDQIOs=",
+    "password": "gAAAAABhFspKk48cDgV0wWb9FdawhmkQsJzw__mhLE8HDRfwAJioqgrQ4-ptjULt8jXL5xMA5YIRXICfv4U-C7cKOCWPIuVA7w=="
+  },
+  "ac_customer": {
+      "user_name": "Oscar.Dena@figure-eight.com",
+      "email": "Oscar.Dena@figure-eight.com",
+      "password": "gAAAAABgJKezD2xslHLFY5qM-S5fXppSdzN8KIvgCzP5Rl6T4UabbaAxfJ-Z4-7oxZxNsmkA3RspzeNfpJADyV5LRX2ffn0QbMQt5tgkdOwglUoEFePF7Wc=",
+      "id": "1294877",
+      "full_name": "Oscar Dena"
+  },
+  "ac_vendor_1": {
+    "email": "vls4connect.stage.xyz@gmail.com",
+    "password": "gAAAAABhFstBx_49wqmBLZ0Szvgnx3urNaRemomNYYR3wYYCFwCA2JWlNPgYqiRIaHd6QYT-mAG4g4GOe-ifpOBMTqpEDTT-5krQRfGylMl6MPUrP6xusmQ=",
+    "id": "1295013"
+  },
+  "ac_vendor_pay_rate": {
+    "email": "payrateconnect.stage.xyz@gmail.com",
+    "password": "gAAAAABftuFszZ_t6LL07p7dcrEPo0f_iAX2GysizbV2Sq1yHHnVlA0RMBc6Ygsi_8W74jrIEsw3jynUgS-npGEUgQuISfMRQfn6r_oEGdsJprRQDNC34R0=",
+    "id" : "1295028"
+  },
+  "ac_vendor_no_adap": {
+    "email": "stresstwoconnect.stage.xyz@gmail.com",
+    "password": "",
+    "id" : "1294764"
+  },
+  "test_ac_adap": {
+    "user_name": "ac_adap_user_new@appen.com",
+    "email": "ac_adap_user_new@appen.com",
+    "api_key": "gAAAAABhAfMsImnuQqil7C1AqYk1YXCEFm7fADqtQ2pBFhn1zj994WmQWlRLEL3xJCZyg0fICptG6H929DA_1Ioc2MRnWUiAitAEUFtaVT_ZwSYufUUgOwA=",
+    "password": "gAAAAABfPZz2bDDhxniUdIIbC5_4Tg42SpUFXrtz8Dgmba43HUp9totF4X6222moAMXGGxEu8yF8OOBaRAbiQvWbqwq5_YA9Yw==",
+    "teams": [],
+    "akon_id": ""
+  },
+  "adap_cf_internal_role": {
+    "user_name": "INT cfinternal",
+    "email": "qa+cfinternal_int@figure-eight.com",
+    "api_key": "gAAAAABfovstYVQYMdrOuVIXBxyxHh2yFTqwRheVdhkJaYzrpUP7zpsSaT0g16oSUsb2pRYFKHYgGkoEV5UGuCI_JM0QD1pXDj7R38-fnzzm_brKaN81-uQ=",
+    "password": "gAAAAABfovstdFkyhT7cAkctFL23bsdhMLx9tgH25sJuxpKiL1OW39ka4-IJd1DOLF8s51iaAZtUnAI6SC8YaUktJW9Tx5pHWWDQCKp99A4PQdRmyr6yu5Q=",
+    "org_id": "0f62b1b9-3e81-4670-aca8-5f2695ec355c",
+    "teams": [
+      {
+        "id": "9a637c25-4430-41a5-a6af-a171d47ecadc"
+      },
+      {
+        "id": "61df0eb8-9a7f-4d15-ab12-07913779062f"
+      }
+    ],
+    "akon_id": "16092641-e93c-4521-9238-43eeab35cb1a",
+    "jwt_token": "gAAAAABfovstF7d1d1JKF6nqg55sTlK8kuYnaEByl1X_6IjYtP5rPUbKOtEi-2v4zQLGS8121FLnD6uBJNTCQmYaw6MCBGjGWrJYRsLNTGBaZ88VcmFGkbMPLeEKog4ZSU5t-zx5ICSxgfMIHrNm_5pt4hlgtLhGBMdu5iv1ZR1YPz1IdZp5kYsPb59gpLezwRqxZ4GUeDxH6W_JnNk4tAJF7ZnJKXg1dBgUPHfMGhZiRyNECMhoQ0bnq4UAUEqtY9S7JdX_HbNDY8rD5XxOfeyVstvCvwZ22mIbITEpWkKjHrfKHOGNSz-o_-jPb7-wEWcNXixCVGz-9oDPMzzW1J_vFkGj43NnGVjvtbxI60H0tgG5WmgyxpdrrK0xbPmEzO5bw73P82CyVhxyrcLuqHP8kLZ0F2Ap_tpd-821bzI4VvInV8ascfTC1-na6QLHGHZQakKpQttmEPtmhVI6uwN3iC7bmrc7yBEgYia_QE4Ndf-O5_FfeNlLHKYD26azDjAumz7QAbBdw08smYeXdeZ5WWWwOVYY5u5A_Zs7wWVid8NPmjs9bEw=",
+    "desc": "user has cf_internal role"
+  },
+  "adap_contributor_unification_account1": {
+      "user_name": "integration+cu251@figure-eight.com",
+      "email": "integration+cu251@figure-eight.com",
+      "password": "gAAAAABj7jedF2H4tL9h7UOIuLG_N7JlDZ4SDS1IpQyCxPFfWGRujbSFlWfcnAOvYx1pUSUtNkaBJyh8AXWGahRzOr5qr-rGj0anF8ICzsaLq_OS-g0Yfk8=",
+      "id": "",
+      "full_name": ""
+  },
+  "adap_contributor_unification_account2": {
+      "user_name": "integration+cu302@figure-eight.com",
+      "email": "integration+cu302@figure-eight.com",
+      "password": "gAAAAABj7jedF2H4tL9h7UOIuLG_N7JlDZ4SDS1IpQyCxPFfWGRujbSFlWfcnAOvYx1pUSUtNkaBJyh8AXWGahRzOr5qr-rGj0anF8ICzsaLq_OS-g0Yfk8=",
+      "id": "",
+      "full_name": ""
+  },
+  "ac_test_ui_account": {
+    "user_name": "ac.automation.qa1@appencorp.onmicrosoft.com",
+    "email": "ac.automation.qa1@appencorp.onmicrosoft.com",
+    "password": "gAAAAABgJKezD2xslHLFY5qM-S5fXppSdzN8KIvgCzP5Rl6T4UabbaAxfJ-Z4-7oxZxNsmkA3RspzeNfpJADyV5LRX2ffn0QbMQt5tgkdOwglUoEFePF7Wc=",
+    "id": "1295655",
+    "full_name": "Appen Connect"
+  },
+  "selenium_param": {
+      "bypass": "gAAAAABkZ-C8bWtQGzMOzYsvOZF23TP6xLvaRZybsZZJriEkXWopP_1rGwjXoIzopluZLxLoXFk0hsTjZxCIO3wih-kE5v2E0IgK63PTpZyJYx4FwXznUdI="
+  }
+}
